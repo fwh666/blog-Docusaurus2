@@ -5,14 +5,14 @@ const announcementBarContent = `<a href="/typescript-full-stack-technology-trpc"
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '愧怍的小站',
+  title: '文浩开发工程师',
   titleDelimiter: '-',
-  url: 'https://kuizuo.cn',
+  url: 'https://fuwenhao.club',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'kuizuo',
+  organizationName: 'wenhao',
   projectName: 'blog',
-  tagline: '记录所学知识，领略编程之美',
+  tagline: '感受编程的乐趣，为AI发电',
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   themeConfig: {
     image: 'img/logo.png',
@@ -23,7 +23,7 @@ const config = {
     metadata: [
       {
         name: 'keywords',
-        content: '愧怍',
+        content: '文浩',
       },
       {
         name: 'keywords',
@@ -40,16 +40,16 @@ const config = {
       },
     },
     navbar: {
-      title: '愧怍',
+      title: '文浩',
       logo: {
-        alt: '愧怍',
+        alt: '文浩',
         src: 'img/logo.webp',
         srcDark: 'img/logo.webp',
       },
       hideOnScroll: true,
       items: [
         {
-          label: '学习',
+          label: '博客',
           position: 'right',
           items: [
             {
@@ -60,56 +60,61 @@ const config = {
               label: '归档',
               to: 'archive',
             },
-            {
-              label: '笔记',
-              to: 'docs/skill/',
-            },
-            {
-              label: '工具推荐',
-              to: 'docs/tools/',
-            },
-            {
-              label: '前端示例',
-              to: 'https://example.kuizuo.cn',
-            },
+            // {
+            //   label: '笔记',
+            //   to: 'docs/skill/',
+            // },
+            // {
+            //   label: '工具推荐',
+            //   to: 'docs/tools/',
+            // },
+            // {
+            //   label: '前端示例',
+            //   to: 'https://example.kuizuo.cn',
+            // },
           ],
         },
         {
-          label: '工具',
-          position: 'right',
-          items: [
-            {
-              label: 'API服务',
-              to: 'https://api.kuizuo.cn',
-            },
-            {
-              label: 'JS代码还原',
-              to: 'https://js-de-obfuscator.kuizuo.cn',
-            },
-            {
-              label: 'CyberChef加密',
-              to: 'https://cipher.kuizuo.cn',
-            },
-            {
-              label: 'Transform',
-              to: 'https://transform.kuizuo.cn',
-            },
-            {
-              label: '网盘',
-              to: 'https://pan.kuizuo.cn',
-            },
-          ],
+          label:'Wiki',
+          position:'right',
+          to:'docs/skill/'
         },
+        // {
+        //   label: '工具',
+        //   position: 'right',
+        //   items: [
+        //     {
+        //       label: 'API服务',
+        //       to: 'https://api.kuizuo.cn',
+        //     },
+        //     {
+        //       label: 'JS代码还原',
+        //       to: 'https://js-de-obfuscator.kuizuo.cn',
+        //     },
+        //     {
+        //       label: 'CyberChef加密',
+        //       to: 'https://cipher.kuizuo.cn',
+        //     },
+        //     {
+        //       label: 'Transform',
+        //       to: 'https://transform.kuizuo.cn',
+        //     },
+        //     {
+        //       label: '网盘',
+        //       to: 'https://pan.kuizuo.cn',
+        //     },
+        //   ],
+        // },
         {
           label: '导航',
           position: 'right',
           to: 'resource',
         },
-        {
-          label: '项目',
-          position: 'right',
-          to: 'project',
-        },
+        // {
+        //   label: '项目',
+        //   position: 'right',
+        //   to: 'project',
+        // },
         {
           type: 'localeDropdown',
           position: 'right',
@@ -131,17 +136,17 @@ const config = {
               to: 'archive',
             },
             {
-              label: '技术笔记',
+              label: 'Wiki',
               to: 'docs/skill',
             },
-            {
-              label: '实战项目',
-              to: 'project',
-            },
-            {
-              label: '前端示例',
-              to: 'https://example.kuizuo.cn',
-            },
+            // {
+            //   label: '实战项目',
+            //   to: 'project',
+            // },
+            // {
+            //   label: '前端示例',
+            //   to: 'https://example.kuizuo.cn',
+            // },
           ],
         },
         {
@@ -189,7 +194,7 @@ const config = {
           ],
         },
       ],
-      copyright: `<p><a href="http://beian.miit.gov.cn/" >${beian}</a></p><p>Copyright © 2020 - PRESENT 愧怍 Built with Docusaurus.</p>`,
+      copyright: `<p><a href="http://beian.miit.gov.cn/" >${beian}</a></p><p>Copyright © 2020 - PRESENT 文浩 Built with Docusaurus.</p>`,
     },
     prism: {
       theme: require('prism-react-renderer/themes/vsLight'),
@@ -243,11 +248,11 @@ const config = {
       playgroundPosition: 'top',
     },
     socials: {
-      github: 'https://github.com/kuizuo',
-      twitter: 'https://twitter.com/kuizuo',
+      github: 'https://github.com/fwh666',
+      // twitter: 'https://twitter.com/kuizuo',
       juejin: 'https://juejin.cn/user/1565318510545901',
       csdn: 'https://blog.csdn.net/kuizuo12',
-      qq: 'https://wpa.qq.com/msgrd?v=3&amp;uin=911993023&amp;site=qq',
+      // qq: 'https://wpa.qq.com/msgrd?v=3&amp;uin=911993023&amp;site=qq',
       zhihu: 'https://www.zhihu.com/people/kuizuo',
       cloudmusic: 'https://music.163.com/#/user/home?id=1333010742',
     },
@@ -257,7 +262,7 @@ const config = {
       tagName: 'meta',
       attributes: {
         name: 'description',
-        content: '愧怍的个人博客',
+        content: '文浩的个人博客',
       },
     },
   ],
@@ -301,7 +306,7 @@ const config = {
         editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
           `https://github.com/kuizuo/blog/edit/main/${blogDirPath}/${blogPath}`,
         editLocalizedFiles: false,
-        blogDescription: '愧怍的个人博客',
+        blogDescription: '文浩的个人博客',
         blogSidebarCount: 10,
         blogSidebarTitle: '最近更新',
         postsPerPage: 10,
@@ -310,8 +315,8 @@ const config = {
           defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
         feedOptions: {
           type: 'all',
-          title: '愧怍',
-          copyright: `Copyright © ${new Date().getFullYear()} 愧怍 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
+          title: '文浩',
+          copyright: `Copyright © ${new Date().getFullYear()} 文浩 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
         },
       },
     ],
