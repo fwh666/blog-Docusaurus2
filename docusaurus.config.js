@@ -231,7 +231,7 @@ const config = {
       config: {},
     },
     matomo: {
-      matomoUrl: 'https://matomo.wenhao.cn/',
+      matomoUrl: 'https://fuwenhaoclub.matomo.cloud/',
       siteId: '1',
       phpLoader: 'matomo.php',
       jsLoader: 'matomo.js',
