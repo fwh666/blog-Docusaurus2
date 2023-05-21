@@ -43,8 +43,8 @@ const config = {
       title: '文浩',
       logo: {
         alt: '文浩',
-        src: 'img/logo.webp',
-        srcDark: 'img/logo.webp',
+        src: 'https://leanoss.fuwenhao.club/RUJCScT8z3I4b6lLc9p2wi7HBkeYsGMk/LOGO.JPEG',
+        srcDark: 'https://leanoss.fuwenhao.club/RUJCScT8z3I4b6lLc9p2wi7HBkeYsGMk/LOGO.JPEG',
       },
       hideOnScroll: true,
       items: [
