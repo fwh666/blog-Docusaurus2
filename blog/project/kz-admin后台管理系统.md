@@ -2,7 +2,7 @@
 slug: kz-admin
 title: kz-admin后台管理系统
 date: 2022-05-08
-authors: kuizuo
+authors: wenhao
 tags: [project, admin, vue, nest]
 keywords: [project, admin, vue, nest]
 description: 基于 NestJs + TypeScript + TypeORM + Redis + MySql + Vben Admin 编写的一款前后端分离的权限管理系统
@@ -13,17 +13,17 @@ image: /img/project/kz-admin.png
 
 基于**NestJs + TypeScript + TypeORM + Redis + MySql + Vben Admin**编写的一款前后端分离的权限管理系统
 
-演示地址：[KzAdmin](https://admin.kuizuo.cn) 管理员账号：admin 密码：123456
+演示地址：[KzAdmin](https://admin.wenhao.cn) 管理员账号：admin 密码：123456
 
 <!-- truncate -->
 
-![image-20220505171231754](https://img.kuizuo.cn/image-20220505171231754.png)
+![image-20220505171231754](https://img.wenhao.cn/image-20220505171231754.png)
 
 ## 前端
 
 **基于[Vben Admin](https://vvbin.cn/doc-next/)开发，使用 Vue3、Vite、TypeScript 等最新技术栈，内置常用功能组件、权限验证、动态路由。**
 
-仓库地址：https://github.com/kuizuo/kz-vue-admin
+仓库地址：https://github.com/wenhao/kz-vue-admin
 
 ### [项目结构](https://vvbin.cn/doc-next/guide/#%E7%9B%AE%E5%BD%95%E8%AF%B4%E6%98%8E)
 
@@ -108,7 +108,7 @@ pnpm run dev
 
 **基于 NestJs + TypeScript + TypeORM + Redis + MySql 编写的前后端分离权限管理系统**
 
-仓库地址：https://github.com/kuizuo/kz-nest-admin
+仓库地址：https://github.com/wenhao/kz-nest-admin
 
 ### [项目结构](https://blog.si-yee.com/sf-admin-cli/nest/usage.html#%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84%E8%AF%B4%E6%98%8E)
 
@@ -171,13 +171,13 @@ pnpm run dev
 
 在这三张表中关系如下（这里使用外键与数据库模型为例，实际项目并未用到外键，也不推荐使用）
 
-![image-20220508235534026](https://img.kuizuo.cn/image-20220508235534026.png)
+![image-20220508235534026](https://img.wenhao.cn/image-20220508235534026.png)
 
 用户-角色 与 角色-权限都采用的多对多的关系，即新创建一个表用于映射两表关系。这些都属于 mysql 基础，不做过多赘述。
 
 在权限管理中，最为重要的便是权限表了，由于这套后台管理系统中还涉及到前端的左侧菜单，所以将这里的 permission 表替换为 menu 表，字段 permission 表示权限值。数据库中的 menu 表如下
 
-![image-20220508234343594](https://img.kuizuo.cn/image-20220508234343594.png)
+![image-20220508234343594](https://img.wenhao.cn/image-20220508234343594.png)
 
 对于主要字段介绍：
 
@@ -270,15 +270,15 @@ permission 的值如
 
 然后在 auth.guard.ts 守卫中获取 permission，然后每次请求需要鉴权的接口时，将权限标识转为接口 url，判断是否包含该 url，不包含则无访问权限。
 
-在[菜单管理页](https://admin.kuizuo.cn/#/system/menu)中可操作菜单，具体可自测。
+在[菜单管理页](https://admin.wenhao.cn/#/system/menu)中可操作菜单，具体可自测。
 
 至此，菜单表的数据被拆分为这 3 部分数据，以实现权限管理，动态路由的目的。
 
 #### 其他文档
 
-你可以访问 [https://admin.kuizuo.cn/swagger-ui](https://admin.kuizuo.cn/swagger-ui "https://admin.kuizuo.cn/swagger-ui") 来查看kz-admin的Swagger文档
+你可以访问 [https://admin.wenhao.cn/swagger-ui](https://admin.wenhao.cn/swagger-ui "https://admin.wenhao.cn/swagger-ui") 来查看kz-admin的Swagger文档
 
-json格式为 [https://admin.kuizuo.cn/swagger-ui/json](https://admin.kuizuo.cn/swagger-ui/json "https://admin.kuizuo.cn/swagger-ui/json")，用于导入ApiFox中。
+json格式为 [https://admin.wenhao.cn/swagger-ui/json](https://admin.wenhao.cn/swagger-ui/json "https://admin.wenhao.cn/swagger-ui/json")，用于导入ApiFox中。
 
 ApiFox在线链接: [https://www.apifox.cn/apidoc/shared-7a07def2-5b82-4c71-bf57-915514f61f25](https://www.apifox.cn/apidoc/shared-7a07def2-5b82-4c71-bf57-915514f61f25 "https://www.apifox.cn/apidoc/shared-7a07def2-5b82-4c71-bf57-915514f61f25") 访问密码: kz-admin
 

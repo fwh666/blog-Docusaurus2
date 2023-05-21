@@ -2,7 +2,7 @@
 id: docusaurus-deploy
 slug: /docusaurus-deploy
 title: 部署
-authors: kuizuo
+authors: wenhao
 ---
 
 我之前使用 [Vercel](https://vercel.com) 一把梭，无需任何配置，我只需要专注输出内容即可，这是我当时使用 Vercel 部署的文章 [Vercel部署个人博客](/vercel-deploy-blog)
@@ -13,13 +13,13 @@ authors: kuizuo
 
 首先在线路类型中，分别针对境内和境外做了不同的记录值，境内使用国内的 CDN 服务，而境外就使用 Vercel。
 
-![image-20221204161431863](https://img.kuizuo.cn/image-20221204161431863.png)
+![image-20221204161431863](https://img.wenhao.cn/image-20221204161431863.png)
 
 这样我国内访问就是访问国内的 CDN，访问国外访问就是 Vercel 的 CDN，这样针对不同的地区的网络都能有一个不错的访问速度，可以到 [Ping.cn:网站测速-ping检测](https://www.ping.cn/) 中测试测试你的站点访问速度如何。
 
-以下是我的网站测速结果，也可通过访问 [kuizuo.cn在全国各地区网络速度测试情况-Ping.cn](https://www.ping.cn/http/kuizuo.cn) 在线查看
+以下是我的网站测速结果，也可通过访问 [wenhao.cn在全国各地区网络速度测试情况-Ping.cn](https://www.ping.cn/http/wenhao.cn) 在线查看
 
-![image-20221204161146327](https://img.kuizuo.cn/image-20221204161146327.png)
+![image-20221204161146327](https://img.wenhao.cn/image-20221204161146327.png)
 
 果然，花钱了就是不一样。
 
@@ -27,7 +27,7 @@ authors: kuizuo
 
 国外的好理解，有 Vercel 能够自动拉取仓库代码，并自行构建部署，可国内呢？
 
-这里我是借助了 [Github Action](https://github.com/marketplace) 来帮助我构建，构建记录可以在 [Actions · kuizuo/blog](https://github.com/kuizuo/blog/actions) 中查看。以下是我的配置文件
+这里我是借助了 [Github Action](https://github.com/marketplace) 来帮助我构建，构建记录可以在 [Actions · wenhao/blog](https://github.com/wenhao/blog/actions) 中查看。以下是我的配置文件
 
 ```yaml title='.github/workflows/ci.yml'
 name: ci

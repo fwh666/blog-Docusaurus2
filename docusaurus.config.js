@@ -70,7 +70,7 @@ const config = {
             // },
             // {
             //   label: '前端示例',
-            //   to: 'https://example.kuizuo.cn',
+            //   to: 'https://example.wenhao.cn',
             // },
           ],
         },
@@ -85,23 +85,23 @@ const config = {
         //   items: [
         //     {
         //       label: 'API服务',
-        //       to: 'https://api.kuizuo.cn',
+        //       to: 'https://api.wenhao.cn',
         //     },
         //     {
         //       label: 'JS代码还原',
-        //       to: 'https://js-de-obfuscator.kuizuo.cn',
+        //       to: 'https://js-de-obfuscator.wenhao.cn',
         //     },
         //     {
         //       label: 'CyberChef加密',
-        //       to: 'https://cipher.kuizuo.cn',
+        //       to: 'https://cipher.wenhao.cn',
         //     },
         //     {
         //       label: 'Transform',
-        //       to: 'https://transform.kuizuo.cn',
+        //       to: 'https://transform.wenhao.cn',
         //     },
         //     {
         //       label: '网盘',
-        //       to: 'https://pan.kuizuo.cn',
+        //       to: 'https://pan.wenhao.cn',
         //     },
         //   ],
         // },
@@ -145,7 +145,7 @@ const config = {
             // },
             // {
             //   label: '前端示例',
-            //   to: 'https://example.kuizuo.cn',
+            //   to: 'https://example.wenhao.cn',
             // },
           ],
         },
@@ -158,26 +158,26 @@ const config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/kuizuo',
+              href: 'https://github.com/fwh666',
             },
-            {
-              label: '掘金',
-              href: 'https://juejin.cn/user/1565318510545901',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discord.gg/M8cVcjDxkz',
-            },
+            // {
+            //   label: '掘金',
+            //   href: 'https://juejin.cn/user/1565318510545901',
+            // },
+            // {
+            //   label: 'Discord',
+            //   href: 'https://discord.gg/M8cVcjDxkz',
+            // },
           ],
         },
         {
           title: '更多',
           items: [
-            {
-              label: '友链',
-              position: 'right',
-              to: 'friends',
-            },
+            // {
+            //   label: '友链',
+            //   position: 'right',
+            //   to: 'friends',
+            // },
             {
               label: '导航',
               position: 'right',
@@ -218,9 +218,9 @@ const config = {
       maxHeadingLevel: 4,
     },
     algolia: {
-      appId: 'GV6YN1ODMO',
-      apiKey: '50303937b0e4630bec4a20a14e3b7872',
-      indexName: 'kuizuo',
+      appId: '84UVCK80OZ',
+      apiKey: '3ad085fbce6a4928c51aaceaa45161e5',
+      indexName: 'wenhao',
     },
     zoom: {
       selector: '.markdown :not(em) > img',
@@ -231,16 +231,16 @@ const config = {
       config: {},
     },
     matomo: {
-      matomoUrl: 'https://matomo.kuizuo.cn/',
+      matomoUrl: 'https://matomo.wenhao.cn/',
       siteId: '1',
       phpLoader: 'matomo.php',
       jsLoader: 'matomo.js',
     },
     giscus: {
-      repo: 'kuizuo/blog',
-      repoId: 'MDEwOlJlcG9zaXRvcnkzOTc2MjU2MTI=',
+      repo: 'fwh666/blog-Docusaurus2',
+      repoId: 'R_kgDOJlSEGQ',
       category: 'General',
-      categoryId: 'DIC_kwDOF7NJDM4CPK95',
+      categoryId: 'DIC_kwDOJlSEGc4CWogK',
       theme: 'light',
       darkTheme: 'dark',
     },
@@ -249,11 +249,11 @@ const config = {
     },
     socials: {
       github: 'https://github.com/fwh666',
-      // twitter: 'https://twitter.com/kuizuo',
+      // twitter: 'https://twitter.com/wenhao',
       juejin: 'https://juejin.cn/user/1565318510545901',
-      csdn: 'https://blog.csdn.net/kuizuo12',
+      csdn: 'https://blog.csdn.net/wenhao12',
       // qq: 'https://wpa.qq.com/msgrd?v=3&amp;uin=911993023&amp;site=qq',
-      zhihu: 'https://www.zhihu.com/people/kuizuo',
+      zhihu: 'https://www.zhihu.com/people/wenhao',
       cloudmusic: 'https://music.163.com/#/user/home?id=1333010742',
     },
   },
@@ -292,6 +292,22 @@ const config = {
     ],
   ],
   // themes: ['@docusaurus/theme-live-codeblock'],
+  // themes: [
+  //   require.resolve("@easyops-cn/docusaurus-search-local"),
+  //   {
+  //     // ... Your options.
+  //     // `hashed` is recommended as long-term-cache of index file is possible.
+  //     indexDocs: true,
+  //     indexDocSidebarParentCategories: 0,
+  //     indexBlog: true,
+  //     indexPages: false,
+  //     style: undefined,
+  //     maxSearchResults: 8,
+  //     hashed: true,
+  //     // For Docs using Chinese, The is recommended to set to:
+  //     language: ["en", "zh"],
+  //   },
+  // ],
   plugins: [
     'docusaurus-plugin-matomo',
     'docusaurus-plugin-image-zoom',
@@ -304,7 +320,7 @@ const config = {
         path: 'blog',
         routeBasePath: '/',
         editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
-          `https://github.com/kuizuo/blog/edit/main/${blogDirPath}/${blogPath}`,
+          `https://github.com/fwh666/blog-Docusaurus2/edit/main/${blogDirPath}/${blogPath}`,
         editLocalizedFiles: false,
         blogDescription: '文浩的个人博客',
         blogSidebarCount: 10,

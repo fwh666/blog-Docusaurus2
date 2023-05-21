@@ -2,7 +2,7 @@
 slug: docusaurus-gitalk-plugin
 title: Docusaurus配置Gitalk评论插件
 date: 2022-01-22
-authors: kuizuo
+authors: wenhao
 tags: [blog, docusaurus, gitalk]
 keywords: [blog, docusaurus, gitalk]
 ---
@@ -17,19 +17,19 @@ keywords: [blog, docusaurus, gitalk]
 
 ### 1、创建评论仓库
 
-首先需要 github 账号，创建一个仓库用于存放评论，由于我的博客是同步上传到[github](https://github.com/kuizuo/blog)上，所以就无需新建仓库
+首先需要 github 账号，创建一个仓库用于存放评论，由于我的博客是同步上传到[github](https://github.com/wenhao/blog)上，所以就无需新建仓库
 
 ### 2、开启 issues 功能
 
 默认开启，可在 Settings -> Features -> Issues 中设置
 
-![image-20220122141447919](https://img.kuizuo.cn/20220122141447.png)
+![image-20220122141447919](https://img.wenhao.cn/20220122141447.png)
 
 ### 3、注册一个 Github applications
 
 点击[此处](https://github.com/settings/developers)创建或在 github 右上角路径 settings -> Developer settings -> OAuth Apps
 
-![image-20220121225059192](https://img.kuizuo.cn/20220121225106.png)
+![image-20220121225059192](https://img.wenhao.cn/20220121225106.png)
 
 - Homepage URL：就是博客的网址（如果是 github.io 的 page）
 - Authorization callback URL: 就是 github 权限验证的回调地址，一般默认就是域名
@@ -38,7 +38,7 @@ keywords: [blog, docusaurus, gitalk]
 
 创建成功后，就可以获取到 Client ID 和 Client Secret 了，保存下来。
 
-![image-20220122130221871](https://img.kuizuo.cn/20220122130222.png)
+![image-20220122130221871](https://img.wenhao.cn/20220122130222.png)
 
 ### 5、安装
 
@@ -117,8 +117,8 @@ const options = {
   clientID: 'GitHub Application Client ID',
   clientSecret: 'GitHub Application Client Secret',
   repo: 'blog',
-  owner: 'kuizuo',
-  admin: ['kuizuo'],
+  owner: 'wenhao',
+  admin: ['wenhao'],
   id: title,
   title: title,
   labels: labels,
@@ -132,15 +132,15 @@ const options = {
 
 ### Error: Not Found
 
-options 有个选项 repo，填写的是仓库名称，不是链接，像上面我所填写的就是`blog`，而不是填写https://github.com/kuizuo/blog
+options 有个选项 repo，填写的是仓库名称，不是链接，像上面我所填写的就是`blog`，而不是填写https://github.com/wenhao/blog
 
-### 未找到相关的 [Issues](https://github.com/kuizuo/blog/issues) 进行评论，请联系 @xxxxx 初始化创建
+### 未找到相关的 [Issues](https://github.com/wenhao/blog/issues) 进行评论，请联系 @xxxxx 初始化创建
 
 这里的 xxxxx 就是选项 admin 的内容，首次载入文章的话需要用管理员账号登录初始化一下（也就是新建一个 issues），否则其他人访问也将会提示该信息。
 
 目前暂时没找到有效办法一键加载所有博客的 issues，只要用登录 github 的管理员账号去访问每一篇博客。
 
-其中在[第 3 步](#3注册一个-github-applications)的 Authorization callback URL 地址一定要填写成现在博客线上环境 https://kuizuo.cn ，否则也无法正常使用
+其中在[第 3 步](#3注册一个-github-applications)的 Authorization callback URL 地址一定要填写成现在博客线上环境 https://wenhao.cn ，否则也无法正常使用
 
 ### Validation failed
 
@@ -156,7 +156,7 @@ options 有个选项 repo，填写的是仓库名称，不是链接，像上面�
 <BrowserOnly fallback={<div></div>}>{() => <GitalkComponent options={options} />}</BrowserOnly>
 ```
 
-[查看完整源码点我](https://github.com/kuizuo/blog/blob/main/src/theme/BlogPostPage/index.jsx)
+[查看完整源码点我](https://github.com/wenhao/blog/blob/main/src/theme/BlogPostPage/index.jsx)
 
 ## Github Api
 
@@ -164,38 +164,38 @@ options 有个选项 repo，填写的是仓库名称，不是链接，像上面�
 
 通过 github api 还可以获取 issues 列表
 
-访问 https://api.github.com/repos/kuizuo/blog/issues，返回结果如下
+访问 https://api.github.com/repos/wenhao/blog/issues，返回结果如下
 
 ```json
 [
   {
-    "url": "https://api.github.com/repos/kuizuo/blog/issues/24",
-    "repository_url": "https://api.github.com/repos/kuizuo/blog",
-    "labels_url": "https://api.github.com/repos/kuizuo/blog/issues/24/labels{/name}",
-    "comments_url": "https://api.github.com/repos/kuizuo/blog/issues/24/comments",
-    "events_url": "https://api.github.com/repos/kuizuo/blog/issues/24/events",
-    "html_url": "https://github.com/kuizuo/blog/issues/24",
+    "url": "https://api.github.com/repos/wenhao/blog/issues/24",
+    "repository_url": "https://api.github.com/repos/wenhao/blog",
+    "labels_url": "https://api.github.com/repos/wenhao/blog/issues/24/labels{/name}",
+    "comments_url": "https://api.github.com/repos/wenhao/blog/issues/24/comments",
+    "events_url": "https://api.github.com/repos/wenhao/blog/issues/24/events",
+    "html_url": "https://github.com/wenhao/blog/issues/24",
     "id": 1111300101,
     "node_id": "I_kwDOF7NJDM5CPRgF",
     "number": 24,
     "title": "Docusaurus配置Gitalk评论插件",
     "user": {
-      "login": "kuizuo",
+      "login": "wenhao",
       "id": 61005888,
       "node_id": "MDQ6VXNlcjYxMDA1ODg4",
       "avatar_url": "https://avatars.githubusercontent.com/u/61005888?v=4",
       "gravatar_id": "",
-      "url": "https://api.github.com/users/kuizuo",
-      "html_url": "https://github.com/kuizuo",
-      "followers_url": "https://api.github.com/users/kuizuo/followers",
-      "following_url": "https://api.github.com/users/kuizuo/following{/other_user}",
-      "gists_url": "https://api.github.com/users/kuizuo/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/kuizuo/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/kuizuo/subscriptions",
-      "organizations_url": "https://api.github.com/users/kuizuo/orgs",
-      "repos_url": "https://api.github.com/users/kuizuo/repos",
-      "events_url": "https://api.github.com/users/kuizuo/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/kuizuo/received_events",
+      "url": "https://api.github.com/users/wenhao",
+      "html_url": "https://github.com/wenhao",
+      "followers_url": "https://api.github.com/users/wenhao/followers",
+      "following_url": "https://api.github.com/users/wenhao/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wenhao/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wenhao/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wenhao/subscriptions",
+      "organizations_url": "https://api.github.com/users/wenhao/orgs",
+      "repos_url": "https://api.github.com/users/wenhao/repos",
+      "events_url": "https://api.github.com/users/wenhao/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wenhao/received_events",
       "type": "User",
       "site_admin": false
     },
@@ -203,7 +203,7 @@ options 有个选项 repo，填写的是仓库名称，不是链接，像上面�
       {
         "id": 3754161267,
         "node_id": "LA_kwDOF7NJDM7fw_Rz",
-        "url": "https://api.github.com/repos/kuizuo/blog/labels/Gitalk",
+        "url": "https://api.github.com/repos/wenhao/blog/labels/Gitalk",
         "name": "Gitalk",
         "color": "ededed",
         "default": false,
@@ -212,7 +212,7 @@ options 有个选项 repo，填写的是仓库名称，不是链接，像上面�
       {
         "id": 3754411279,
         "node_id": "LA_kwDOF7NJDM7fx8UP",
-        "url": "https://api.github.com/repos/kuizuo/blog/labels/blog",
+        "url": "https://api.github.com/repos/wenhao/blog/labels/blog",
         "name": "blog",
         "color": "ededed",
         "default": false,
@@ -221,7 +221,7 @@ options 有个选项 repo，填写的是仓库名称，不是链接，像上面�
       {
         "id": 3754517867,
         "node_id": "LA_kwDOF7NJDM7fyWVr",
-        "url": "https://api.github.com/repos/kuizuo/blog/labels/Docusaurus%E9%85%8D%E7%BD%AEGitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6",
+        "url": "https://api.github.com/repos/wenhao/blog/labels/Docusaurus%E9%85%8D%E7%BD%AEGitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6",
         "name": "Docusaurus配置Gitalk评论插件",
         "color": "ededed",
         "default": false,
@@ -239,9 +239,9 @@ options 有个选项 repo，填写的是仓库名称，不是链接，像上面�
     "closed_at": null,
     "author_association": "OWNER",
     "active_lock_reason": null,
-    "body": "https://kuizuo.cn/develop/Docusaurus配置Gitalk评论插件\n前言",
+    "body": "https://wenhao.cn/develop/Docusaurus配置Gitalk评论插件\n前言",
     "reactions": {
-      "url": "https://api.github.com/repos/kuizuo/blog/issues/24/reactions",
+      "url": "https://api.github.com/repos/wenhao/blog/issues/24/reactions",
       "total_count": 0,
       "+1": 0,
       "-1": 0,
@@ -252,7 +252,7 @@ options 有个选项 repo，填写的是仓库名称，不是链接，像上面�
       "rocket": 0,
       "eyes": 0
     },
-    "timeline_url": "https://api.github.com/repos/kuizuo/blog/issues/24/timeline",
+    "timeline_url": "https://api.github.com/repos/wenhao/blog/issues/24/timeline",
     "performed_via_github_app": null
   }
 ]
@@ -266,8 +266,8 @@ options 有个选项 repo，填写的是仓库名称，不是链接，像上面�
 
 #### 评论页
 
-![image-20220122164034147](https://img.kuizuo.cn/20220122164034.png)
+![image-20220122164034147](https://img.wenhao.cn/20220122164034.png)
 
 #### issues 页面
 
-![image-20220122163957435](https://img.kuizuo.cn/20220122163957.png)
+![image-20220122163957435](https://img.wenhao.cn/20220122163957.png)
