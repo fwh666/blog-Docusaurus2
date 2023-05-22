@@ -3,7 +3,7 @@ name: ci
 on:
   push:
     branches:
-      - feature_v1.0
+      - master
 
 jobs:
   build-and-deploy:
@@ -11,12 +11,12 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@master
 
-      - name: Use Node.js 16
-        uses: actions/setup-node@v3
+      - name: use Node.js 10
+        uses: actions/setup-node@v1
         with:
-          node-version: '16.x'
+          node-version: 10
 
       - name: Build Project
         run: |
@@ -24,7 +24,7 @@ jobs:
           yarn run build
 
       - name: SSH Deploy
-        uses: easingthemes/ssh-deploy@v2.2.11
+        uses: easingthemes/ssh-deploy@v2.0.7
         env:
           SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
           ARGS: '-avzr --delete'
