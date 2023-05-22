@@ -11,10 +11,10 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@feature_v1.0
+        uses: actions/checkout@v3
 
       - name: Use Node.js 16
-        uses: actions/setup-node@feature_v1.0
+        uses: actions/setup-node@v3
         with:
           node-version: '16.x'
 
