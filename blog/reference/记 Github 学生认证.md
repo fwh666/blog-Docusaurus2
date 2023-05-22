@@ -2,15 +2,14 @@
 slug: github-student-certification
 title: 记 Github 学生认证
 date: 2022-09-06
-authors: kuizuo
+authors: wenhao
 tags: [随笔, github]
 keywords: [随笔, github]
 description: 记录本人 Github 学生认证艰辛过程与经验分享。
 image: /img/blog/github-success.png
-sticky: 1
 ---
 
-![](https://img.kuizuo.cn/github_copilot_ready.jpg)
+![](https://img.wenhao.cn/github_copilot_ready.jpg)
 
 我个人是非常讨厌这些认证提交手续的，例如疫情健康报告，请假申请表等等，当然也包括这次 Github 学生认证。
 
@@ -78,33 +77,33 @@ sticky: 1
 
 1、登录 [github education](https://education.github.com/benefits) ，选择学生那个按钮。
 
-![image-20221010134753749](https://img.kuizuo.cn/image-20221010134753749.png)
+![image-20221010134753749](https://img.wenhao.cn/image-20221010134753749.png)
 
 2、首次表单填写邮箱，学校，以及使用Github的目的。**表单所提交内容全都要使用英文**
 
-![image-20221010134942952](https://img.kuizuo.cn/image-20221010134942952.png)
+![image-20221010134942952](https://img.wenhao.cn/image-20221010134942952.png)
 
 3、再次填写一个表单，首先是照片证明，也就是学生认证资料。这里是使用的是**学信网的在线证明英文翻译**，Proof Type 选择 Other (Example: Screenshot of school portal)，备注内容填写证明来源，例如：**这份证明来自中国高等教育学生信息网（学信网），以下是在线证明地址。。。**
 
-![image-20221010135500357](https://img.kuizuo.cn/image-20221010135500357.png)
+![image-20221010135500357](https://img.wenhao.cn/image-20221010135500357.png)
 
 其次第二个表单，根据你的学校信息填写即可。**切记到这一步的时候请不要使用科学上课，最好使用学校的网络来提交。**
 
-![image-20221010135949606](https://img.kuizuo.cn/image-20221010135949606.png)
+![image-20221010135949606](https://img.wenhao.cn/image-20221010135949606.png)
 
 4、点击Process my application 提交，等待结果即可。
 
 最终 Github 在今早发送邮箱告知我认证成功了！
 
-![](https://img.kuizuo.cn/github_eduction_success.jpg)
+![](https://img.wenhao.cn/github_eduction_success.jpg)
 
 只要你提供的学生信息真实有效，不断提交最终肯定是会成功的。在这认证期间我一共提交了 11 次请求。
 
-![](https://img.kuizuo.cn/image_n3x8Cm8kMv.png)
+![](https://img.wenhao.cn/image_n3x8Cm8kMv.png)
 
 期间收到的 Gtihub Education 邮箱信息如下：
 
-![](https://img.kuizuo.cn/github_eduction_eamil.jpg)
+![](https://img.wenhao.cn/github_eduction_eamil.jpg)
 
 最终也不负众望，在收到 github 通知的时候的，我就立马编写了这篇文章，记录了自己 github 学生认证的过程。
 

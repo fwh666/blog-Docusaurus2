@@ -2,14 +2,14 @@
 slug: use-supabase-as-backend-service
 title: 将 Supabase 作为下一个后端服务
 date: 2023-02-18
-authors: kuizuo
+authors: wenhao
 tags: [supabase, nuxt, project]
 keywords: [supabase, nuxt, project]
 description: 本文介绍了如何使用 Supabase 作为后端服务，使开发人员可以更快地构建和部署应用程序，无需配置数据库或编写复杂的身份验证代码。将使用 Nuxt.js 和 Supabase，以实现一个图床网站为例，来演示如何在前端中使用 Supabase API 和 Storage 服务。
 toc_max_heading_level: 3
 ---
 
-![213727234-cda046d6-28c6-491a-b284-b86c5cede25d](https://img.kuizuo.cn/213727234-cda046d6-28c6-491a-b284-b86c5cede25d.png)
+![213727234-cda046d6-28c6-491a-b284-b86c5cede25d](https://img.wenhao.cn/213727234-cda046d6-28c6-491a-b284-b86c5cede25d.png)
 
 对于想快速实现一个产品而言，如果使用传统开发，又要兼顾前端开发，同时又要花费时间构建后端服务。然而有这么一个平台（Baas Backend as a service）后端即服务，能够让开发人员可以专注于前端开发，而无需花费大量时间和精力来构建和维护后端基础设施。
 
@@ -237,7 +237,7 @@ const {data, error} = await supabase.auth.signInWithOAuth({
 
 ![](https://azlbliyjwcemojkwazto.supabase.co/storage/v1/object/public/public/image_1polvJf0q0.png)
 
-思来想去，不妨就简单做个图床吧。项目地址：[https://image.kuizuo.cn](https://image.kuizuo.cn) 有兴趣可自行阅读[源码](https://github.com/kuizuo/image-hosting)。（**写的相对匆忙，仅作为演示，随时有可能删除，请勿将此站作为永久图床！**）
+思来想去，不妨就简单做个图床吧。项目地址：[https://image.wenhao.cn](https://image.wenhao.cn) 有兴趣可自行阅读[源码](https://github.com/wenhao/image-hosting)。（**写的相对匆忙，仅作为演示，随时有可能删除，请勿将此站作为永久图床！**）
 
 ## 一些你可能比较好奇的问题
 

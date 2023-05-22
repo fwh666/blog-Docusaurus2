@@ -3,7 +3,7 @@ id: react-hooks
 slug: /react-hooks
 title: React之hooks
 date: 2022-09-07
-authors: kuizuo
+authors: wenhao
 tags: [react, hook]
 keywords: [react, hook]
 ---
@@ -51,7 +51,7 @@ export default function App(props) {
   }
 
   const [user, setUser] = React.useState<User>({
-    name: 'kuizuo',
+    name: 'wenhao',
     age: 20,
   })
 
@@ -63,11 +63,11 @@ export default function App(props) {
         onClick={() => {
           setUser((obj) => ({
             ...obj,
-            name: '愧怍',
+            name: '文浩',
           }))
         }}
       >
-        set name as 愧怍
+        set name as 文浩
       </button>
     </div>
   )
@@ -146,7 +146,7 @@ export default function App() {
 
   React.useEffect(() => {
     async function fetchData() {
-      const data = await (await fetch('https://api.kuizuo.cn/api/one')).text()
+      const data = await (await fetch('https://api.wenhao.cn/api/one')).text()
       console.log(data)
       setData(data)
     }

@@ -2,7 +2,7 @@
 slug: react-css-implementation
 title: React中Css几种实现方案
 date: 2022-01-14
-authors: kuizuo
+authors: wenhao
 tags: [react, css]
 keywords: [react, css]
 ---
@@ -285,7 +285,7 @@ const button = css`
 
 官方在线例子（下图） [Tailwind Play (tailwindcss.com)](https://play.tailwindcss.com/)
 
-![](https://img.kuizuo.cn/20220114033240.png)
+![](https://img.wenhao.cn/20220114033240.png)
 
 有以下几种优点：
 

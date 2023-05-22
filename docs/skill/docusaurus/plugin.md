@@ -2,7 +2,7 @@
 id: docusaurus-plugin
 slug: /docusaurus-plugin
 title: 插件
-authors: kuizuo
+authors: wenhao
 ---
 
 在 `docusaurus.config.js` 下的 plugins，可以看到所有插件以及插件配置。
@@ -19,7 +19,7 @@ plugins: [
         path: 'blog',
         routeBasePath: '/',
         editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
-          `https://github.com/kuizuo/blog/edit/main/${blogDirPath}/${blogPath}`,
+          `https://github.com/wenhao/blog/edit/main/${blogDirPath}/${blogPath}`,
         editLocalizedFiles: false,
         blogSidebarCount: 10,
         postsPerPage: 10,
@@ -28,8 +28,8 @@ plugins: [
           defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
         feedOptions: {
           type: 'all',
-          title: '愧怍',
-          copyright: `Copyright © ${new Date().getFullYear()} 愧怍 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
+          title: '文浩',
+          copyright: `Copyright © ${new Date().getFullYear()} 文浩 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
         },
       }
     ],
@@ -43,7 +43,7 @@ plugins: [
 
 [百度统计](https://tongji.baidu.com/web/welcome/login)
 
-这样你就能看到你的站点访客主要都在看哪些页面，以及行为记录，如下图所示。![image-20221204153015256](https://img.kuizuo.cn/image-20221204153015256.png)
+这样你就能看到你的站点访客主要都在看哪些页面，以及行为记录，如下图所示。![image-20221204153015256](https://img.wenhao.cn/image-20221204153015256.png)
 
 ## plugin-baidu-push
 
@@ -77,7 +77,7 @@ plugins: [
 
 创建支持离线模式和应用安装的 PWA 文档站点，就像下图这样。
 
-![image-20221204153401244](https://img.kuizuo.cn/image-20221204153401244.png)
+![image-20221204153401244](https://img.wenhao.cn/image-20221204153401244.png)
 
 ## [plugin-image-zoom](https://github.com/flexanalytics/plugin-image-zoom)
 

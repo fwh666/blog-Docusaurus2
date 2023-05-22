@@ -2,7 +2,7 @@
 slug: tencent-cloud-cdn-and-ssl
 title: 腾讯云之CDN与SSL配置
 date: 2020-12-15
-authors: kuizuo
+authors: wenhao
 tags: [cloud-services]
 keywords: [cloud-services]
 ---
@@ -17,17 +17,17 @@ keywords: [cloud-services]
 
 先看看我的云服务器配置
 
-![image-20201215004521965](https://img.kuizuo.cn/image-20201215004521965.png)
+![image-20201215004521965](https://img.wenhao.cn/image-20201215004521965.png)
 
 腾讯云那时候做活动，花了 298 块买了 3 年 1 核 2g 内存 1m 带宽，够了，这里我要提一点，如果了解过云服务器的话，可能还会看到轻量应用服务器，而且这个轻量应用服务器竟然配置和云服务器差不多，并且价格还便宜，我先放两张图看看
 
-![image-20201215005635518](https://img.kuizuo.cn/image-20201215005635518.png)
+![image-20201215005635518](https://img.wenhao.cn/image-20201215005635518.png)
 
-![image-20201215005553889](https://img.kuizuo.cn/image-20201215005553889.png)
+![image-20201215005553889](https://img.wenhao.cn/image-20201215005553889.png)
 
 可以看到云服务器可以安装 Window，Linux 系统，而轻量应用服务器则是这些的分支，就这么说的，如果我的服务端只涉及到 nodejs 相关的，那么我大可购买轻量应用服务器，然而多数都是去买云服务器，毕竟可拓展高。两者价格在不是新用户的情况下，云服务器 1g1h1m 一年 662 元，而轻量应用服务器才 408 元。没错，不是新用户服务器就是这么贵。。。
 
-说了这么多题外话，说下云服务器有一个重要的地方就是安全组![image-20201215011238478](https://img.kuizuo.cn/image-20201215011238478.png)
+说了这么多题外话，说下云服务器有一个重要的地方就是安全组![image-20201215011238478](https://img.wenhao.cn/image-20201215011238478.png)
 
 这里在宝塔面板中，设置了放行端口，此外腾讯云安全组也要设置，不过这里我是入站和出站都设置一键放通，主要方便，也懒得设置了。
 
@@ -41,21 +41,21 @@ keywords: [cloud-services]
 
 在腾讯云-控制台中，主要关注两个点
 
-![image-20201215013943201](https://img.kuizuo.cn/image-20201215013943201.png)
+![image-20201215013943201](https://img.wenhao.cn/image-20201215013943201.png)
 
 一个是要加速网站的域名，还有一个就是网站的 SSL 证书，这在下文会说到。
 
 在这里可以添加一个域名，比如`test.kzcode.cn`（后文也会以这个二级域名为例）
 
-![image-20201215014206851](https://img.kuizuo.cn/image-20201215014206851.png)
+![image-20201215014206851](https://img.wenhao.cn/image-20201215014206851.png)
 
 根据相应的业务需求来填写，点击下方的确认提交即可。
 
-![image-20201215014459988](https://img.kuizuo.cn/image-20201215014459988.png)
+![image-20201215014459988](https://img.wenhao.cn/image-20201215014459988.png)
 
 接着点击 DNS 解析页面，将 CNAME 的值复制到对应的 DNS 解析，如
 
-![image-20201215014619557](https://img.kuizuo.cn/image-20201215014619557.png)
+![image-20201215014619557](https://img.wenhao.cn/image-20201215014619557.png)
 
 点击保存，然后回到 CDN 页面（内容分发网络），可以看到此时的状态已变为已启动。这时候你的网站就成功加速了，而不是用那 1m 的带宽去从服务器内拉去大的一笔的静态资源。
 
@@ -63,38 +63,38 @@ keywords: [cloud-services]
 
 现在你的网站能访问速度得到了提升，但是出现了下面的这样警告（原谅我实在不想用 test.kzcode.cn 来测试）
 
-![image-20201215012031362](https://img.kuizuo.cn/image-20201215012031362.png)
+![image-20201215012031362](https://img.wenhao.cn/image-20201215012031362.png)
 
 如果你不希望你的网站出现像这样的不安全警告，那么就很有必要设置 SSL 证书，请求的时候就是 https 而不是 http，好在 SSL 证书不算太难，并且上面 CDN 加速你也弄了，这里我把腾讯云的 SSL 证书简单复刻一遍。
 
 在 SSL 证书，点击申请免费证书
 
-![image-20201215012211483](https://img.kuizuo.cn/image-20201215012211483.png)
+![image-20201215012211483](https://img.wenhao.cn/image-20201215012211483.png)
 
 点击确定，输入要绑定的域名，如`test.kzcode.cn`，和正常注册一样，默认下一步，下一步，接着稍等片刻，等待免费证书签发。SSL 证书有效期一年，一年后就需要重新部署了。然后返回到我的证书，看到成功添加了一条证书
 
-![image-20201215013035429](https://img.kuizuo.cn/image-20201215013035429.png)
+![image-20201215013035429](https://img.wenhao.cn/image-20201215013035429.png)
 
 **先点击下载，下载到桌面，后面会用到的**，不然待会还要回来下载。然后点击右边的部署。
 
-![image-20210808150559353](https://img.kuizuo.cn/image-20210808150559353.png)
+![image-20210808150559353](https://img.wenhao.cn/image-20210808150559353.png)
 
 部署类型选择内容分发网络（CDN），点击确定
 随后会跳转到证书配置页面，刚刚设置的域名 test.kzcode.cn 还有申请的免费 SSL 证书 test，选择腾讯云托管证书，向下图这样提交
 
-![image-20201215015319153](https://img.kuizuo.cn/image-20201215015319153.png)
+![image-20201215015319153](https://img.wenhao.cn/image-20201215015319153.png)
 
 提示配置成功，这时候打开宝塔面板。添加一个站点
 
-![image-20201215015549597](https://img.kuizuo.cn/image-20201215015549597.png)
+![image-20201215015549597](https://img.wenhao.cn/image-20201215015549597.png)
 
 点击设置，在左侧侧边栏中的 SSL 中的选其他证书，上面叫你下载的证书下了吧，好的，打开它，其中一个文件为 Nginx，将里面的两个文件通过文本来打开（**是通过文本，而不是双击直接打开**），将.key 文件的内容放到密钥上，将.crt 文件的内容放到证书上，然后点击保存，顺便把右上角强制 HTTPS 勾选上
 
-![image-20201215020231348](https://img.kuizuo.cn/image-20201215020231348.png)
+![image-20201215020231348](https://img.wenhao.cn/image-20201215020231348.png)
 
 打开网页，现在你访问[test.kzcode.cn](https://test.kzcode.cn)，就能得到如下结果
 
-![image-20201215020429502](https://img.kuizuo.cn/image-20201215020429502.png)
+![image-20201215020429502](https://img.wenhao.cn/image-20201215020429502.png)
 
 连接是安全的，证书有效，恭喜，站点创建成功！
 

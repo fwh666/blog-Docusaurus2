@@ -2,21 +2,20 @@
 slug: use-nuxt3-build-api-server
 title: KZ-API接口服务
 date: 2022-07-20
-authors: kuizuo
+authors: wenhao
 tags: [nuxt, vite, vue, ssr]
 keywords: [nuxt, vite, vue, ssr]
 description: 基于 Nuxt3 的 API 接口服务网站，易于封装，调用，部署。
 image: /img/project/kz-api.png
-sticky: 2
 ---
 
 挺早之前就想写个 api 接口服务，封装下自己收集的一些 api 接口，以便调用，正好最近在接触 SSR 框架，所以就使用 [Nuxt3](https://v3.nuxtjs.org/) 来编写该项目。
 
-在线地址: [KZ API](https://api.kuizuo.cn)
+在线地址: [KZ API](https://api.wenhao.cn)
 
-开源地址: [kuizuo/api-service](https://github.com/kuizuo/api-service)
+开源地址: [wenhao/api-service](https://github.com/wenhao/api-service)
 
-![KZ API](https://img.kuizuo.cn/KZ%20API.png)
+![KZ API](https://img.wenhao.cn/KZ%20API.png)
 
 <!-- truncate -->
 
@@ -32,11 +31,11 @@ npx nuxi init nuxt3-app
 
 安装完毕后，根据提示安装依赖与启动项目
 
-![image-20220714005704602](https://img.kuizuo.cn/image-20220714005704602.png)
+![image-20220714005704602](https://img.wenhao.cn/image-20220714005704602.png)
 
 初始的 nuxt3 项目及其简单，甚至没有 page、components、assets 等目录。
 
-![image-20220714003726413](https://img.kuizuo.cn/image-20220714003726413.png)
+![image-20220714003726413](https://img.wenhao.cn/image-20220714003726413.png)
 
 关于 nuxt3 本文不做过多介绍，本文只对部分进行介绍。nuxt 已经发布快 1 年了，相信外面很多相关介绍文章。
 
@@ -134,7 +133,7 @@ const { data } = await useFetch('/api/hello', { server: false })
 
 这个项目所使用的模板是 [Vitesse for Nuxt 3](https://github.com/antfu/vitesse-nuxt3)
 
-![vitesse-nuxt3](https://img.kuizuo.cn/vitesse-nuxt3.png)
+![vitesse-nuxt3](https://img.wenhao.cn/vitesse-nuxt3.png)
 
 该模板中集成了一些 vue 生态的相关模块(vueuse, pinia, unocss)，开发者可以不必自行封装这些模块。
 
