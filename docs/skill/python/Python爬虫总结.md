@@ -3,7 +3,7 @@ id: python-spider-summary
 slug: /python-spider-summary
 title: Python爬虫总结
 date: 2022-03-03
-authors: WenHao
+authors: wenhao
 tags: [python, node, http]
 keywords: [python, node, http]
 ---

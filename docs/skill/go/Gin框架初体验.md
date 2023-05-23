@@ -3,7 +3,7 @@ id: try-gin-framework
 slug: /try-gin-framework
 title: Gin框架初体验
 date: 2021-09-01
-authors: WenHao
+authors: wenhao
 tags: [go, gin]
 keywords: [go, gin]
 ---

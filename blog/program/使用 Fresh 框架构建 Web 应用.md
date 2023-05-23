@@ -2,7 +2,7 @@
 slug: use-fresh-build-web-applicatioin
 title: 🍋 使用 Fresh 框架构建Web 应用
 date: 2023-02-15
-authors: WenHao
+authors: wenhao
 tags: [deno, fresh, web, project]
 keywords: [deno, fresh, web, project]
 description: 使用 Fresh 框架构建Web 应用，用于将链接转换为卡片样式的预览效果图。

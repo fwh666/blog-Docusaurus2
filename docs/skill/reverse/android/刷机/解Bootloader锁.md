@@ -3,7 +3,7 @@ id: solution-of-bootloader-lock
 slug: /solution-of-bootloader-lock
 title: 解Bootloader锁
 date: 2021-12-09
-authors: WenHao
+authors: wenhao
 tags: [android, bootloader, 刷机]
 keywords: [android, bootloader, 刷机]
 ---

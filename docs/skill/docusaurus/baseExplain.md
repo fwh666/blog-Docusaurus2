@@ -2,7 +2,7 @@
 id: docusaurus-baseExplain
 slug: /docusaurus-baseExplain
 title: 文件目录说明
-authors: WenHao
+authors: wenhao
 ---
 
 # 源码目录文件说明:

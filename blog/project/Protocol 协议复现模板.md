@@ -2,7 +2,7 @@
 slug: protocol-template
 title: Protocol 协议复现模板
 date: 2022-10-30
-authors: WenHao
+authors: wenhao
 tags: [project, protocol, template, nuxt3]
 keywords: [project, protocol, template, nuxt3]
 description: 一个用于快速复现请求协议的 Web 开发模板。基于 Nuxt3 开发，并集成了NaiveUI，Unocss，等相关工具库封装。

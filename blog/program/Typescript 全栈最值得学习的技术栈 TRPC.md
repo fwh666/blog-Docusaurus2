@@ -2,7 +2,7 @@
 slug: typescript-full-stack-technology-trpc
 title: Typescript 全栈最值得学习的技术栈 TRPC
 date: 2023-03-07
-authors: WenHao
+authors: wenhao
 tags: [trpc, next, prisma, zod, auth.js]
 keywords: [trpc, next, prisma, zod, auth.js]
 description: 本文介绍了 tRPC 技术以及它与传统 RESTful API 的区别。同时 tRPC 可以帮助人们更快地开发全栈 TypeScript 应用程序，同时无需传统的 API 层，并保证应用程序在快速迭代时的稳定性。

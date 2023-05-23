@@ -2,7 +2,7 @@
 slug: graphql-practice
 title: GraphQL 实践与服务搭建
 date: 2022-11-24
-authors: WenHao
+authors: wenhao
 tags: [api, graphql, nest, strapi]
 keywords: [api, graphql, nest, strapi]
 description: 有关 GraphQL 介绍及上手实践，并在 Nest.js 和 Strapi 中搭建 GraphQL 服务

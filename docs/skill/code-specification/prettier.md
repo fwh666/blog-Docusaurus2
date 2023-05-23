@@ -2,7 +2,7 @@
 id: prettier
 slug: /prettier
 title: prettier
-authors: WenHao
+authors: wenhao
 keywords: ['code-specification', 'prettier']
 ---
 

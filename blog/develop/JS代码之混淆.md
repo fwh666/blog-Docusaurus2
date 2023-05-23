@@ -2,7 +2,7 @@
 slug: js-code-obfuscator
 title: JS代码之混淆
 date: 2021-12-21
-authors: WenHao
+authors: wenhao
 tags: [javascript, ast, reverse, project]
 keywords: [javascript, ast, reverse, project]
 ---

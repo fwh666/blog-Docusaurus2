@@ -2,7 +2,7 @@
 slug: cookie-of-node-and-browser
 title: node与浏览器中的cookie
 date: 2020-12-10
-authors: WenHao
+authors: wenhao
 tags: [node, axios, cookie]
 keywords: [node, axios, cookie]
 ---

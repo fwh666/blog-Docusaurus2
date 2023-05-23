@@ -2,7 +2,7 @@
 slug: remote-call-browser-function
 title: RPC远程调用浏览器函数
 date: 2021-10-09
-authors: WenHao
+authors: wenhao
 tags: [javascript, rpc, browser]
 keywords: [javascript, rpc, browser]
 ---

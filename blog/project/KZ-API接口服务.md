@@ -2,7 +2,7 @@
 slug: use-nuxt3-build-api-server
 title: KZ-API接口服务
 date: 2022-07-20
-authors: WenHao
+authors: wenhao
 tags: [nuxt, vite, vue, ssr]
 keywords: [nuxt, vite, vue, ssr]
 description: 基于 Nuxt3 的 API 接口服务网站，易于封装，调用，部署。

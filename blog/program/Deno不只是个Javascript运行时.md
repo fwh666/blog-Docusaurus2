@@ -2,7 +2,7 @@
 slug: deno-is-not-only-a-javascript-runtime
 title: Deno不只是个Javascript运行时
 date: 2023-01-20
-authors: WenHao
+authors: wenhao
 tags: [deno, node, javascript, typescript]
 keywords: [deno, node, javascript, typescript]
 ---

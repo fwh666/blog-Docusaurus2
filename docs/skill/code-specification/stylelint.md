@@ -2,7 +2,7 @@
 id: stylelint
 slug: /stylelint
 title: stylelint
-authors: WenHao
+authors: wenhao
 keywords: ['code-specification', 'stylelint']
 ---
 

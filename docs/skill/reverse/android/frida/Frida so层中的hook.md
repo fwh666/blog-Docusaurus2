@@ -3,7 +3,7 @@ id: frida-so-hook
 slug: /frida-so-hook
 title: Frida so层中的hook
 date: 2021-02-10
-authors: WenHao
+authors: wenhao
 tags: [frida, app, hook]
 keywords: [frida, app, hook]
 ---

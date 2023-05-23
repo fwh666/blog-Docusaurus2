@@ -2,7 +2,7 @@
 slug: thinkphp-deploy
 title: 记 ThinkPHP 项目部署
 date: 2021-09-25
-authors: WenHao
+authors: wenhao
 tags: [php, develop]
 keywords: [php, develop]
 ---

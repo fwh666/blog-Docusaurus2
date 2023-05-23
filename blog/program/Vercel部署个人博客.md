@@ -2,7 +2,7 @@
 slug: vercel-deploy-blog
 title: Vercel部署个人博客
 date: 2022-05-11
-authors: WenHao
+authors: wenhao
 tags: [vercel, blog]
 keywords: [vercel, blog]
 description: 使用 Vercel 部署个人博客过程记录，简单方便、访问快、免费部署。

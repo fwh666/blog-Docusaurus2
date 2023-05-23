@@ -3,7 +3,7 @@ id: brush-magisk
 slug: /brush-magisk
 title: 刷入Magisk
 date: 2021-12-09
-authors: WenHao
+authors: wenhao
 tags: [android, magisk, 刷机]
 keywords: [android, magisk, 刷机]
 ---

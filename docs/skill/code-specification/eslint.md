@@ -2,7 +2,7 @@
 id: eslint
 slug: /eslint
 title: eslint
-authors: WenHao
+authors: wenhao
 keywords: ['code-specification', 'eslint']
 ---
 

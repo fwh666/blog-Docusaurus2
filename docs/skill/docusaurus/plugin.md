@@ -2,7 +2,7 @@
 id: docusaurus-plugin
 slug: /docusaurus-plugin
 title: 插件
-authors: WenHao
+authors: wenhao
 ---
 
 在 `docusaurus.config.js` 下的 plugins，可以看到所有插件以及插件配置。

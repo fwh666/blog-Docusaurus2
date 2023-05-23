@@ -2,7 +2,7 @@
 slug: use-supabase-as-backend-service
 title: 将 Supabase 作为下一个后端服务
 date: 2023-02-18
-authors: WenHao
+authors: wenhao
 tags: [supabase, nuxt, project]
 keywords: [supabase, nuxt, project]
 description: 本文介绍了如何使用 Supabase 作为后端服务，使开发人员可以更快地构建和部署应用程序，无需配置数据库或编写复杂的身份验证代码。将使用 Nuxt.js 和 Supabase，以实现一个图床网站为例，来演示如何在前端中使用 Supabase API 和 Storage 服务。

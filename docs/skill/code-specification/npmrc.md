@@ -2,7 +2,7 @@
 id: npmrc
 slug: /npmrc
 title: npmrc
-authors: WenHao
+authors: wenhao
 keywords: ['code-specification', 'npmrc']
 ---
 

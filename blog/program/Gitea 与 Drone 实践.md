@@ -2,7 +2,7 @@
 slug: gitea-drone-practice
 title: Gitea 与 Drone 实践
 date: 2022-09-28
-authors: WenHao
+authors: wenhao
 tags: [git, gitea, drone]
 keywords: [git, gitea, drone]
 description: 使用 Gitea 搭建一个轻量级 git 私有仓库，并配置 Drone CI 来实现自动构建与部署。

@@ -2,7 +2,7 @@
 id: code-specification-guides
 slug: /code-specification
 title: 代码规范
-authors: WenHao
+authors: wenhao
 keywords: ['code-specification']
 ---
 

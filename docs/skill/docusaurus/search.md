@@ -2,7 +2,7 @@
 id: docusaurus-search
 slug: /docusaurus-search
 title: 搜索
-authors: WenHao
+authors: wenhao
 ---
 
 > [搜索 | Docusaurus](https://docusaurus.io/zh-CN/docs/search) 

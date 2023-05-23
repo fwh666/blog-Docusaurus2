@@ -2,7 +2,7 @@
 slug: java-reflect
 title: java反射
 date: 2022-01-16
-authors: WenHao
+authors: wenhao
 tags: [java]
 keywords: [java]
 ---
