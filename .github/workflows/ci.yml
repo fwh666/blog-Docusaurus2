@@ -28,8 +28,8 @@ jobs:
         uses: easingthemes/ssh-deploy@main
         env:
           SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
-          ARGS: "-rlgoDzvc -i --delete"
-          SOURCE: "dist/"
+          ARGS: '-avzr --delete'
+          SOURCE: 'build'
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           REMOTE_USER: 'root'
           TARGET: '/data/data/docker_data/npm/data/fuwenhao.club'
