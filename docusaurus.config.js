@@ -218,9 +218,9 @@ const config = {
       maxHeadingLevel: 4,
     },
     algolia: {
-      appId: '84UVCK80OZ',
-      apiKey: '3ad085fbce6a4928c51aaceaa45161e5',
-      indexName: 'wenhao',
+      appId: 'H6Q9D03AHN',
+      apiKey: '70944edb01c2cea5696cec2369cb6ef9',
+      indexName: 'fuwenhao',
     },
     zoom: {
       selector: '.markdown :not(em) > img',
