@@ -24,7 +24,7 @@ jobs:
           yarn run build
 
       - name: SSH Deploy
-        uses: easingthemes/ssh-deploy@main
+        uses: easingthemes/ssh-deploy@v2.2.11
         env:
           SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
           ARGS: "-rlgoDzvc -i --delete"
