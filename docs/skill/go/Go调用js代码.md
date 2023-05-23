@@ -3,7 +3,7 @@ id: go-call-js
 slug: /go-call-js
 title: Go调用js代码
 date: 2022-05-22
-authors: wenhao
+authors: WenHao
 tags: [go, javascript]
 keywords: [go, javascript]
 ---

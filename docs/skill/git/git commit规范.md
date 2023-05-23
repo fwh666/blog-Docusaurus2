@@ -3,7 +3,7 @@ id: git-conmit-specification
 slug: git-conmit-specification
 title: git commit规范
 date: 2021-08-31
-authors: wenhao
+authors: WenHao
 tags: [git, commit]
 keywords: [git, commit]
 ---

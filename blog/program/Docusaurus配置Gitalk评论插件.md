@@ -2,7 +2,7 @@
 slug: docusaurus-gitalk-plugin
 title: Docusaurus配置Gitalk评论插件
 date: 2022-01-22
-authors: wenhao
+authors: WenHao
 tags: [blog, docusaurus, gitalk]
 keywords: [blog, docusaurus, gitalk]
 ---
@@ -23,13 +23,13 @@ keywords: [blog, docusaurus, gitalk]
 
 默认开启，可在 Settings -> Features -> Issues 中设置
 
-![image-20220122141447919](https://img.wenhao.cn/20220122141447.png)
+![image-20220122141447919](https://img.kuizuo.cn/20220122141447.png)
 
 ### 3、注册一个 Github applications
 
 点击[此处](https://github.com/settings/developers)创建或在 github 右上角路径 settings -> Developer settings -> OAuth Apps
 
-![image-20220121225059192](https://img.wenhao.cn/20220121225106.png)
+![image-20220121225059192](https://img.kuizuo.cn/20220121225106.png)
 
 - Homepage URL：就是博客的网址（如果是 github.io 的 page）
 - Authorization callback URL: 就是 github 权限验证的回调地址，一般默认就是域名
@@ -38,7 +38,7 @@ keywords: [blog, docusaurus, gitalk]
 
 创建成功后，就可以获取到 Client ID 和 Client Secret 了，保存下来。
 
-![image-20220122130221871](https://img.wenhao.cn/20220122130222.png)
+![image-20220122130221871](https://img.kuizuo.cn/20220122130222.png)
 
 ### 5、安装
 
@@ -266,8 +266,8 @@ options 有个选项 repo，填写的是仓库名称，不是链接，像上面�
 
 #### 评论页
 
-![image-20220122164034147](https://img.wenhao.cn/20220122164034.png)
+![image-20220122164034147](https://img.kuizuo.cn/20220122164034.png)
 
 #### issues 页面
 
-![image-20220122163957435](https://img.wenhao.cn/20220122163957.png)
+![image-20220122163957435](https://img.kuizuo.cn/20220122163957.png)

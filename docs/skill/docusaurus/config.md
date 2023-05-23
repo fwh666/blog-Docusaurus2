@@ -2,7 +2,7 @@
 id: docusaurus-config
 slug: /docusaurus-config
 title: 配置文件
-authors: wenhao
+authors: WenHao
 ---
 
 ## docusaurus.config.js

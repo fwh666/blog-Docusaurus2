@@ -3,7 +3,7 @@ id: docker
 slug: /docker
 title: Docker笔记
 date: 2021-05-26
-authors: wenhao
+authors: WenHao
 tags: [docker]
 keywords: [docker]
 ---
@@ -67,11 +67,11 @@ sudo rm -rf /var/lib/containerd
 
 登录阿里云 找到容器镜像服务,按照下图命令复制粘贴即可
 
-![](https://img.wenhao.cn/image-20210527011655512.png)
+![](https://img.kuizuo.cn/image-20210527011655512.png)
 
 ## Docker 的命令
 
-![](https://img.wenhao.cn/v2-820aee2a33654099d87cdd2b7a1ce741_r.jpg)
+![](https://img.kuizuo.cn/v2-820aee2a33654099d87cdd2b7a1ce741_r.jpg)
 
 ```shell
 docker info # 显示docker 系统信息
@@ -285,7 +285,7 @@ docker run -d -p 6379:6379 --privileged=true -v /app/redis/redis.conf:/etc/redis
 
 ## DockerFile
 
-![](https://img.wenhao.cn/OIP.p3NmHHlewBvLwukFPGudFgHaFV.jpg)
+![](https://img.kuizuo.cn/OIP.p3NmHHlewBvLwukFPGudFgHaFV.jpg)
 
 所有命令大小写不敏感（但推荐大写）
 

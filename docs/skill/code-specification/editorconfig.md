@@ -2,7 +2,7 @@
 id: editorconfig
 slug: /editorconfig
 title: editorconfig
-authors: wenhao
+authors: WenHao
 keywords: ['code-specification', 'editorconfig']
 ---
 

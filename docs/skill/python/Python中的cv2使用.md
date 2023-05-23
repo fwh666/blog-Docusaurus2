@@ -3,7 +3,7 @@ id: python-cv2-usage
 slug: /python-cv2-usage
 title: Python中的cv2使用
 date: 2022-03-06
-authors: wenhao
+authors: WenHao
 tags: [python]
 keywords: [python]
 ---
@@ -118,7 +118,7 @@ for box in poses:
 cv2.imwrite("result.jpg", img)
 ```
 
-![result](https://img.wenhao.cn/result.png)
+![result](https://img.kuizuo.cn/result.png)
 
 ### 添加文本
 
@@ -134,7 +134,7 @@ cv2.imwrite("result.jpg", img_text)
 
 效果如下
 
-![image-20220306203918438](https://img.wenhao.cn/image-20220306203918438.png)
+![image-20220306203918438](https://img.kuizuo.cn/image-20220306203918438.png)
 
 ### 图片缩放
 

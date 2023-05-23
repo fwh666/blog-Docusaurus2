@@ -3,7 +3,7 @@ id: github-other
 slug: github-other
 title: .github 其他文件
 date: 2021-10-01
-authors: wenhao
+authors: WenHao
 tags: [github]
 keywords: [github]
 ---

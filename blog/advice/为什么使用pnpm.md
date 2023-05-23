@@ -2,7 +2,7 @@
 slug: why-use-pnpm
 title: 为什么使用pnpm
 date: 2022-01-08
-authors: wenhao
+authors: WenHao
 tags: [node, pnpm]
 keywords: [node, pnpm]
 ---
@@ -42,11 +42,11 @@ pnpm add -g pnpm
 
 pnpm 命令几乎与 npm 一样，设置配置的方式也与 npm 相同，这里不妨尝试通过 pnpm 去下载 express 依赖，打开 CMD，将路径改成你平时写 js 代码的地方，切记不要在 C 盘路径下，不然将会在`C:\Users\{userDir}\.pnpm-store\v3`去管理你的所有依赖，至于为什么后文会说，这里选择 F 盘进行安装，安装结果如下。
 
-![image-20220108040813223](https://img.wenhao.cn/20220108040813.png)
+![image-20220108040813223](https://img.kuizuo.cn/20220108040813.png)
 
 不难看出，它将依赖存放至**`F:\.pnpm-store\v3`**下，但此时查看项目目录的 node_modules 文件夹
 
-![image-20220108041030618](https://img.wenhao.cn/20220108041030.png)
+![image-20220108041030618](https://img.kuizuo.cn/20220108041030.png)
 
 发现`express`与`mime-types`的右侧带了回车符，而这两个文件夹实际上是 window 的硬链接，而读取的就是存放在`F:\.pnpm-store\v3`下的依赖。虽然查看 node_modules 属性会发现显示的空间貌似和原始的链接所占用的空间一样，但其实是同一个位置，官方中常用问题中也有介绍到 [常见问题 | pnpm](https://pnpm.io/zh/faq#如果包存储在全局存储中为什么我的-node_modules-使用了磁盘空间)，所以真不用担心磁盘空间的问题。
 

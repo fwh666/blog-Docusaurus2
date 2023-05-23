@@ -3,7 +3,7 @@ id: idea-config
 slug: /idea-config
 title: IDEA基本配置
 date: 2022-01-06
-authors: wenhao
+authors: WenHao
 tags: [Jetbrains, idea, java, 工具]
 keywords: [Jetbrains, idea, java, 工具]
 ---
@@ -194,24 +194,24 @@ ps: 我本地电脑基本把大部分 JetBrains 产品给安装了一遍，而�
 
 可在 Settings ⇒ Editor ⇒ Live Templates 中 根据对应的语言生成相应的模板，也可自定义生成
 
-![image-20220106052026798](https://img.wenhao.cn/image-20220106052026798.png)
+![image-20220106052026798](https://img.kuizuo.cn/image-20220106052026798.png)
 
 ### 修改 Maven 依赖仓库位置
 
 一般 Maven 所下载的依赖都会存储在`C:\User\{user}\.m2\repository` ，通过下图位置可以将其移动到其他地方。
 
-![image-20220106052100190](https://img.wenhao.cn/image-20220106052100190.png)
+![image-20220106052100190](https://img.kuizuo.cn/image-20220106052100190.png)
 
 ## 配置导入与导出
 
 具体操作如下图，根据自己需要进行导入与导出
 
-![image-20220616135757525](https://img.wenhao.cn/image-20220616135757525.png)
+![image-20220616135757525](https://img.kuizuo.cn/image-20220616135757525.png)
 
 导出
 
-![image-20220616135810570](https://img.wenhao.cn/image-20220616135810570.png)
+![image-20220616135810570](https://img.kuizuo.cn/image-20220616135810570.png)
 
 导入
 
-![image-20220616135847464](https://img.wenhao.cn/image-20220616135847464.png)
+![image-20220616135847464](https://img.kuizuo.cn/image-20220616135847464.png)

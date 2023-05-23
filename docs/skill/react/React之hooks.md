@@ -3,7 +3,7 @@ id: react-hooks
 slug: /react-hooks
 title: React之hooks
 date: 2022-09-07
-authors: wenhao
+authors: WenHao
 tags: [react, hook]
 keywords: [react, hook]
 ---

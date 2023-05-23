@@ -2,7 +2,7 @@
 slug: autohotkey
 title: AutoHotkey键盘映射
 date: 2022-07-08
-authors: wenhao
+authors: WenHao
 tags: [工具, keyMap]
 keywords: [工具, keyMap]
 ---

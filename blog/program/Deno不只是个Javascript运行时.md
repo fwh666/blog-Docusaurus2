@@ -2,7 +2,7 @@
 slug: deno-is-not-only-a-javascript-runtime
 title: Deno不只是个Javascript运行时
 date: 2023-01-20
-authors: wenhao
+authors: WenHao
 tags: [deno, node, javascript, typescript]
 keywords: [deno, node, javascript, typescript]
 ---
@@ -144,7 +144,7 @@ deno info http://deno.wenhao.cn/main.ts
 
 来查看文件信息，如下
 
-![](https://img.wenhao.cn/image_deb0_lGYRA.png)
+![](https://img.kuizuo.cn/image_deb0_lGYRA.png)
 
 deno info 还可以查看 deno 的相关配置，默认缓存都设置在 C 盘，你也可以设置**DENO_DIR** 环境变量来更改 deno 目录，可以到 [Set Up Your Environment](https://deno.land/manual@v1.29.3/getting_started/setup_your_environment#environment-variables 'Set Up Your Environment') 查看 deno 相关环境变量。
 

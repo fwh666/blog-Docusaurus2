@@ -2,7 +2,7 @@
 slug: gitea-drone-practice
 title: Gitea 与 Drone 实践
 date: 2022-09-28
-authors: wenhao
+authors: WenHao
 tags: [git, gitea, drone]
 keywords: [git, gitea, drone]
 description: 使用 Gitea 搭建一个轻量级 git 私有仓库，并配置 Drone CI 来实现自动构建与部署。
@@ -61,7 +61,7 @@ services:
 
 服务器防火墙与云服务安全组都需要开放端口才可访问，`服务器ip:10800`，将会出现如下界面
 
-![](https://img.wenhao.cn/image_8ix-AMvt3t.png)
+![](https://img.kuizuo.cn/image_8ix-AMvt3t.png)
 
 **因为修改配置相对比较麻烦，所以在首次安装的时候，请根据实际需求进行配置安装。**
 
@@ -76,15 +76,15 @@ services:
 
 从其他第三方 git 仓库迁移到 gitea，可以访问[https://git.wenhao.cn/repo/migrate](https://git.wenhao.cn/repo/migrate 'https://git.wenhao.cn/repo/migrate') 来迁移仓库
 
-![](https://img.wenhao.cn/image_sRQV5hAKUh.png)
+![](https://img.kuizuo.cn/image_sRQV5hAKUh.png)
 
 稍等片刻，取决于访问 github 仓库的速度。有可能还会迁移失败，就像下面这样。
 
-![](https://img.wenhao.cn/image_X9IpG2q36n.png)
+![](https://img.kuizuo.cn/image_X9IpG2q36n.png)
 
 所以可以申请访问令牌（Access Token），在 [New Personal Access Token](https://github.com/settings/tokens/new 'New Personal Access Token') 处创建。迁移成功后，如下图所示
 
-![](https://img.wenhao.cn/image_Rug0AmD8GE.png)
+![](https://img.kuizuo.cn/image_Rug0AmD8GE.png)
 
 ### 镜像仓库
 
@@ -92,7 +92,7 @@ services:
 
 gitea 也提供镜像仓库的方案，官方文档[Repository Mirror](https://docs.gitea.io/en-us/repo-mirror/ 'Repository Mirror')
 
-![](https://img.wenhao.cn/image_Q5IaHnKCYJ.png)
+![](https://img.kuizuo.cn/image_Q5IaHnKCYJ.png)
 
 ## Drone
 
@@ -147,11 +147,11 @@ docker logs runner
 
 执行完毕后，然后访问线上的 drone 服务，点击 CONTINUE 将会跳转到你的 Git 授权页面
 
-![](https://img.wenhao.cn/image_rUdNHPlB73.png)
+![](https://img.kuizuo.cn/image_rUdNHPlB73.png)
 
 点击应用授权，再次回到 drone，此时页面 Dashboard 列出了 gitea 的所有仓库（如果没有的话，可以点击右上角的 SYNC 来同步）。
 
-![](https://img.wenhao.cn/image_TXWZgDOhrQ.png)
+![](https://img.kuizuo.cn/image_TXWZgDOhrQ.png)
 
 
 
@@ -229,19 +229,19 @@ steps:
 
 大致介绍完毕（其实已经介绍差不多了），有关更多插件可以参阅 [drone 插件](https://plugins.drone.io 'drone 插件')。这里开始演示，进入 drone 页面，找到仓库，默认情况下，所有仓库都处于未激活状态。
 
-![](https://img.wenhao.cn/image_6XBrsAY8VE.png)
+![](https://img.kuizuo.cn/image_6XBrsAY8VE.png)
 
 点击 `ACTIVATE REPOSITORY` 根据选项选择，点击右上角的`NEW BUILD`选择分支，添加 drone 环境变量（私有变量），即上面的 from_secret 后面的内容（host，username，password），即可开始运行。
 
-![](https://img.wenhao.cn/image_PAM6QQS1V_.png)
+![](https://img.kuizuo.cn/image_PAM6QQS1V_.png)
 
 静等 PIPELINE 执行完毕，结果如下
 
-![image-20220928152635955](https://img.wenhao.cn/image-20220928152635955.png)
+![image-20220928152635955](https://img.kuizuo.cn/image-20220928152635955.png)
 
 此时打开宝塔，跳转到指定目录下，就可以看到构建的内容都已经放到指定位置了
 
-![image-20220928152725853](https://img.wenhao.cn/image-20220928152725853.png)
+![image-20220928152725853](https://img.kuizuo.cn/image-20220928152725853.png)
 
 这时候只需要配置下 nginx，就能将页面展示到公网上，这里就不在这里赘述。当完成上述配置完毕后，每次只需要 pull request，drone 就会自动拉取 gitea 的代码，并开始执行`.drone.yml`中的任务。
 

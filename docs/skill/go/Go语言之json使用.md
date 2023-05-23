@@ -3,7 +3,7 @@ id: go-json-usage
 slug: /go-json-usage
 title: Go语言之json使用
 date: 2022-05-20
-authors: wenhao
+authors: WenHao
 tags: [go, json]
 keywords: [go, json]
 ---
@@ -22,7 +22,7 @@ Go 语言中，官方提供了一个专门的包 `encoding/json`
 
 首先需要定义结构体，通常可以使用 json 转 go 结构体的[在线工具](https://mholt.github.io/json-to-go/)，如下图
 
-![json-to-go.png (1582×248) (wenhao.cn)](https://img.wenhao.cn/json-to-go.png)
+![json-to-go.png (1582×248) (wenhao.cn)](https://img.kuizuo.cn/json-to-go.png)
 
 其转化代码如下
 

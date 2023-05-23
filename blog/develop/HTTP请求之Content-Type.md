@@ -2,7 +2,7 @@
 slug: content-type-of-http-request
 title: HTTP请求之Content-Type
 date: 2020-12-12
-authors: wenhao
+authors: WenHao
 tags: [http]
 keywords: [http]
 ---

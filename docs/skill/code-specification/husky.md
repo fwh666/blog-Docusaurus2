@@ -2,7 +2,7 @@
 id: husky
 slug: /husky
 title: husky
-authors: wenhao
+authors: WenHao
 keywords: ['code-style', 'husky']
 ---
 

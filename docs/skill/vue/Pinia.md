@@ -3,7 +3,7 @@ id: pinia
 slug: /pinia
 title: Pinia
 date: 2020-10-23
-authors: wenhao
+authors: WenHao
 tags: [vue, pinia]
 keywords: [vue, pinia]
 ---
