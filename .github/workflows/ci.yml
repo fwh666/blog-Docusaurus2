@@ -24,11 +24,11 @@ jobs:
           yarn run build
 
       - name: SSH Deploy
-        uses: easingthemes/ssh-deploy@v2.2.11
+        uses: easingthemes/ssh-deploy@main
         env:
           SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
           ARGS: "-rlgoDzvc -i --delete"
           SOURCE: "dist/"
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
-          REMOTE_USER: 'root'
+          REMOTE_USER: 'lighthouse'
           TARGET: '/data/data/docker_data/npm/data/fuwenhao.club'
