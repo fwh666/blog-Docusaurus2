@@ -15,6 +15,26 @@ authors: wenhao
 
 2. 自己运行 DocSearch 爬虫，可以随时爬取，但需要自行去注册账号和搭建爬虫环境，或者使用 Github Actions 来帮我们爬取。
 
+### 方案一：邮件申请详述
+
+- 申请地址：
+  - https://docsearch.algolia.com/apply/
+  - <img size="80px" src="https://camo.githubusercontent.com/073c3f03a99118bf622e61753e0ba8e1ef05afa49e340a300a0aa6ab57b5db9a/68747470733a2f2f70332d6a75656a696e2e62797465696d672e636f6d2f746f732d636e2d692d6b3375316662706663702f30373833383265373338366134393661383334376238356233323564663365667e74706c762d6b3375316662706663702d7a6f6f6d2d312e696d616765"></img>
+- 收到官网邮件：
+  - <img src="https://camo.githubusercontent.com/7ad1ee48e3e3833287e9fd615185e2252d7b5b7e6d13c5d68fd78ee0892017dd/68747470733a2f2f70332d6a75656a696e2e62797465696d672e636f6d2f746f732d636e2d692d6b3375316662706663702f62356234626339386633326534373534626162616539653061616632373864337e74706c762d6b3375316662706663702d7a6f6f6d2d312e696d616765"/>
+- 回复对方邮件：
+  - <img src="https://img.fuwenhao.club/blog/email-replay.png"/>
+- 获取配置信息：
+  - <img src="https://camo.githubusercontent.com/c79bda81d64f8904a980fed150f5bcf2333b871bfa199899c5dc8975661ba0b2/68747470733a2f2f70332d6a75656a696e2e62797465696d672e636f6d2f746f732d636e2d692d6b3375316662706663702f38666139386637353236363134643939613337666334373031616161613235367e74706c762d6b3375316662706663702d7a6f6f6d2d312e696d616765"/>
+
+
+
+- 以上就是邮件申请获取搜索内容了。
+
+
+
+
+
 ### 方案1
 
 关于申请 Algolia DocSearch 在文档中有详细介绍，主要是要申请麻烦，需要等待邮箱，并且还需要回复内容给对方进行确认。所以免费托管的 DocSearch 条件是，比较苛刻的，但申请完几乎是一劳永逸，也是我非常推荐的。如果申请成功后就可以在 [Crawler Admin Console](https://crawler.algolia.com/admin/crawlers) 中查看
@@ -209,3 +229,10 @@ jobs:
 如果你嫌 algolia 申请比较麻烦，docusaurus 也提供本地搜索，不过搜索上肯定会比全文搜索来的差一些。
 
 本地搜索插件：[docusaurus-search-local](https://github.com/cmfcmf/docusaurus-search-local)
+
+
+
+### 参考文章：
+
+- [VuePress 博客优化之开启 Algolia 全文搜索](https://github.com/mqyqingfeng/Blog/issues/267)
+
