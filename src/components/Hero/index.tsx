@@ -7,7 +7,7 @@ import { ThemeConfig } from '@docusaurus/preset-classic'
 
 import Link from '@docusaurus/Link'
 
-import HeroMain from './img/hero_main_bak.svg'
+import HeroMain from './img/hero_main.svg'
 
 import JuejinIcon from '@site/static/svg/juejin.svg'
 import { Icon } from '@iconify/react'
@@ -45,14 +45,14 @@ function Hero() {
             values={{
               note: (
                 <Link to="/docs/skill">
-                  <Translate id="hompage.hero.note">技术笔记</Translate>
+                  <Translate id="hompage.hero.note">WiKi笔记</Translate>
                 </Link>
               ),
-              project: (
-                <Link to="/project">
-                  <Translate id="hompage.hero.project">实战项目</Translate>
-                </Link>
-              ),
+              // project: (
+              //   <Link to="/project">
+              //     <Translate id="hompage.hero.project">实战项目</Translate>
+              //   </Link>
+              // ),
               link: (
                 <Link to="/resource">
                   <Translate id="hompage.hero.link">资源导航</Translate>
@@ -65,7 +65,8 @@ function Hero() {
               ),
             }}
           >
-            {`你可以随处逛逛，查看{note}、{project}、{link}、以及我的{idea}。`}
+            {/*{`你可以随处逛逛，查看{note}、{project}、{link}、以及我的{idea}。`}*/}
+            {`你可以随处逛逛，查看{note}、{link}、以及我的{idea}。`}
           </Translate>
         </animated.p>
         <SocialLinks style={trails[2]} />
