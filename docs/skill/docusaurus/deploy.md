@@ -70,6 +70,96 @@ Github Action 帮我构建好之后，并通过 ssh 连接我的服务器，将�
 
 一切都配置好了之后，我只需要将代码推送到 Github 仓库上，Github Action 与 Vercel 分别完成它们所该做的任务，等待片刻，再次访问站点，刚刚提交的代码就成功生效了。
 
+
+
+## Github Action自动部署步骤：
+
+### 创建SSH KEY
+
+由于是使用 ssh 进行部署，需要让github能登录服务器，因此先在VPS服务器上给github actions创建一个ssh key：
+
+```
+cd ~/.ssh
+ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/root/.ssh/id_rsa): /root/.ssh/github_action
+...
+```
+
+将生成的公钥保存到 authorized_keys 文件中：
+
+```
+cat github_action.pub >> authorized_keys
+```
+
+
+
+### 配置Actions Secrets
+
+由于部署过程会涉及一些隐私的变量，比如scp、ssh等需要的密钥信息等，可以将这些信息在代码仓库的 Settings/Secrets 中进行配置。如图：
+
+<img src="https://user-images.githubusercontent.com/2876405/122633113-7606cc80-d109-11eb-986a-383b1f145b74.png"/>
+
+在你的Golang应用的代码库页面进入Settings选择Secrets后，点击右上方的`New repository secret`创建Secret变量，Name填变量名，Value填变量值，配置后可以在Actions的配置yml文件中使用`${{ secrets.XXX }}`来使用。
+
+
+
+
+
+## 创建 Github Actions workflows
+
+你可以直接在代码目录新建配置文件`.github/workflows/deploy.yml`，也可以直接在github项目页面点击Actions页面创建并直接编辑提交，如图：
+
+<img src="https://user-images.githubusercontent.com/2876405/122633541-bbc49480-d10b-11eb-9f8d-d3faace030a9.png"/>
+
+
+
+yml文件内容设置如下：
+
+```
+name: ci
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Use Node.js 16
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16.x'
+
+      - name: Build Project
+        run: |
+          yarn install
+          yarn run build
+
+      - name: SSH Deploy
+        uses: easingthemes/ssh-deploy@v2.2.11
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
+          ARGS: '-avzr --delete'
+          SOURCE: 'build'
+          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+          REMOTE_USER: 'root'
+          TARGET: '/www/wwwroot/blog'
+```
+
+
+
+
+
+
+
+
 ## 没有域名和服务器该怎么部署？
 
 当然了上述只是我的配置方案，有许多伙伴可能没有自己的域名或者自己的服务器，就想着白嫖，那么这里目前我只能推荐 [Netlify](https://www.netlify.com/)。
