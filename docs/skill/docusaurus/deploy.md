@@ -17,9 +17,9 @@ authors: wenhao
 
 这样我国内访问就是访问国内的 CDN，访问国外访问就是 Vercel 的 CDN，这样针对不同的地区的网络都能有一个不错的访问速度，可以到 [Ping.cn:网站测速-ping检测](https://www.ping.cn/) 中测试测试你的站点访问速度如何。
 
-以下是我的网站测速结果，也可通过访问 [wenhao.cn在全国各地区网络速度测试情况-Ping.cn](https://www.ping.cn/http/wenhao.cn) 在线查看
+以下是我的网站测速结果，也可通过访问 [fuwenhao.club在全国各地区网络速度测试情况-Ping.cn](https://www.ping.cn/http/fuwenhao.club) 在线查看
 
-![image-20221204161146327](https://img.kuizuo.cn/image-20221204161146327.png)
+![image-20221204161146327](https://img.fuwenhao.club/blog/yumingjiance.png)
 
 果然，花钱了就是不一样。
 
@@ -27,44 +27,7 @@ authors: wenhao
 
 国外的好理解，有 Vercel 能够自动拉取仓库代码，并自行构建部署，可国内呢？
 
-这里我是借助了 [Github Action](https://github.com/marketplace) 来帮助我构建，构建记录可以在 [Actions · wenhao/blog](https://github.com/wenhao/blog/actions) 中查看。以下是我的配置文件
-
-```yaml title='.github/workflows/ci.yml'
-name: ci
-
-on:
-  push:
-    branches:
-      - main
-
-jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-
-      - name: Use Node.js 16
-        uses: actions/setup-node@v3
-        with:
-          node-version: '16.x'
-
-      - name: Build Project
-        run: |
-          yarn install
-          yarn run build
-
-      - name: SSH Deploy
-        uses: easingthemes/ssh-deploy@v2.2.11
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
-          ARGS: '-avzr --delete'
-          SOURCE: 'build'
-          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
-          REMOTE_USER: 'root'
-          TARGET: '/www/wwwroot/blog'
-```
+这里我是借助了 [Github Action](https://github.com/marketplace) 来帮助我构建，构建记录可以在 [Actions · wenhao/blog](https://github.com/wenhao/blog/actions) 中查看.
 
 Github Action 帮我构建好之后，并通过 ssh 连接我的服务器，将构建好的静态文件替换到我的 blog 存放的位置上。
 
@@ -166,3 +129,7 @@ jobs:
 
 我个人还是非常建议去弄一个属于自己的域名，通过 Vercel 的自定义域名就可以访问，并且无需像上述那样搞特别复杂的配置。由于自己的域名解析的不是大陆的服务器（Vercel的服务器就不是国内大陆的），所以也就无需备案。
 
+
+
+## 参考链接：
+- [ssh deployments](https://github.com/marketplace/actions/ssh-deploy)
