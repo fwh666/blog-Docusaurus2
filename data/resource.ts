@@ -1,4 +1,5 @@
-import { Friends } from './friend'
+import {Friends} from './friend'
+import {AIs} from './AI'
 
 export interface Resource {
   name: string
@@ -23,13 +24,23 @@ const friends: Resource[] = Friends.map(f => {
   }
 })
 
+const ai: Resource[] = AIs.map(f => {
+  return {
+    ...f,
+    name: f.title,
+    desc: f.description,
+    logo: f.avatar,
+    href: f.website,
+  }
+})
+
 export const resourceData: ResourceCategory[] = [
   {
-    name: '友链👨‍💻',
-    resources: friends,
+    name: 'AI工具🔥 ',
+    resources: ai,
   },
   {
-    name: '每周必刷🔥',
+    name: '每周必刷',
     resources: [
       {
         name: '稀土掘金',
@@ -1145,5 +1156,9 @@ export const resourceData: ResourceCategory[] = [
         tags: [],
       },
     ],
+  },
+  {
+    name: '友链👨‍💻',
+    resources: friends,
   },
 ]
