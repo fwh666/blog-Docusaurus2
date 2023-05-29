@@ -189,6 +189,13 @@ docker run -it --env-file=.env -e "CONFIG=$(cat docsearch.json | jq -r tostring)
 
 ![image-20210821225934002](https://img.kuizuo.cn/image-20210821225934002.png)
 
+
+[参考手动搜索配置](https://crawler.algolia.com/admin/crawlers/b90086a2-5ec8-4d0f-a386-9d2a8a12ecc1/overview)
+
+![手动爬虫](https://img.fuwenhao.club/blog/%E6%89%8B%E5%8A%A8%E8%A7%A6%E5%8F%91%E7%88%AC%E8%99%AB.png)
+
+
+
 #### 使用 github-actions
 
 因为要确保项目成功部署后才触发，如果采用 vercel 部署可以按照如下触发条件。
