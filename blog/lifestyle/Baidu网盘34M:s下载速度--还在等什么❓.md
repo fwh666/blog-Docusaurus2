@@ -1,7 +1,7 @@
 ---
 slug: Baidu_pan
 title: Baidu网盘34M/s下载速度--还在等什么❓.md
-date: 2023-05-20
+date: 2023-05-01
 authors: wenhao
 tags: [Baidu]
 keywords: [Baidu]
@@ -14,6 +14,7 @@ keywords: [Baidu]
 
 <img src="https://img.foxmac.com/o/baidu-pan-speed-10.png" alt="突破百度网盘限速，百度网盘非会员高速下载最靠谱的解决方案" size="50%"/>
 
+<!-- truncate -->
 **支持 Windows 系统与 macOS 系统，**该方案有两种方式：
 
 1. IDM 方式下载(需要用到油猴脚本以及 IDM 下载工具，也是**本文所整理的方式**)
