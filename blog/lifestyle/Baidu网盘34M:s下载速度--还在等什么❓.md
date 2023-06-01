@@ -1,8 +1,18 @@
+---
+slug: Baidu_pan
+title: Baidu网盘34M/s下载速度--还在等什么❓.md
+date: 2023-05-20
+authors: wenhao
+tags: [Baidu]
+keywords: [Baidu]
+---
+
+
 **2023年05月10日更新！认真仔细按照步骤操作，下载速度绝对值得！！**
 
 **同志们，本篇文章的整体思路100%没有问题的，突破百度网盘限速是100%可以实现的。但由于插件更新的速度高于本篇文章的速度，可能会出现小偏差，可在Tampermonkey油猴脚本中自行寻找及使用其它插件！**
 
-[<img src="https://img.foxmac.com/o/baidu-pan-speed-10.png" alt="突破百度网盘限速，百度网盘非会员高速下载最靠谱的解决方案！" style="zoom:50%;" />
+<img src="https://img.foxmac.com/o/baidu-pan-speed-10.png" alt="突破百度网盘限速，百度网盘非会员高速下载最靠谱的解决方案" size="50%"/>
 
 **支持 Windows 系统与 macOS 系统，**该方案有两种方式：
 
