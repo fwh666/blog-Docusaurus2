@@ -43,8 +43,8 @@ const config = {
       title: '文浩',
       logo: {
         alt: '文浩',
-        src: 'https://leanoss.fuwenhao.club/RUJCScT8z3I4b6lLc9p2wi7HBkeYsGMk/LOGO.JPEG',
-        srcDark: 'https://leanoss.fuwenhao.club/RUJCScT8z3I4b6lLc9p2wi7HBkeYsGMk/LOGO.JPEG',
+        src: 'https://img.fuwenhao.club/blog/touxiang02.png',
+        srcDark: 'https://img.fuwenhao.club/blog/touxiang02.png',
       },
       hideOnScroll: true,
       items: [
@@ -77,7 +77,18 @@ const config = {
         {
           label:'Wiki',
           position:'right',
-          to:'docs/skill/'
+          // to:'docs/skill/',
+          items: [
+            {
+              label: 'Java系列',
+              to: 'https://wiki.fuwenhao.club/',
+            },
+            {
+              label: 'Simple',
+              to:'docs/skill/',
+            }
+            
+          ]
         },
         // {
         //   label: '工具',
