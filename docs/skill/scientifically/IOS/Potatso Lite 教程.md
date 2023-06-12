@@ -1,6 +1,6 @@
 ---
 id: Potatso Lite teach
-slug: /ClashX-teach
+slug: /ClashX_teach_ios
 title: Potatso Lite教程
 date: 2020-08-30
 authors: wenhao

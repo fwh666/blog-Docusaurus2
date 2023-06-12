@@ -1,6 +1,6 @@
 ---
 id: Clash for Android
-slug: /ClashX-teach
+slug: /ClashX_teach_android
 title: Clash for Android教程
 date: 2020-08-30
 authors: wenhao

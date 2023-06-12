@@ -1,6 +1,6 @@
 ---
 id: Clash for Linux
-slug: /ClashX-teach
+slug: /ClashX_teach_linux
 title: Clash for Linux教程
 date: 2020-08-30
 authors: wenhao

@@ -335,7 +335,7 @@ const sidebars = {
       ],
     },
     {
-      label: '科学上网中心',
+      label: '科学上网',
       type: 'category',
       link: {
         type: 'generated-index',

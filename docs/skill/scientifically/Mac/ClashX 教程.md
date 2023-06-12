@@ -1,6 +1,6 @@
 ---
 id: ClashX 教程
-slug: /ClashX-teach
+slug: /ClashX_teach_Mac
 title: ClashX 教程
 date: 2020-08-30
 authors: wenhao
