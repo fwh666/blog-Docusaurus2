@@ -14,12 +14,12 @@
   ],
   "icons": [
     {
-      "src": "img/icons/icon-128.pnag",
+      "src": "https://img.fuwenhao.club/blog/touxiang02.png",
       "sizes": "128x128",
       "type": "image/png"
     },
     {
-      "src": "img/icons/icon-192.png",
+      "src": "https://img.fuwenhao.club/blog/touxiang02.png",
       "sizes": "192x192",
       "type": "image/png"
     }
