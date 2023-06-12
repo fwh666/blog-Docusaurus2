@@ -84,7 +84,7 @@ const config = {
               to: 'https://wiki.fuwenhao.club/',
             },
             {
-              label: 'Simple',
+              label: '精简系列',
               to:'docs/skill/',
             }
             
