@@ -75,8 +75,8 @@ const config = {
           ],
         },
         {
-          label:'Wiki',
-          position:'right',
+          label: 'Wiki',
+          position: 'right',
           // to:'docs/skill/',
           items: [
             {
@@ -85,9 +85,23 @@ const config = {
             },
             {
               label: '精简系列',
-              to:'docs/skill/',
+              to: 'docs/skill/',
             }
-            
+          ]
+        },
+        {
+          label: 'Skill',
+          position: 'right',
+          items: [
+            //对应sidebars.js的type目录,实现效果需要单独定义目录
+            {
+              label: 'JavaScript',
+              to: 'docs/category/JavaScript-1',
+            },
+            {
+              label: 'React',
+              to: 'docs/category/react-1'
+            }
           ]
         },
         // {
