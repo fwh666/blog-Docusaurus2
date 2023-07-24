@@ -95,13 +95,13 @@ const config = {
           items: [
             //对应sidebars.js的type目录,实现效果需要单独定义目录
             {
+              label: 'React',
+              to: 'docs/category/react-1'
+            },
+            {
               label: 'JavaScript',
               to: 'docs/category/JavaScript-1',
             },
-            {
-              label: 'React',
-              to: 'docs/category/react-1'
-            }
           ]
         },
         // {
