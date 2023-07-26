@@ -1,6 +1,6 @@
 const path = require('path')
 const beian = '京ICP备2020034168号-1'
-
+/** 首页头部提示语链接 */
 const announcementBarContent = `<a href="/typescript-full-stack-technology-trpc" target="_blank">Typescript 全栈最值得学习的技术栈 TRPC</a>`
 
 /** @type {import('@docusaurus/types').Config} */
@@ -16,10 +16,10 @@ const config = {
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   themeConfig: {
     image: 'img/logo.png',
-    announcementBar: {
-      id: 'announcementBar-3',
-      content: announcementBarContent,
-    },
+    // announcementBar: {
+    //   id: 'announcementBar-3',
+    //   content: announcementBarContent,
+    // },
     metadata: [
       {
         name: 'keywords',
