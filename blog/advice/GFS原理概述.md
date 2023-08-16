@@ -1,5 +1,4 @@
 ---
-id: google-gfs
 slug: /google-gfs
 title: Google三大论文之GFS
 date: 2023-08-01
@@ -8,15 +7,11 @@ tags: [GFS]
 keywords: [GFS,文浩，WenHao]
 ---
 
-
-## Google三大论文之GFS
-<!-- truncate -->
-
-> 转载自掘金[🔗](https://juejin.cn/post/7232253274056851493?searchId=20230804152830B73F07A07DB77503B44F)
-
 ## Google三大论文之GFS
 
 Google GFS（Google File System） 文件系统，一个面向大规模数据密集型应用的、可伸缩的分布式文件系统。GFS 虽然运行在廉价的普遍硬件设备上，但是它依然了提供灾难冗余的能力，为大量客户机提供了高性能的服务。
+
+<!-- truncate -->
 
 ### 1 简介
 
@@ -379,3 +374,5 @@ Google 文件系统展示了一个使用普通硬件支持大规模数据处理�
 - [10] FrankS chmuck and Roger Haskin. GPFS: A shared-diskfi le system for large computing clusters. In Proceedings of the First USENIX Conference on File and Storage Technologies, pages 231–244, Monterey, California, January 2002.
 - [11] Steven R. Soltis, Thomas M. Ruwart, and Matthew T.O’Keefe. The Gobal File System. In Proceedings of the Fifth NASA Goddard Space Flight Center Conference on Mass Storage Systems and Technologies, College Park, Maryland, September 1996.
 - [12] Chandramohan A. Thekkath, Timothy Mann, and Edward K. Lee. Frangipani: A scalable distributed file system. In Proceedings of the 16th ACM Symposium on Operating System Principles, pages 224–237, Saint-Malo, France, October 1997
+
+> 转载自掘金[🔗](https://juejin.cn/post/7232253274056851493?searchId=20230804152830B73F07A07DB77503B44F)

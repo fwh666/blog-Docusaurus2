@@ -15,10 +15,12 @@ keywords: [react, Route]
 ## 1.概述
 
 1. React Router 以三个不同的包发布到 npm 上，它们分别为：
-
-   1. react-router: 路由的核心库，提供了很多的：组件、钩子。
-   2. <strong style="color:#dd4d40">**react-router-dom:**</strong > <strong style="color:#dd4d40">包含react-router所有内容，并添加一些专门用于 DOM 的组件，例如 `<BrowserRouter>`等 </strong>。
-   3. react-router-native: 包括react-router所有内容，并添加一些专门用于ReactNative的API，例如:`<NativeRouter>`等。
+````JavaScript
+  1. react-router: 路由的核心库，提供了很多的：组件、钩子。
+  2. <strong style="color:#dd4d40">**react-router-dom:**</strong > <strong style="color:#dd4d40">包含react-router所有内容，并添加一些专门用于 DOM 的组件，例如 `<BrowserRouter>`等 </strong>。
+  3. react-router-native: 包括react-router所有内容，并添加一些专门用于ReactNative的API，例如:`<NativeRouter>`等。
+````
+   
 
 2. 与React Router 5.x 版本相比，改变了什么？
 
