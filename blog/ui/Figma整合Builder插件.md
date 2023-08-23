@@ -13,6 +13,8 @@ description: 关于Figma整合Builder插件使用
 
 <img src="https://img.fuwenhao.club/blog/image-20230724175709446.png"/>
 
+<!-- truncate -->
+
 ## 教程:
 一、Figma配置Builder：
 
