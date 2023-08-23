@@ -12,6 +12,8 @@ description: ClashX教程
 
 Clash是一个使用Go语言编写的，基于规则跨平台的代理软件核心程序。[ClashX](https://uzbox.com/tag/clashx)是运行在[macOS](https://uzbox.com/tag/macos)上的一款科学上网工具。ClashX是基于Mac规则的代理，适用于Clash。ClashX的特征，支持HTTP/HTTPS和SOCKS协议；支持GeoIP规则；支持SS和[V2Ray](https://uzbox.com/tag/v2ray)协议。
 
+<!-- truncate -->
+
 特色：
 
 - 可随时切换代理模式及节点
