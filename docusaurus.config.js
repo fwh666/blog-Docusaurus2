@@ -309,7 +309,7 @@ const config = {
           priority: 0.5,
         },
         gtag: {
-          trackingID: 'G-S4SD5NXWXF',
+          trackingID: 'G-B7HFBZ61B1',
           anonymizeIP: true,
         },
         // debug: true,
