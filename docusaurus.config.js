@@ -381,6 +381,13 @@ const config = {
       },
     },
   },
+  scripts: [
+    {
+      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5455845858903578',
+      async: true,
+      crossorigin: 'anonymous',
+    },
+  ],
 }
 
 module.exports = config
