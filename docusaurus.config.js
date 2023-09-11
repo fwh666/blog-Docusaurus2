@@ -309,7 +309,7 @@ const config = {
           priority: 0.5,
         },
         gtag: {
-          trackingID: 'G-S4SD5NXWXF',
+          trackingID: 'G-B7HFBZ61B1',
           anonymizeIP: true,
         },
         // debug: true,
@@ -406,6 +406,13 @@ const config = {
       },
     },
   },
+  scripts: [
+    {
+      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5455845858903578',
+      async: true,
+      crossorigin: 'anonymous',
+    },
+  ],
 }
 
 module.exports = config
