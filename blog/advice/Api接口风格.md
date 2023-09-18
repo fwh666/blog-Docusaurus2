@@ -3,7 +3,7 @@ slug: api-style
 title: Api接口风格
 date: 2021-08-06
 authors: wenhao
-tags: [随笔, api]
+tags: [Api]
 keywords: [随笔, api]
 ---
 
