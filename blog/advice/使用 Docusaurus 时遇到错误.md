@@ -1,7 +1,7 @@
 ---
 slug: Docusaurus-error
 title: 使用 Docusaurus 时遇到错误
-date: 2023-08-01
+date: 2023-05-01
 authors: wenhao
 tags: [Docusaurus]
 keywords: [Docusaurus,WenHao,文浩,Marvin]

@@ -1,7 +1,7 @@
 ---
 slug: /google-gfs
 title: Google三大论文之GFS
-date: 2023-08-01
+date: 2023-06-01
 authors: wenhao
 tags: [GFS]
 keywords: [GFS,文浩，WenHao]
