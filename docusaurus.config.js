@@ -23,7 +23,7 @@ const config = {
     metadata: [
       {
         name: 'keywords',
-        content: '文浩',
+        content: '文浩,文浩开发工程师,文浩Marvin, Marvin',
       },
       {
         name: 'keywords',
@@ -287,7 +287,7 @@ const config = {
       tagName: 'meta',
       attributes: {
         name: 'description',
-        content: '文浩的个人博客',
+        content: '文浩开发工程师',
       },
     },
   ],
