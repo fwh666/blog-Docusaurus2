@@ -20,8 +20,8 @@ V2rayN 要求系统安装有 [Microsoft .NET Framework](https://dotnet.microsoft
 
 ### [特别提醒](?id=特别提醒)
 
-![1](https://img.fuwenhao.club/blog/v2rayN4.png)
-![1](https://img.fuwenhao.club/blog/v2rayN5.png)
+![v2ray for windows](https://s2.loli.net/2023/10/25/ftDz9LIN1sEmZHx.png)
+![v2ray for windows](https://s2.loli.net/2023/10/25/dSxW7Ja8pwyoAQE.png)
 
 
 
@@ -41,7 +41,7 @@ https://github.com/XTLS/Xray-core/releases/download/v1.7.5/Xray-windows-32.zip
 
 
 
-![1](https://img.fuwenhao.club/blog/v2rayN6.jpg)
+![v2ray for windows](https://s2.loli.net/2023/10/25/qbevwolEf19kYjh.jpg)
 
 ### [应用下载](?id=应用下载)
 
@@ -63,11 +63,11 @@ https://cdn.v2free.top/link/Qk3UVjnxWg8dyaey?sub=3点击拷贝拷贝失败拷贝
 
 解压 v2rayn.zip 到硬盘(注意：不要在压缩包里直接运行，解压到文件夹，然后进入文件夹里再运行)，启动v2rayn.exe 点击左上角的菜单 **订阅**，随后点击 **订阅设置**。
 
-![1](https://img.fuwenhao.club/blog/v2rayN1.png)
+![v2ray for windows](https://s2.loli.net/2023/10/25/fIJZjBFWXGr6LtP.png)
 
 点击添加，粘贴 **订阅链接**，打钩 **启用** ，点击 **确定**。
 
-![2](https://img.fuwenhao.club/blog/v2rayN2.png)
+![v2ray for windows](https://s2.loli.net/2023/10/25/Z3nLNi7VQsMzpm2.png)
 
 ### [更新订阅（更新节点）](?id=更新订阅（更新节点）)
 
@@ -85,7 +85,7 @@ https://cdn.v2free.top/link/Qk3UVjnxWg8dyaey?sub=3点击拷贝拷贝失败拷贝
 
 ### [开始使用](?id=开始使用)
 
-![4](https://img.fuwenhao.club/blog/v2rayN4.jpg)
+![v2ray for windows](https://s2.loli.net/2023/10/25/ftDz9LIN1sEmZHx.png)
 
 然后右键点击V2rayn托盘区【桌面右下角任务栏小图标区域】图标，点“系统代理/自动配置系统代理”(如下图), 这样IE、Edge、Chrome等使用系统代理的浏览器就可以翻出去了。
 
@@ -95,7 +95,7 @@ https://cdn.v2free.top/link/Qk3UVjnxWg8dyaey?sub=3点击拷贝拷贝失败拷贝
 
 从本站下载的V2rayn软件，已经配置好了国内外分流，国内网站会直连不会走代理，如下图所示（设置/路由设置）：
 
-![1](https://img.fuwenhao.club/blog/v2rayN1.jpg)
+![v2ray for windows.png](https://s2.loli.net/2023/10/25/fIJZjBFWXGr6LtP.png)
 
 如果你还有个别的网站想直连，可以在这里添加域名，比如添加百度、163.com等如下(每行一个域名，以英文逗号结尾，最后一行不用逗号)： geosite:cn,
 baidu.com,
@@ -116,3 +116,10 @@ baidu.com,
 “自动配置系统代理”：设置使用V2rayn的代理。
 
 “不改变系统代理”：保持Windows原有的代理设置，不做任何改变。
+
+## 参考网址：
+- [macOS – ClashX 使用教程](/docs/ClashX_teach_Mac)
+- [Clash for Android教程](/docs/ClashX_teach_android)
+- [Potatso Lite教程](/docs/ClashX_teach_ios)
+- [Clash for Linux教程](/docs/ClashX_teach_linux)
+- [V2rayN配置使用教程 for Windows](/docs/V2rayn-config)

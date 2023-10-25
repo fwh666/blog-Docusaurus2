@@ -38,31 +38,31 @@ ClashX使项目发布：https://github.com/yichengchen/clashX/releases
 首次使用 ClashX 时，macOS 会提醒你此应用来自未知开发者，请允许打开此应用。
 ClashX 首次运行会提示是否安装帮助程序（Helper）。此帮助程序用于设置系统代理，否则每次你通过 ClashX 变更系统系统状态（打开或关闭）时都需要输入密码，请点击 “Install”，之后 macOS 会提示输入用户密码。
 
-![macOS - ClashX 使用教程](https://img.fuwenhao.club/blog/1611274239.jpg)
+![macOS - ClashX 使用教程](https://s2.loli.net/2023/10/25/sMRK1LXQ6Zi5mYr.jpg)
 
 请在官网用户中心快速导入区域点击`SS 协议`，然后复制 Clash 订阅链接。
 
 启动 ClashX，点击状态栏中的 ClashX 图标，依次选择「配置」、「托管配置」、「管理」，在弹出的界面点击添加订阅。
 
-![macOS - ClashX 使用教程](https://img.fuwenhao.club/blog/1611274240.jpg)
+![macOS - ClashX 使用教程](https://s2.loli.net/2023/10/25/XJDMjRBAmWK26wr.jpg)
 
-![macOS - ClashX 使用教程](https://img.fuwenhao.club/blog/1611274241.jpg)
+![macOS - ClashX 使用教程](https://s2.loli.net/2023/10/25/SQUW4azRYgviI6L.jpg)
 
-![macOS - ClashX 使用教程](https://img.fuwenhao.club/blog/1611274242.jpg)
+
+![macOS - ClashX 使用教程](https://s2.loli.net/2023/10/25/a3eXIFQswZ86nRp.jpg)
 
 若干秒后将在软件里看到刚刚添加的配置文件。
 
-![macOS - ClashX 使用教程](https://img.fuwenhao.club/blog/1611274243.jpg)
+![macOS - ClashX 使用教程](https://s2.loli.net/2023/10/25/QkLlOi2bfzCmrdF.jpg)
 
 点击 ClashX 状态栏图标，将「出站模式」选为「规则判断」，在「Proxy」或「Gloabal」策略组中可以选择自己喜欢的线路，然后点击「设置为系统代理」即可开始使用。
 
 注：「Proxy」策略组是用于访问国际互联网的默认策略，一般情况下，所有国际网络的访问都通过该策略组中选择的节点进行连接。
 
-![macOS - ClashX 使用教程](https://img.fuwenhao.club/blog/1611274244.png)
+![macOS - ClashX 使用教程](https://s2.loli.net/2023/10/25/witPzSeq3p7hxZF.png)
 
-![macOS - ClashX 使用教程](https://img.fuwenhao.club/blog/1611274245.jpg)
-
-![macOS - ClashX 使用教程](https://uzbox.com/wp-content/uploads/2021/01/1611274246.jpg)
+![macOS - ClashX 使用教程](https://s2.loli.net/2023/10/25/7LgMjGXmd1tbc2Y.jpg)
+![macOS - ClashX 使用教程](https://s2.loli.net/2023/10/25/JiUnOQXbv5eBxW3.jpg)
 
 此时您已可以自由地连接国际互联网。
 
@@ -112,5 +112,9 @@ rules:
 
 
 ## 参考网址：
-
+- [macOS – ClashX 使用教程](clashX-teach)
+- [Clash for Android教程](/docs/ClashX_teach_android)
+- [Potatso Lite教程](/docs/ClashX_teach_ios)
+- [Clash for Linux教程](/docs/ClashX_teach_linux)
+- [V2rayN配置使用教程 for Windows](/docs/V2rayn-config)
 - [Clash for Windows](https://docs.cfw.lbyczf.com/)

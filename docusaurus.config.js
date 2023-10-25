@@ -43,8 +43,8 @@ const config = {
       title: '文浩',
       logo: {
         alt: '文浩',
-        src: 'https://img.fuwenhao.club/blog/touxiang02.png',
-        srcDark: 'https://img.fuwenhao.club/blog/touxiang02.png',
+        src: 'https://s2.loli.net/2023/10/25/ARoiMrFbcnVK7Ba.png',
+        srcDark: 'https://s2.loli.net/2023/10/25/ARoiMrFbcnVK7Ba.png',
       },
       hideOnScroll: true,
       items: [

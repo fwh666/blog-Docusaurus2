@@ -171,3 +171,11 @@ Clash for Android现已适配暗黑模式。
 
 ![IMG_7878.JPG](https://img.fuwenhao.club/blog/1192405662.jpg)
 ![IMG_7879.JPG](https://img.fuwenhao.club/blog/2936823915.jpg)
+
+
+## 参考网址：
+- [macOS – ClashX 使用教程](/docs/ClashX_teach_Mac)
+- [Clash for Android教程](/docs/ClashX_teach_android)
+- [Potatso Lite教程](/docs/ClashX_teach_ios)
+- [Clash for Linux教程](/docs/ClashX_teach_linux)
+- [V2rayN配置使用教程 for Windows](/docs/V2rayn-config)

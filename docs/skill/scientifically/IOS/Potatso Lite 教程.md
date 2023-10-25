@@ -95,3 +95,10 @@ https://cdn.v2free.top/link/Qk3UVjnxWg8dyaey?sub=2点击拷贝拷贝失败拷贝
 ## [6. 启用代理](?id=_6-启用代理)
 
 设置完毕后在软件主页选一个节点，然后点击右下角的圆形按钮即可开启代理。首次启动代理时软件会申请创建本地VPN隧道，请选择允许。
+
+## 参考网址：
+- [macOS – ClashX 使用教程](/docs/ClashX_teach_Mac)
+- [Clash for Android教程](/docs/ClashX_teach_android)
+- [Potatso Lite教程](/docs/ClashX_teach_ios)
+- [Clash for Linux教程](/docs/ClashX_teach_linux)
+- [V2rayN配置使用教程 for Windows](/docs/V2rayn-config)
