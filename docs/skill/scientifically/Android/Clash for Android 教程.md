@@ -50,12 +50,13 @@ Clash for Android下载：[本站下载](https://go.runba.cyou/ssr-download/clas
 这个 **订阅链接** 相当于你的账号密码，跟你的账号是绑定的，你应当把它当做密码一样妥善保管。
 
 复制好了Clash订阅之后打开Clash for Android应用程序。请点击`配置`。
-![IMG_7843.JPG](https://img.fuwenhao.club/blog/1072376875.jpg)
+![IMG_7843.JPG](https://leanoss.fuwenhao.club/PIijwe8rhldlIYTe9mbfOBgPafoqMBix/IMG_7843.JPG.jpg)
 请在新弹出的窗口中点击`新配置`。
-![IMG_7844.JPG](https://img.fuwenhao.club/blog/1118270140.jpg)
+
+![IMG_7844.JPG](https://leanoss.fuwenhao.club/HrOIeLilkI8BsATlgqEDyMXyLvAjsyQX/IMG_7844.JPG.jpg)
 然后选择`从URL导入`。在对应地方填写订阅地址并保存。
-![IMG_7845.JPG](https://img.fuwenhao.club/blog/2169466048.jpg)
-![IMG_7847.JPG](https://img.fuwenhao.club/blog/3843008539.jpg)
+![IMG_7845.JPG](https://leanoss.fuwenhao.club/qULssJ64cJRB1oMADx2l1VVzxF5qT88S/IMG_7845.JPG.jpg)
+![IMG_7847.JPG](https://leanoss.fuwenhao.club/C6khjjlst3ryg6SpKpJxOqi56GHjX8J4/IMG_7847.JPG.jpg)
 
 常见的订阅错误报告，如果遇到以下提示：
 
@@ -67,9 +68,9 @@ Invalid Config:yaml:unmarshal errors: line 1:cannot unmarshal !!str ...点击拷
 
 ### [3.2 更新订阅 更新节点](?id=_32-更新订阅-更新节点)
 
-![IMG_7849.JPG](https://img.fuwenhao.club/blog/932669651.jpg)
+![IMG_7849.JPG](https://leanoss.fuwenhao.club/hjm0AP59WiF1h9UA1cHlyhsHxLfgIqHf/IMG_7849.JPG.jpg)
 点击订阅名称右侧的三个点按钮，再点 “更新” 可以手动更新订阅更新节点。如图：
-![IMG_7850.JPG](https://img.fuwenhao.club/blog/1168337143.jpg)
+![IMG_7850.JPG](https://leanoss.fuwenhao.club/63o641049UgM2tenuOwG94824HQJcv4A/IMG_7850.JPG.jpg)
 提示：机场节点信息可能会不定时更新，若出现大面积不可用现象，或者从免费用户升级为VIP用户，请手工更新订阅。
 
 注意：充值完成后，请到套餐购买页面用充值的余额购买套餐后才能开始使用VIP！！！购买套餐后，不要再用免费节点，否则免费节点流量会计算到套餐里面；如果您之前已经使用了免费订阅链接，购买套餐后订阅链接不变，您只需要通过更新订阅来更新节点即可；更新节点后把APP中的节点跟网站 [节点列表](https://go.runba.cyou/user/node) 对照看看（对比节点名称，网站节点列表明确列出了免费节点和VIP付费节点），确保VIP节点已更新成功。
@@ -79,13 +80,13 @@ Invalid Config:yaml:unmarshal errors: line 1:cannot unmarshal !!str ...点击拷
 ### [3.3 开启VPN](?id=_33-开启vpn)
 
 返回首页。点击 `点此启动` ，第一次启动时会请求 VPN 权限，需要点击 `允许` 。
-![IMG_7851.JPG](https://img.fuwenhao.club/blog/2409469823.jpg)
+![IMG_7851.JPG](https://leanoss.fuwenhao.club/zER5XbUpvVLdohfOBDEanmIVpUrr3h2d/IMG_7851.JPG.jpg)
 显示 `运行中` 即表示客户端已正常启动。
-![IMG_7866.JPG](https://img.fuwenhao.club/blog/382223072.jpg)
+![IMG_7866.JPG](https://leanoss.fuwenhao.club/VuIQUKnFWx3EXKIXXheYkzU1n1cGMjHd/IMG_7866.JPG.jpg)
 开启VPN后，可以点击中间的 `代理` 选项卡，进入策略组面板。
 
 在这里可以切换节点。直接点击你想要的节点即可进行切换。
-![IMG_7852.JPG](https://img.fuwenhao.club/blog/2753500055.jpg)
+![IMG_7852.JPG](https://leanoss.fuwenhao.club/oPvHa5oD3PbjaQy7uFGEBM00SLMG5FWz/IMG_7852.JPG.jpg)
 点击⚡图标可以进行延迟测试，测试结果将显示在节点名称右侧。
 
 注意：Clash使用外网网页进行真实测试，以确认节点的可用性。数值在5000以内均为正常值，超出则显示为超时。数值大小和网速快慢没太大关系。[了解更多延迟测试](https://go.runba.cyou/doc/#/faq?id=关于节点的延时测试)
@@ -95,39 +96,39 @@ Invalid Config:yaml:unmarshal errors: line 1:cannot unmarshal !!str ...点击拷
 点击`设置` 👉 `网络`，最下方可以设置`分应用代理`。
 点击`访问控制模式`可以切换黑白名单。自行理解即可。
 点击`访问控制应用包列表`即可选择应用。
-![IMG_7863.JPG](https://img.fuwenhao.club/blog/1278124387.jpg)
+![IMG_7863.JPG](https://leanoss.fuwenhao.club/BWJlYIgosICzyczx79E4KabwE4QJsxK2/IMG_7863.JPG.jpg)
 
 ### [3.5 切换代理模式、分组策略和节点选择（国内外分流）以及 全局模式（全局代理）](?id=_35-切换代理模式、分组策略和节点选择（国内外分流）以及-全局模式（全局代理）)
 
 如果是2.1.1之后的版本，代理模式设置路径为`设置` → `覆写` → `模式`，如图：
 
-![IMG_4577.JPG](https://img.fuwenhao.club/blog/1118590743.jpg)
+![IMG_4577.JPG](https://leanoss.fuwenhao.club/v88SFSROwUfQxhLnvcbgsgTgKYHKELOh/IMG_4577.JPG.jpg)
 
-![IMG_4579.JPG](https://img.fuwenhao.club/blog/3855851416.jpg)
+![IMG_4579.JPG](https://leanoss.fuwenhao.club/gchAp3fsEmGpe0EbP0A2QWhKNg71HTcB/IMG_4579.JPG.jpg)
 
-![IMG_4578.JPG](https://img.fuwenhao.club/blog/1753717891.jpg)
+![IMG_4578.JPG](https://leanoss.fuwenhao.club/Fb8jLqKIn7oBYlk9TN2JC0xvym2usy1l/IMG_4578.JPG.jpg)
 
 更多可参考：[分组策略和节点选择（国内外分流）以及 全局模式（全局代理）](https://go.runba.cyou/doc/#/macOS/ClashX?id=分组策略和节点选择（国内外分流）)
 
 如果是2.0.18及之前的版本，代理模式设置路径为`代理` → `模式`，如图：
-![IMG_7853.JPG](https://img.fuwenhao.club/blog/550116317.jpg)
+![IMG_7853.JPG](https://leanoss.fuwenhao.club/A8YG8HJvHVn5jFly6w6NrQSYEGyJuKGr/IMG_7853.JPG.jpg)
 
-![IMG_7854.JPG](https://img.fuwenhao.club/blog/838427780.jpg)
+![IMG_7854.JPG](https://leanoss.fuwenhao.club/CFQuzTyIdmcM1orwUp9r59TOXrsLCujg/IMG_7854.JPG.jpg)
 
 ### [3.6 查看日志](?id=_36-查看日志)
 
 点击`日志`面板，然后选择`Clash日志捕捉工具`即可抓取日志。默认是关闭日志的，以防内存溢出。
-![IMG_7857.JPG](https://img.fuwenhao.club/blog/1404728428.jpg)
-![IMG_7858.JPG](https://img.fuwenhao.club/blog/1836797657.jpg)
-![IMG_7859.JPG](https://img.fuwenhao.club/blog/2336060890.jpg)
+![IMG_7857.JPG](https://leanoss.fuwenhao.club/OubFKipEqJMJve5k6IitGhMPymXh8S50/IMG_7857.JPG.jpg)
+![IMG_7858.JPG](https://leanoss.fuwenhao.club/TTKRYWPw3EqEujgFFeQ1SSDSqUwQGhpf/IMG_7858.JPG.jpg)
+![IMG_7859.JPG](https://leanoss.fuwenhao.club/pSo2BS3h85UlO2VS3dM9DvsNfdp0UPlH/IMG_7859.JPG.jpg)
 
 ### [3.7 暗黑模式](?id=_37-暗黑模式)
 
 Clash for Android现已适配暗黑模式。
 入口：`设置` 👉 `界面` 👉 `暗黑模式`
 开启后效果如图：
-![IMG_7865.JPG](https://img.fuwenhao.club/blog/59156606.jpg)
-![IMG_7866.JPG](https://img.fuwenhao.club/blog/382223072.jpg)
+![IMG_7865.JPG](https://leanoss.fuwenhao.club/mXv5RR7s8iXPo82veOuouUPjR77bO9nP/IMG_7865.JPG.jpg)
+![IMG_7866.JPG](https://leanoss.fuwenhao.club/VuIQUKnFWx3EXKIXXheYkzU1n1cGMjHd/IMG_7866.JPG.jpg)
 
 ### [3.8 更多设置](?id=_38-更多设置)
 
@@ -138,13 +139,13 @@ Clash for Android现已适配暗黑模式。
 - 改变代理组（策略组）排序
 - 改变代理（节点）排序
 - 前缀合并（即节点名字前缀相同的进行归类显示）
-  ![IMG_7853.JPG](https://img.fuwenhao.club/blog/550116317.jpg)
-  ![IMG_7854.JPG](https://img.fuwenhao.club/blog/838427780.jpg)
+  ![IMG_7853.JPG](https://leanoss.fuwenhao.club/A8YG8HJvHVn5jFly6w6NrQSYEGyJuKGr/IMG_7853.JPG.jpg)
+  ![IMG_7854.JPG](https://leanoss.fuwenhao.club/CFQuzTyIdmcM1orwUp9r59TOXrsLCujg/IMG_7854.JPG.jpg)
 
 ### [3.9 其它设置](?id=_39-其它设置)
 
-![IMG_7860.JPG](https://img.fuwenhao.club/blog/3789481771.jpg)
-![IMG_7862.JPG](https://img.fuwenhao.club/blog/454476014.jpg)
+![IMG_7860.JPG](https://leanoss.fuwenhao.club/Li3cRdGwE9vOMhIIfkkBUEXQr5MvEa70/IMG_7860.JPG.jpg)
+![IMG_7862.JPG](https://leanoss.fuwenhao.club/JjqTrfP4wOblWcYvyfBhMrE1RDaS7cFN/IMG_7862.JPG.jpg)
 
 ## [4. 易用性设置](?id=_4-易用性设置)
 
@@ -153,24 +154,24 @@ Clash for Android现已适配暗黑模式。
 ### [4.1 始终开启VPN](?id=_41-始终开启vpn)
 
 以RealmeX(Android 10)为例，点击`设定` 👉 `其他无线连接` 👉 `VPN`,打开`一律与VPN保持连线`。
-![IMG_7868.JPG](https://img.fuwenhao.club/blog/1483525553.jpg)
-![IMG_7869.JPG](https://img.fuwenhao.club/blog/2937852562.jpg)
-![IMG_7872.JPG](https://img.fuwenhao.club/blog/2475363784.jpg)
-![IMG_7873.JPG](https://img.fuwenhao.club/blog/1266218543.jpg)
+![IMG_7868.JPG](https://leanoss.fuwenhao.club/1CbC3HakaFMaCU3Aq1HJB7RisJN22VBp/IMG_7868.JPG.jpg)
+![IMG_7869.JPG](https://leanoss.fuwenhao.club/GMgLxsupiVOlQEOGujnLWXFrhFUPTaK1/IMG_7869.JPG.jpg)
+![IMG_7872.JPG](https://leanoss.fuwenhao.club/RimnP39UKqUWJezBuGY2PuR2eWPabQib/IMG_7872.JPG.jpg)
+![IMG_7873.JPG](https://leanoss.fuwenhao.club/N2vJRRDU16hCGO4t8glshdfMyT8Qddfh/IMG_7873.JPG.jpg)
 
 ### [4.2 省电策略/允许后台运行](?id=_42-省电策略允许后台运行)
 
 长按Clash图标，选择`应用程式资讯`。
 勾选`允许自动啓动`和`允许其他应用程式关联啓动`。
 点击`耗电保护`,选择`允许背景执行`。
-![IMG_7874.JPG](https://img.fuwenhao.club/blog/722228769.jpg)
-![IMG_7875.JPG](https://img.fuwenhao.club/blog/1110606495.jpg)
-![IMG_7876.JPG](https://img.fuwenhao.club/blog/74665642.jpg)
+![IMG_7874.JPG](https://leanoss.fuwenhao.club/3uN7mSdpdCiqFG5El8ET318bHVfOWpiH/IMG_7874.JPG.jpg)
+![IMG_7875.JPG](https://leanoss.fuwenhao.club/qYRxQUHOd3LrDQPTNcRblXN0MnMM2VpC/IMG_7875.JPG.jpg)
+![IMG_7876.JPG](https://leanoss.fuwenhao.club/xpgjfVkjbEreHsVAlEyNF9bf9aejUC4q/IMG_7876.JPG.jpg)
 
 ### [4.3 通知栏快速启动](?id=_43-通知栏快速启动)
 
-![IMG_7878.JPG](https://img.fuwenhao.club/blog/1192405662.jpg)
-![IMG_7879.JPG](https://img.fuwenhao.club/blog/2936823915.jpg)
+![IMG_7878.JPG](https://leanoss.fuwenhao.club/QacvjvAjLaD6wG5CoJ4Kw2ou3g4auvGS/IMG_7878.JPG.jpg)
+![IMG_7879.JPG](https://leanoss.fuwenhao.club/N2BkB1kf8Rk09hdrUxT3QeRWxMLTm1M8/IMG_7879.JPG.jpg)
 
 
 ## 参考网址：
