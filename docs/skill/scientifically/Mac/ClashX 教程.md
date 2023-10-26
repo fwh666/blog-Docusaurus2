@@ -30,7 +30,7 @@ ClashX 是一个拥有 GUI 界面基于 Clash 可自定义规则的 macOS 代理
 
 双击ClashX.dmg，打开 ClashX安装程序
 
-![1](https://img.fuwenhao.club/blog/ClashX-1.png)
+![clashX install 01](https://img.fuwenhao.club/blog/ClashX-1.png)
 
 图：运行 ClashX 安装程序
 
@@ -44,9 +44,9 @@ ClashX 是一个拥有 GUI 界面基于 Clash 可自定义规则的 macOS 代理
 
 如果程序打不开，请参考：[打开来自身份不明开发者的 Mac App1](https://support.apple.com/zh-cn/guide/mac-help/mh40616/mac)或https://www.jianshu.com/p/3a5ceb412f15
 
-![1](https://img.fuwenhao.club/blog/clashx1.jpg)
+![clashX install 01](https://leanoss.fuwenhao.club/FUvYucXdw3Fe5O3v4VDXWJYkNMa9KJI1/1.jpg)
 
-![1](https://img.fuwenhao.club/blog/clashx2.jpg)
+![clashX install 01a](https://leanoss.fuwenhao.club/RSniHYLtsX9xw4J1nOnjaY8kawF9nW3w/1a.jpg)
 
 ## [获取订阅链接](?id=获取订阅链接)
 
@@ -61,17 +61,17 @@ ClashX 是一个拥有 GUI 界面基于 Clash 可自定义规则的 macOS 代理
 
 点击菜单栏中 ClashX 的图标，选择 配置 => 托管配置 => 管理，
 
-![2](https://img.fuwenhao.club/blog/ClashX-2.png)
+![clashX install 02](https://leanoss.fuwenhao.club/F0QC537wuSrApWt4UQ501Dzx0kMmRBij/2.png)
 
 然后点击 添加 ，粘贴上方 **[获取订阅链接](?id=获取订阅链接)** 中的拷贝的订阅链接（注意，粘贴后如果看不到url，可能是因为多了一个空行，按一次“Backspace删除键”即可）。
 
-![3](https://img.fuwenhao.club/blog/ClashX-3.png)
+![clashX install 03](https://leanoss.fuwenhao.club/VuBN5hfBQIbV20mYyc8jx9rrnLCFI9Js/3.png)
 
 ## [更新订阅更新节点](?id=更新订阅更新节点)
 
 如下图，进入此界面，点击 `更新` 按钮。
 
-![3](https://img.fuwenhao.club/blog/ClashX-3a.png)
+![clashX install 03a](https://leanoss.fuwenhao.club/YH1DVrBBOC6pa21kr4n1WKBkJlh34E8N/3a.png)
 
 提示：机场节点信息可能会不定时更新，若出现大面积节点不可用现象，或者从免费用户升级为VIP用户，请手工更新订阅。
 
@@ -81,7 +81,7 @@ ClashX 是一个拥有 GUI 界面基于 Clash 可自定义规则的 macOS 代理
 
 ## [开启系统代理](?id=开启系统代理)
 
-![4](https://img.fuwenhao.club/blog/ClashX-4.png)
+![clashX install 04](https://leanoss.fuwenhao.club/P2oTfttQoQLrFaKzjLwhC5NtaS6H6Hqa/4.png)
 
 点击菜单栏中 ClashX 的图标，出站模式选择 **规则**，勾选下方的 **设置为系统代理** 。 这样就可以上外网了。 打开Safari浏览器或者Chrome浏览器，输入 https://www.google.com/ncr
 如果打不开，把 **设置为系统代理** 这个选项反复开关几次,最后打勾上，然后再刷新谷歌页面。如果还不行，那么这种情况一般是系统有问题导致系统代理无法设置成功，或者有其它vpn或翻墙软件或Chrome浏览器代理插件等正在运行而造成冲突设置了错误的代理。那么可换个浏览器试试，或尝试下面的方法：
@@ -102,13 +102,13 @@ ClashX 是一个拥有 GUI 界面基于 Clash 可自定义规则的 macOS 代理
 
 ## [分组策略和节点选择（国内外分流）](?id=分组策略和节点选择（国内外分流）)
 
-![4](https://img.fuwenhao.club/blog/ClashX-4.png)
+![clashX install 04](https://leanoss.fuwenhao.club/P2oTfttQoQLrFaKzjLwhC5NtaS6H6Hqa/4.png)
 
 以上图为例，当出站模式选择**规则模式** 时, ClashX遵循各个分组策略来选择节点，简单说明一下：如上图， 苹果服务 选的是 节点选择，然后 节点选择 选的是 自动选择，自动选择 选的是 v103 这个节点, 那么当你访问 苹果公司的网站或服务时，ClashX 就会选择 v103 这个节点；国内媒体 选的是 全球直连，全球直连 选的是 Direct ，Direct就是直连不经过代理的意思，那么当你访问国内媒体时就是直连不经过节点的；请举一反三，就不难理解啦。
 
 ## [全局模式（全局代理）](?id=全局模式（全局代理）)
 
-![8](https://img.fuwenhao.club/blog/clashx8.jpg)
+![clashX install 08](https://leanoss.fuwenhao.club/2YQ5Y94jvj9haTuN9tE2trL3OdanHTuf/8.jpg)
 
 出站模式 选择 全局，并要求必须在 GLOBAL 处 选节点，这种情况就是全局代理模式，所有的网站不分国内国外被封没封锁全部经过 GLOBAL 处 选择的节点，如果 GLOBAL 处 选了 全球直连 或者 Direct ，则无法打开被封锁的网站。
 
@@ -124,7 +124,7 @@ export https_proxy=http://127.0.0.1:7890点击拷贝拷贝失败拷贝成功
 请注意，这些命令只对当前终端窗口有效，如果你想要在其它终端窗口或会话中使用代理，需要再次执行以上命令。注意 代理 不支持 ping，命令行测试外网可以使用 curl 。
 
 也可考虑 [ClashX Pro](https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public) 的增强模式，可自动支持终端及整个系统的程序上外网。注意本站提供的是ClashX，不是Pro版本，因 ClashX Pro 不开源。
-![9](https://img.fuwenhao.club/blog/clashx9.jpg)
+![clashX install 09](https://leanoss.fuwenhao.club/uxeGclpa6LIPJ6TnFKqEiS2qR1xyc8Pg/9.jpg)
 ClashX Pro 开启增强模式后，在终端ping任何域名，都会返回一个虚假ip（fake ip）。此时无需担心，这是ClashX Pro 的正常行为，目的就是为了接管系统流量。
 
 ## [注意事项](?id=注意事项)
@@ -137,11 +137,12 @@ Clash使用 HTTP HEAD 方法对测试网址（server_check_url）进行网页相
 
 1、在 mac 终端上使用 ifconfig 命令获取本地 IP 地址。
 
-![5](https://img.fuwenhao.club/blog/Clashx-5.png)
+![clashX install 05](https://leanoss.fuwenhao.club/kh41dhgyelAoyQwQk982ffXyknY6cpBD/5.png)
 
 2、打开 ClashX 控制台，在「设置」选项卡中打开「允许来自局域网的连接」，并获取 HTTP代理端口号（如果 HTTP代理端口为0，请使用混合代理端口）。
 
-![6](https://img.fuwenhao.club/blog/Clashx-6.png) ![6a](https://img.fuwenhao.club/blog/Clashx-6a.png)
+![clashX install 06](https://leanoss.fuwenhao.club/YE33C2hbvHyzTtLQvJwOyCj5JwCcbFWe/6.png)
+![clashX install 06a](https://leanoss.fuwenhao.club/z9emTMTkr0z2IlRUQ5iQo1JlPINSUQ8t/6a.png)
 
 ## [代理排除列表](?id=代理排除列表)
 
@@ -174,7 +175,7 @@ Clash使用 HTTP HEAD 方法对测试网址（server_check_url）进行网页相
 编辑保存后，重启clashx 即可。
 
 打开mac网络配置即可看到新加的配置
-![7](https://img.fuwenhao.club/blog/clashx-7.png)
+![clashX install 07](https://leanoss.fuwenhao.club/sB0zMPiJAdAaOpVzWmX2ch48lInrW6NR/7.png)
 
 ## 参考网址：
 - [macOS – ClashX 使用教程](/docs/ClashX_teach_Mac)
