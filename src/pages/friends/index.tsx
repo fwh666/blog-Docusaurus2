@@ -18,9 +18,9 @@ function SiteInfo() {
       <CodeBlock language="jsx">
         {`{
   // 本站信息
-  title: '愧怍的小站',
+  title: 'AI GPT God',
   description: '道阻且长，行则将至',
-  avatar: 'https://kuizuo.cn/img/logo.png'
+  avatar: 'https://www.aigptgod.com/img/logo.png'
 }`}
       </CodeBlock>
     </div>

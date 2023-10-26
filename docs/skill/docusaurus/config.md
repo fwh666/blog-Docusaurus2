@@ -13,9 +13,9 @@ authors: kuizuo
 
 ```javascript title='docusaurus.config.js'
 const config = {
-  title: '愧怍的小站',
+  title: 'AI GPT God',
   titleDelimiter: '-',
-  url: 'https://kuizuo.cn',
+  url: 'https://www.aigptgod.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'kuizuo',

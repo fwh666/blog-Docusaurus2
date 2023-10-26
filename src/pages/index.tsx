@@ -11,8 +11,8 @@ function Home() {
       <HomepageHero></HomepageHero>
       <main className="container-wrapper">
         <HomepageBlog />
-        <HomepageProject />
-        <HomepageFeatures />
+        {/* <HomepageProject /> */}
+        {/* <HomepageFeatures /> */}
       </main>
     </Layout>
   )

@@ -109,7 +109,7 @@ function Logos() {
               y: yValue,
             }}
           >
-            <Icon icon={l.icon}></Icon>
+            {/* <Icon icon={l.icon}></Icon> */}
           </motion.div>
         )
       })}
@@ -151,7 +151,7 @@ function Name() {
           e.currentTarget.style.setProperty('--positionY', `${bounding.y}px`)
         }}
       >
-        <Translate id="homepage.hero.name">愧怍</Translate>
+        <Translate id="homepage.hero.name">AI GPT GOD</Translate>
       </span>
       <span className={styles.wave}>👋</span>
     </motion.div>
@@ -162,7 +162,7 @@ export default function Hero() {
   return (
     <motion.div className={styles.hero}>
       <div className={styles.intro}>
-        <Name />
+        {/* <Name /> */}
         <motion.p
           custom={2}
           initial="hidden"
@@ -170,7 +170,7 @@ export default function Hero() {
           variants={variants}
         >
           <Translate id="homepage.hero.text">
-            {`在这里我会分享各类技术栈所遇到问题与解决方案，带你了解最新的技术栈以及实际开发中如何应用，并希望我的开发经历对你有所启发。`}
+            {`"From God's Perspective: Overlooking All" - In the vast expanse of the universe, a divine gaze sweeps across galaxies, stars, and planets. It observes the intricate dance of life and time, witnessing the beauty, chaos, triumphs, and tragedies of existence.`}
           </Translate>
         </motion.p>
         <motion.div
@@ -179,7 +179,7 @@ export default function Hero() {
           animate="visible"
           variants={variants}
         >
-          <SocialLinks />
+          {/* <SocialLinks /> */}
         </motion.div>
 
         <motion.div
@@ -191,8 +191,8 @@ export default function Hero() {
         >
           <div className={styles.outer}>
             <div className={styles.gradient} />
-            <a className={styles.button} href={'./about'}>
-              <Translate id="hompage.hero.introduce">自我介绍</Translate>
+            <a className={styles.button} href={'./blog'}>
+              <Translate id="hompage.hero.introduce">Get Start</Translate>
             </a>
           </div>
         </motion.div>

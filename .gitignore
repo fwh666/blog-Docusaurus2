@@ -6,6 +6,7 @@ node_modules
 /drafts
 /tmp
 cloudbaserc.json
+/.idea
 
 # Generated files
 .docusaurus

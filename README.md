@@ -8,7 +8,7 @@
 
 <p align="center">
 <br>
-<a href="https://kuizuo.cn">🖥 Online Preview</a>
+<a href="https://www.aigptgod.com">🖥 Online Preview</a>
 <br><br> 
 <a href="https://vercel.com/new/clone?repository-url=https://github.com/kuizuo/blog/tree/main&project-name=blog&repo-name=blog" rel="nofollow"><img src="https://vercel.com/button"></a>
 <a href="https://app.netlify.com/start/deploy?repository=https://github.com/kuizuo/blog" rel="nofollow"><img src="https://www.netlify.com/img/deploy/button.svg"></a>
@@ -34,7 +34,7 @@
 - 🌈 **资源导航** - 收集并分享有用、有意思的资源
 - 📦 **项目展示** - 展示你的项目，可用作于作品集
 
-我的修改：[Docusaurus 主题魔改](https://kuizuo.cn/docs/docusaurus-guides)
+我的修改：[Docusaurus 主题魔改](https://www.aigptgod.com/docs/docusaurus-guides)
 
 ## 📊 Catalogue
 
