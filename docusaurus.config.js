@@ -268,14 +268,14 @@ module.exports = async function createConfigAsync() {
       ],
     ],
     stylesheets: [],
-    // i18n: {
-    //   defaultLocale: 'zh-CN',
-    //   locales: ['en', 'zh-CN'],
-    //   localeConfigs: {
-    //     en: {
-    //       htmlLang: 'en-GB',
-    //     },
-    //   },
-    // },
+    i18n: {
+      defaultLocale: 'en',
+      locales: ['en', 'zh-CN'],
+      localeConfigs: {
+        en: {
+          htmlLang: 'en-GB',
+        },
+      },
+    },
   }
 }
