@@ -12,9 +12,17 @@ module.exports = async function createConfigAsync() {
     url: 'https://www.aigptgod.com',
     baseUrl: '/',
     favicon: 'img/favicon.ico',
-    organizationName: 'kuizuo',
+    organizationName: 'ai gpt god',
     projectName: 'blog',
-    tagline: '道阻且长，行则将至',
+    tagline: 'AI GPT God revolutionizes divine prescience with cutting-edge language modeling. Master of digital omniscience, it interprets human musings to offer wise insight and guidance. Generating sermons of text tailored to human quandaries, AI GPT God elevates linguistic prowess, delivering celestial enlightenment to seekers of wisdom.',
+    scripts: [
+      //google adsense
+      {
+        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5455845858903578',
+        async: true,
+        crossorigin: 'anonymous',
+      },
+    ],
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     themeConfig: {
       // announcementBar: {
@@ -188,6 +196,11 @@ module.exports = async function createConfigAsync() {
             path: 'docs',
             sidebarPath: 'sidebars.js',
           },
+          //google analytics
+          gtag: {
+            trackingID: 'G-V6Z995FS51',
+            anonymizeIP: true,
+          },
           blog: false,
           theme: {
             customCss: [require.resolve('./src/css/custom.scss')],
@@ -225,7 +238,7 @@ module.exports = async function createConfigAsync() {
             defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
           feedOptions: {
             type: 'all',
-            title: '愧怍',
+            title: 'ai gpt god',
             copyright: `Copyright © ${new Date().getFullYear()} aigptgod Built with Docusaurus.`,
             // copyright: `Copyright © ${new Date().getFullYear()} 愧怍 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
           },
