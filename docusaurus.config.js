@@ -32,15 +32,15 @@ module.exports = async function createConfigAsync() {
       metadata: [
         {
           name: 'keywords',
-          content: '愧怍, kuizuo',
+          content: 'ai gpt god, chatgpt, ai, aigpt, gptgod, gpt, god, aichatgpt, AIGPTGOD',
         },
         {
           name: 'keywords',
-          content: 'blog, javascript, typescript, node, react, vue, web',
+          content: 'amazons gpt55x, chaptgpt, chatgdp',
         },
         {
           name: 'keywords',
-          content: '编程爱好者, Web开发者, 写过爬虫, 学过逆向, 现在主攻ts全栈',
+          content: 'amazons gpt55x, janitor ai, god mode ai',
         },
       ],
       docs: {
@@ -53,7 +53,7 @@ module.exports = async function createConfigAsync() {
           tagName: 'meta',
           attributes: {
             name: 'description',
-            content: '愧怍的个人博客',
+            content: 'AI GPT God revolutionizes divine prescience with cutting-edge language modeling. Master of digital omniscience, it interprets human musings to offer wise insight and guidance. Generating sermons of text tailored to human quandaries, AI GPT God elevates linguistic prowess, delivering celestial enlightenment to seekers of wisdom.',
           },
         },
       ],
