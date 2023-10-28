@@ -31,6 +31,10 @@ module.exports = async function createConfigAsync() {
       // },
       metadata: [
         {
+          name: 'google-adsense-account',
+          content: 'ca-pub-5455845858903578',
+        },
+        {
           name: 'keywords',
           content: 'ai gpt god, chatgpt, ai, aigpt, gptgod, gpt, god, aichatgpt, AIGPTGOD',
         },
@@ -270,7 +274,7 @@ module.exports = async function createConfigAsync() {
     stylesheets: [],
     i18n: {
       defaultLocale: 'en',
-      locales: ['en', 'zh-CN'],
+      locales: ['en'],
       localeConfigs: {
         en: {
           htmlLang: 'en-GB',

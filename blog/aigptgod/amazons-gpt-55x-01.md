@@ -1,7 +1,7 @@
 ---
 title: Exploring the Future with Amazon's GPT-55X
 description: RExploring the Future with Amazon's GPT-55X
-slug: Exploring-Amazon's GPT-55X
+slug: Exploring-Amazon's-GPT-55X
 authors: marvin
 date: 2023-10-26
 tags: [GPT-55X,AIGPTGOD]
