@@ -213,10 +213,6 @@ module.exports = async function createConfigAsync() {
             changefreq: 'daily',
             priority: 0.5,
           },
-          gtag: {
-            trackingID: 'G-S4SD5NXWXF',
-            anonymizeIP: true,
-          },
           // debug: true,
         }),
       ],
