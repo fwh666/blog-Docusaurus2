@@ -6,7 +6,7 @@ authors: marvin
 date: 2023-10-29
 tags: [GPT-55X,AIGPTGOD,AI]
 hide_table_of_contents: false
-image: /img/blog/aigptgod/background02.png
+image: /img/blog/aigptgod/background02.jpg
 ---
 
 # Mastering the Magic of Amazon's GPT-55X

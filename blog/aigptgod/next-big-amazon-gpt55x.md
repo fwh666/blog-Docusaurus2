@@ -6,7 +6,7 @@ authors: marvin
 date: 2023-10-28
 tags: [GPT-55X,AIGPTGOD,AI]
 hide_table_of_contents: false
-image: /img/blog/aigptgod/background03.png
+image: /img/blog/aigptgod/background03.jpg
 ---
 
 # Amazon's GPT-55X: The Next Big Thing in AI

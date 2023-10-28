@@ -6,7 +6,7 @@ authors: marvin
 date: 2023-10-27
 tags: [GPT-55X,AIGPTGOD,AI]
 hide_table_of_contents: false
-image: /img/blog/aigptgod/background04.png
+image: /img/blog/aigptgod/background04.jpg
 ---
 
 
