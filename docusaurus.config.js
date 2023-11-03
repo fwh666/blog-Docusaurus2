@@ -43,8 +43,8 @@ const config = {
       title: '文浩',
       logo: {
         alt: '文浩',
-        src: 'https://s2.loli.net/2023/10/25/ARoiMrFbcnVK7Ba.png',
-        srcDark: 'https://s2.loli.net/2023/10/25/ARoiMrFbcnVK7Ba.png',
+        src: 'https://leanoss.fuwenhao.club/EY85A3N1eez2zuEcxJh71m2MdNqQOxYk/logo.jpg',
+        srcDark: 'https://leanoss.fuwenhao.club/EY85A3N1eez2zuEcxJh71m2MdNqQOxYk/logo.jpg',
       },
       hideOnScroll: true,
       items: [
