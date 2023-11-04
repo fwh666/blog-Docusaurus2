@@ -8,7 +8,6 @@ keywords: [ClashX,WenHao,文浩,Marvin]
 description: 知名翻墙客户端Clash for Windows删库停更
 ---
 
-
 # 【网络民议】知名翻墙客户端Clash for Windows删库停更
 
 11/02/2023
@@ -44,7 +43,7 @@ Clash for Windows为用户提供了图形化的操作界面（GUI），支持多
 
 > 2023年4月，央视新闻联播称“中国开源软件开发者数量突破800万，居全球第二”，视频中却意外展示出程序员在使用Clash进行翻墙，因为细节画面中的“7890”端口为Clash程序设定的默认端口。但由于视频未提供更多细节，我们无法得知程序员使用的是哪款Clash应用。（ChatGPT：Macos支持的Clash应用有：ClashX、Clash for Windows、KoolClash）
 
-- [【翻车现场】官方证实：中国开源软件开发者的最大障碍是GFW](fuwenhao.club)
+- [【翻车现场】官方证实：中国开源软件开发者的最大障碍是GFW](https://fuwenhao.club)
   ![img](https://s2.loli.net/2023/11/03/SPacjhW5MVO4KEk.png)
   ![img](https://chinadigitaltimes.net/chinese/files/2023/04/image-1681815442173.png)
 
