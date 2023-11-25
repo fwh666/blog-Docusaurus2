@@ -1,6 +1,6 @@
 ---
-slug: daily-poetry-image:-An-ancient-Chinese-poem-every-day
-title: daily-poetry-image: 每天一句中国古诗词
+slug: daily-poetry-image-An-ancient-Chinese-poem-every-day
+title: 每天一句中国古诗词
 date: 2023-11-20
 authors: wenhao
 tags: ['Default']
