@@ -8,7 +8,7 @@ keywords: ['Default']
 ---
 https://zhuanlan.zhihu.com/p/570140268 
 
-![Image](https://prod-files-secure.s3.us-west-2.amazonaws.com/b0012720-ccd1-41ef-9ca9-02f55a45f30f/0310c42b-7548-42ed-8114-5449af28ff75/v2-4018c47f7e90badc90cbbd5a1afcd147_1440w.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20231125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231125T060348Z&X-Amz-Expires=3600&X-Amz-Signature=5bff8ee8163ca2e1efe00408f3bed1579d8cecbe8a83cff13f3c814f7efacdd2&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Image](https://prod-files-secure.s3.us-west-2.amazonaws.com/b0012720-ccd1-41ef-9ca9-02f55a45f30f/0310c42b-7548-42ed-8114-5449af28ff75/v2-4018c47f7e90badc90cbbd5a1afcd147_1440w.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20231125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231125T062349Z&X-Amz-Expires=3600&X-Amz-Signature=0a0b92bfa75b68c16fc5bbf19319eae41fee56476fe24c75e10d46ebb7613c41&X-Amz-SignedHeaders=host&x-id=GetObject)
 ## 全部代码
 
 <!-- truncate -->
@@ -145,7 +145,7 @@ if __name__ == '__main__':
 
 <!-- truncate -->
 
-![Image](https://prod-files-secure.s3.us-west-2.amazonaws.com/b0012720-ccd1-41ef-9ca9-02f55a45f30f/b3b4ccaf-9efa-45d1-872f-af387104f798/v2-0662eddf2b03985c2f45ab4ef74318d3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20231125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231125T060348Z&X-Amz-Expires=3600&X-Amz-Signature=c49385cd9e675c508bc38688678690c64893c617e01887247baa6ba5649197f3&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Image](https://prod-files-secure.s3.us-west-2.amazonaws.com/b0012720-ccd1-41ef-9ca9-02f55a45f30f/b3b4ccaf-9efa-45d1-872f-af387104f798/v2-0662eddf2b03985c2f45ab4ef74318d3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20231125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231125T062349Z&X-Amz-Expires=3600&X-Amz-Signature=28d450427c00ffa8be88a712b2dcbee896194fa0370f64664ceda7279547896b&X-Amz-SignedHeaders=host&x-id=GetObject)
 0 
 ## 1️⃣准备阶段
 
@@ -156,14 +156,14 @@ if __name__ == '__main__':
 将你的工作界面加入连接。 
 ### 1、创建API
 
-![Image](https://prod-files-secure.s3.us-west-2.amazonaws.com/b0012720-ccd1-41ef-9ca9-02f55a45f30f/e5d8e791-c60d-4e73-8e5c-840d426cab9d/v2-9922e967372e985a09454f2ff7ef0442_b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20231125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231125T060348Z&X-Amz-Expires=3600&X-Amz-Signature=fd8092a45f7be7961ed67519587b245ed546f72e1beab89b21112c4dddb978f5&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Image](https://prod-files-secure.s3.us-west-2.amazonaws.com/b0012720-ccd1-41ef-9ca9-02f55a45f30f/e5d8e791-c60d-4e73-8e5c-840d426cab9d/v2-9922e967372e985a09454f2ff7ef0442_b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20231125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231125T062349Z&X-Amz-Expires=3600&X-Amz-Signature=68d8038c4b1d569a3e27d3d17aebdd26ba6c4415c4d67a2a174a20db8c736fd3&X-Amz-SignedHeaders=host&x-id=GetObject)
 ​ 
 创建后会出现： Secrets 
 点击右方的Show，获取这一串密钥，在Python代码中需要 
 - 详情
-### ​​​2、API连接数据库
+### ​2、API连接数据库
 
-![Image](https://prod-files-secure.s3.us-west-2.amazonaws.com/b0012720-ccd1-41ef-9ca9-02f55a45f30f/ee422b3e-48da-4cae-af0e-2061a0c67f94/v2-3e5837dc82bc06d676138d15a7c97291_b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20231125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231125T060348Z&X-Amz-Expires=3600&X-Amz-Signature=3a03233b0cf292316ceb13c79bb0605e58ecdd90e12c2d8033f7f9bce89daf69&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Image](https://prod-files-secure.s3.us-west-2.amazonaws.com/b0012720-ccd1-41ef-9ca9-02f55a45f30f/ee422b3e-48da-4cae-af0e-2061a0c67f94/v2-3e5837dc82bc06d676138d15a7c97291_b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20231125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231125T062349Z&X-Amz-Expires=3600&X-Amz-Signature=4e8d529360fbe6e769960c2220daf34076aa48c08fd24ae6ccc6d0e8f66fefe0&X-Amz-SignedHeaders=host&x-id=GetObject)
 点击右上角三点后，再点击，Add connections，加入你所创建的API 
 ### 3、获取数据库ID
 
@@ -334,5 +334,5 @@ if __name__ == '__main__':
 - 输出效果
 - 
 编辑将HTML打开即可看到 
-![Image](https://prod-files-secure.s3.us-west-2.amazonaws.com/b0012720-ccd1-41ef-9ca9-02f55a45f30f/9676af5b-6ec0-4fc7-bfa4-e94a967c79fc/v2-0662eddf2b03985c2f45ab4ef74318d3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20231125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231125T060348Z&X-Amz-Expires=3600&X-Amz-Signature=b92520c5ebfc7c40cf52ab6d8cb63c4471bd8da5add94ca4c22e847074f044be&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Image](https://prod-files-secure.s3.us-west-2.amazonaws.com/b0012720-ccd1-41ef-9ca9-02f55a45f30f/9676af5b-6ec0-4fc7-bfa4-e94a967c79fc/v2-0662eddf2b03985c2f45ab4ef74318d3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20231125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231125T062349Z&X-Amz-Expires=3600&X-Amz-Signature=21fd2ca099763a29da425722a7f78a04650141d8b5779dfb856cb0f1166bba5b&X-Amz-SignedHeaders=host&x-id=GetObject)
 0 
