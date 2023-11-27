@@ -1,6 +1,6 @@
 ---
-slug: How-do-I-get-blocks-and-sub-blocks-of-a-page-in-Notion?
-title: 如何在Notion中获取一个页面的块和子块？
+slug: How-do-I-get-blocks-and-sub-blocks-of-a-page-in-Notion
+title: 如何在Notion中获取一个页面的块和子块
 date: 2023-11-24
 authors: wenhao
 tags: ['Notion', 'Default']
