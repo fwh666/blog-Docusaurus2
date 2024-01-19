@@ -12,6 +12,8 @@ keywords: [Clash, 科学上网]
 
 ## 已按照相关规定，清除相关内容。
 
+https://blog.fuwenhao.club/article/32dec089-e890-487f-a0e1-b6f76ea5f114
+
 ## 参考网址：
 - [macOS – ClashX 使用教程](/docs/ClashX_teach_Mac)
 - [Clash for Android教程](/docs/ClashX_teach_android)
