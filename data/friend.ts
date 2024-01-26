@@ -5,18 +5,24 @@ export const Friends: Friend[] = [
     website: 'https://zxuqian.cn',
     avatar: '/img/friend/zxuqian.png',
   },
-  // {
-  //   title: 'Mas0n',
-  //   description: '梦想是咸鱼',
-  //   website: 'https://blog.shi1011.cn',
-  //   avatar: '/img/friend/mas0n.png',
-  // },
-  // {
-  //   title: 'Jetzihan',
-  //   description: 'A bug maker.',
-  //   website: 'https://jetlab.live/',
-  //   avatar: '/img/friend/jetzihan.png',
-  // },
+  {
+    title: 'Y2bmp3',
+    description: 'YouTube to MP3',
+    website: 'https://y2bmp3.com',
+    avatar: 'https://www.y2bmp3.com/_next/image?url=%2FMartz90-Circle-Video-camera.48.png&w=48&q=75',
+  },
+  {
+    title: 'Whoer ip',
+    description: 'View My IP Address.',
+    website: 'https://www.whoerips.com/',
+    avatar: 'https://www.whoerips.com/favicon.ico',
+  },
+  {
+    title: 'AI GPT God',
+    description: 'Description will go into a meta tag',
+    website: 'https://www.aigptgod.com/',
+    avatar: 'https://www.aigptgod.com/img/favicon.ico',
+  },
   // {
   //   title: 'Pincman',
   //   description: '中年老码农,专注于全栈开发与教学',
