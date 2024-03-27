@@ -185,11 +185,11 @@ const config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/fwh666',
+              href: 'https://github.com/wenhaofree',
             },
             // {
             //   label: '掘金',
-            //   href: 'https://juejin.cn/user/1565318510545901',
+            //   href: 'https://juejin.cn/user/2348212569772654',
             // },
             // {
             //   label: 'Discord',
@@ -275,13 +275,13 @@ const config = {
       playgroundPosition: 'top',
     },
     socials: {
-      github: 'https://github.com/fwh666',
-      // twitter: 'https://twitter.com/wenhao',
-      juejin: 'https://juejin.cn/user/1565318510545901',
+      github: 'https://github.com/wenhaofree',
+      twitter: 'https://twitter.com/wenhaofree',
+      juejin: 'https://juejin.cn/user/2348212569772654',
       csdn: 'https://blog.csdn.net/wenhao12',
-      // qq: 'https://wpa.qq.com/msgrd?v=3&amp;uin=911993023&amp;site=qq',
-      zhihu: 'https://www.zhihu.com/people/wenhao',
-      cloudmusic: 'https://music.163.com/#/user/home?id=1333010742',
+      qq: 'https://wpa.qq.com/msgrd?v=3&amp;uin=347246463&amp;site=qq',
+      zhihu: 'https://www.zhihu.com/people/wenhaomarvin',
+      cloudmusic: 'https://music.163.com/#/user/home?id=',
     },
   },
   headTags: [
@@ -347,7 +347,7 @@ const config = {
         path: 'blog',
         routeBasePath: '/',
         editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
-          `https://github.com/fwh666/blog-Docusaurus2/edit/main/${blogDirPath}/${blogPath}`,
+          `https://github.com/wenhaofree/blog-Docusaurus2/edit/main/${blogDirPath}/${blogPath}`,
         editLocalizedFiles: false,
         blogDescription: '文浩Marvin:个人博客',
         blogSidebarCount: 10,

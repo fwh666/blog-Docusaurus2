@@ -240,39 +240,39 @@ Markdown 支持行内式链接和引用式链接。
 ```
 行内式 [博客](https://fuwenhao.club "我的个人博客") 链接，带 title。
 
-行内式 [GitHub](https://github.com/fwh666) 链接。
+行内式 [GitHub](https://github.com/wenhaofree) 链接。
 
 引用式 [博客][1] 链接。
 
 引用式 [GitHub][2] 链接，带 title。
 
 [1]: https://fuwenhao.club
-[2]: https://github.com/fwh666 "我的 GitHub 主页"
+[2]: https://github.com/wenhaofree "我的 GitHub 主页"
 ```
 
 **预览效果：**
 
 行内式 [博客](https://fuwenhao.club "我的个人博客") 链接，带 title。
 
-行内式 [GitHub](https://github.com/fwh666) 链接。
+行内式 [GitHub](https://github.com/wenhaofree) 链接。
 
 引用式 [博客][1] 链接。
 
 引用式 [GitHub][2] 链接，带 title。
 
 [1]: https://fuwenhao.club
-[2]: https://github.com/fwh666 "我的 GitHub 主页"
+[2]: https://github.com/wenhaofree "我的 GitHub 主页"
 
 **对应 HTML：**
 
 ```html
 <p>行内式 <a href="https://fuwenhao.club" title="我的个人博客">博客</a> 链接，带 title。</p>
 
-<p>行内式 <a href="https://github.com/fwh666">GitHub</a> 链接。</p>
+<p>行内式 <a href="https://github.com/wenhaofree">GitHub</a> 链接。</p>
 
 <p>引用式 <a href="https://fuwenhao.club">博客</a> 链接。</p>
 
-<p>引用式 <a href="https://github.com/fwh666" title="我的 GitHub 主页">GitHub</a> 链接，带 title。</p>
+<p>引用式 <a href="https://github.com/wenhaofree" title="我的 GitHub 主页">GitHub</a> 链接，带 title。</p>
 ```
 
 ### 图片
