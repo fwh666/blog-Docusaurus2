@@ -5,14 +5,14 @@ const announcementBarContent = `<a href="/typescript-full-stack-technology-trpc"
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '文浩开发工程师',
+  title: '文浩Marvin',
   titleDelimiter: '-',
   url: 'https://fuwenhao.club',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'wenhao',
   projectName: 'blog',
-  tagline: '感受编程的乐趣，为AI发电',
+  tagline: '文浩Marvin,一个分享有趣好用APP和网站技术的博主',
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   themeConfig: {
     image: 'img/logo.png',
@@ -31,7 +31,7 @@ const config = {
       },
       {
         name: 'keywords',
-        content: '编程爱好者, Web开发者, 写过爬虫, 学过逆向，现在主攻ts全栈',
+        content: '编程爱好者, Web开发者, 写过爬虫, 学过逆向,现在主攻ts全栈, 一个分享有趣好用APP和网站技术的博主',
       },
       {
         name: 'google-adsense-account',
