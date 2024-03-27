@@ -33,6 +33,10 @@ const config = {
         name: 'keywords',
         content: '编程爱好者, Web开发者, 写过爬虫, 学过逆向，现在主攻ts全栈',
       },
+      {
+        name: 'google-adsense-account',
+        content: 'ca-pub-5455845858903578',
+      }
     ],
     docs: {
       sidebar: {
