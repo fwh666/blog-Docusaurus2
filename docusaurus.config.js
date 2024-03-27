@@ -60,50 +60,52 @@ const config = {
               label: '归档',
               to: 'archive',
             },
-            // {
-            //   label: '笔记',
-            //   to: 'docs/skill/',
-            // },
-            // {
-            //   label: '工具推荐',
-            //   to: 'docs/tools/',
-            // },
-            // {
-            //   label: '前端示例',
-            //   to: 'https://example.wenhao.cn',
-            // },
           ],
         },
         {
-          label: 'Wiki',
-          position: 'right',
-          // to:'docs/skill/',
-          items: [
-            {
-              label: 'Java系列',
-              to: 'https://wiki.fuwenhao.club/',
-            },
-            {
-              label: '精简系列',
-              to: 'docs/skill/',
-            }
-          ]
-        },
-        {
-          label: 'Skill',
+          label: '更多',
           position: 'right',
           items: [
-            //对应sidebars.js的type目录,实现效果需要单独定义目录
             {
-              label: 'React',
-              to: 'docs/category/react-1'
+              label:'笔记',
+              to:'docs/skill/',
             },
             {
-              label: 'JavaScript',
-              to: 'docs/category/JavaScript-1',
+              label: '资源',
+              to: 'resource',
             },
           ]
         },
+//        {
+//          label: 'Wiki',
+//          position: 'right',
+//          // to:'docs/skill/',
+//          items: [
+//            {
+//              label: 'Java系列',
+//              to: 'https://wiki.fuwenhao.club/',
+//            },
+//            {
+//              label: '精简系列',
+//              to: 'docs/skill/',
+//            }
+//          ]
+//        },
+//        {
+//          label: 'Skill',
+//          position: 'right',
+//          items: [
+//            //对应sidebars.js的type目录,实现效果需要单独定义目录
+//            {
+//              label: 'React',
+//              to: 'docs/category/react-1'
+//            },
+//            {
+//              label: 'JavaScript',
+//              to: 'docs/category/JavaScript-1',
+//            },
+//          ]
+//        },
         // {
         //   label: '工具',
         //   position: 'right',
@@ -130,11 +132,11 @@ const config = {
         //     },
         //   ],
         // },
-        {
-          label: '导航',
-          position: 'right',
-          to: 'resource',
-        },
+//        {
+//          label: '导航',
+//          position: 'right',
+//          to: 'resource',
+//        },
         // {
         //   label: '项目',
         //   position: 'right',
@@ -347,7 +349,7 @@ const config = {
         editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
           `https://github.com/fwh666/blog-Docusaurus2/edit/main/${blogDirPath}/${blogPath}`,
         editLocalizedFiles: false,
-        blogDescription: '文浩的个人博客',
+        blogDescription: '文浩Marvin:个人博客',
         blogSidebarCount: 10,
         blogSidebarTitle: '最近更新',
         postsPerPage: 10,

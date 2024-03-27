@@ -13,6 +13,7 @@ Selenium是一个用电脑模拟人操作浏览器网页，可以实现自动化
 ```plain text
 pip install selenium
 ```
+<!-- truncate -->
 2. 下载浏览器驱动 
 Chrome浏览器驱动： chromedriver  , CNPM Binaries Mirror (npmmirror.com) ，  taobao备用地址 
 需要把浏览器驱动放入系统路径中，或者直接告知selenuim的驱动路径 

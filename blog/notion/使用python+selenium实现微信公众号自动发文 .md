@@ -15,6 +15,7 @@ https://juejin.cn/post/7083147111897923614
 （3）有一个输入框一直定位不到，原来是iframe中的，切换了一下就解决了 
 （4）下拉选项元素定位不到，要加等到时间（sleep（3）） 
 （5）一个元素定位不到，原因是不处于可视界面，将滚动条拖动到元素位置，便可以定位到 
+<!-- truncate -->
 ```plain text
 from selenium import webdriver
 from selenium.webdriver.common.by import By

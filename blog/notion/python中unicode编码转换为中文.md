@@ -11,6 +11,7 @@ https://zhuanlan.zhihu.com/p/489885748
 ![Image](https://prod-files-secure.s3.us-west-2.amazonaws.com/b0012720-ccd1-41ef-9ca9-02f55a45f30f/07c1c2b8-42bf-417f-b328-5ffb5c2a89c8/v2-313068f1b4f5c492af64d13ffefe46d5_1440w.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20231125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231125T072006Z&X-Amz-Expires=3600&X-Amz-Signature=df10d854a02aea9d88a21402bee21908ff61f65e335df4f998fb31e8927095af&X-Amz-SignedHeaders=host&x-id=GetObject)
 我们使用python中，遇到爬取网站情况，用到unicode编码，我们需要将它转换为中文，unicode编码转换为中文的方法有四种：使用unicode_escape 解码、使用encode()方法转换，再调用bytes.decode()转换为字符串形式、 使用json.loads 解码（为json 格式）、使用eval（遇到Unicode是通过requests在网上爬取的时候）。具体内容请看本文。 
 方法一：使用unicode_escape 解码 
+<!-- truncate -->
 ```plain text
 unicode = b'\\u4f60\\u597d'
 re = unicode.decode("unicode_escape")

@@ -7,7 +7,7 @@ tags: ['ChatGPT']
 keywords: ['ChatGPT4']
 ---
 operating-computer，https://t.co/qXKNbRduXU，这个项目演示了如何让 GPT-4V 来控制自己的电脑，你需要做的就是告诉它完成一个怎样的任务，例如，打开 Google Docs 写一篇文章，然后发布并分享给同事。
-
+<!-- truncate -->
 它的 Prompt 写的比较简单，定义了一个可以与机器交互的… https://t.co/AKJAumDIN2" / X undefined 
 ![Image](https://pbs.twimg.com/media/F__VhPYaoAAZJkf.jpg?format=jpg&name=medium)
  Barret李靖 @Barret_China · 28 11月 2023 · link 🔗
