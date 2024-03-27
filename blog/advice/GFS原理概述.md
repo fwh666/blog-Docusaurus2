@@ -100,7 +100,7 @@ GFS 支持一个宽松的一致性模型，这个模型能够很好的支撑高�
 
 文件命名空间的修改（例如，文件创建）是原子性的， 仅由 Master 节点的控制：命名空间锁提供了原子性和正确性的保障；Master 节点的操作日志定义了这些操作在全局的顺序。
 
-![在这里插入图片描述](https://img.fuwenhao.club/blog/0ba5223e353a4062beb8d0f4bd8cf02c~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+![在这里插入图片描述](https://img.wenhaofree.com/blog/0ba5223e353a4062beb8d0f4bd8cf02c~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
 
 - 如果所有客户端，无论从哪个副本读取，读到的数据都一样，那么认为文件 region 是“**一致的**”；
 - 如果对文件的数据修改之后，region 是一致的，并且客户端能够看到写入操作全部的内容，那么这个 region是“**已定义的**”。
@@ -309,11 +309,11 @@ Master 服务器的操作请求大概是每秒钟 200 到 500 个。Master 服�
 
 从 GFS 服务器记录的真实的 RPC 请求日志中推导重建出关于 IO 操作的统计信息，可以通过这些 RPC 请求推导出原始的读操作。
 
-![在这里插入图片描述](https://img.fuwenhao.club/blog/e403f78f264c4301b7f7170cf5a3ceb8~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+![在这里插入图片描述](https://img.wenhaofree.com/blog/e403f78f264c4301b7f7170cf5a3ceb8~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
 
 读取操作按操作涉及的数据量大小呈现了双峰分布。小的读取操作（小于 64KB）一般是由查找操作的客户端发起的，目的在于从巨大的文件中查找小块的数据。大的读取操作（大于 512KB）一般是从头到尾顺序的读取整个文件。
 
-![在这里插入图片描述](https://img.fuwenhao.club/blog/c0380f965ad145d5a929b40149c5a6bb~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+![在这里插入图片描述](https://img.wenhaofree.com/blog/c0380f965ad145d5a929b40149c5a6bb~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
 
 大的操作（超过256KB）占据了主要的传输量。小的读取（小于 64KB）虽然传输的数据量比较少，但是在读取的数据量中仍占了相当的比例，这是在文件中随机 Seek 的工作负荷而导致的。
 
@@ -323,7 +323,7 @@ Master 服务器的操作请求大概是每秒钟 200 到 500 个。Master 服�
 
 ##### 6.3.4 Master的工作负荷
 
-![在这里插入图片描述](https://img.fuwenhao.club/blog/9ee92f017d3344b6acb8e754384ab235~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+![在这里插入图片描述](https://img.wenhaofree.com/blog/9ee92f017d3344b6acb8e754384ab235~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
 
 大部分的请求都是读取操作查询 Chunk 位置信息（FindLocation）、以及修改操作查询 lease 持有者的信息（FindLease-Locker）。
 

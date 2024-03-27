@@ -40,9 +40,9 @@ const config = {
       },
     },
     navbar: {
-      title: '文浩',
+      title: '文浩Marvin',
       logo: {
-        alt: '文浩',
+        alt: '文浩Marvin',
         src: 'https://leanoss.fuwenhao.club/EY85A3N1eez2zuEcxJh71m2MdNqQOxYk/logo.jpg',
         srcDark: 'https://leanoss.fuwenhao.club/EY85A3N1eez2zuEcxJh71m2MdNqQOxYk/logo.jpg',
       },

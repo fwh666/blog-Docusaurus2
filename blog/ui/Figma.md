@@ -9,7 +9,7 @@ description: 关于Figma基本概念及入门使用
 ---
 
 ## 初识Figma
-![Figma](https://img.fuwenhao.club/blog/001.png)
+![Figma](https://img.wenhaofree.com/blog/001.png)
 
 Figma是一款基于云端的设计工具，它允许用户在同一时间进行协作和设计。它的主要目的是提供一种简单易用的方式，让设计师和团队成员能够共同协作进行设计。
 
@@ -50,32 +50,32 @@ Figma是一款功能强大的云端设计工具，具有许多功能亮点。以
 这是我最喜欢的插件之一。只需点击几下，您就可以将任何网站转换为 Figma 设计。想象一下将任何网站转换为设计并使用该网站组件。
 下载插件的链接：[🔗](https://www.figma.com/community/plugin/747985167520967365/Figma-to-HTML%2C-CSS%2C-React-%26-more!)
 
-![](https://img.fuwenhao.club/blog/1*uUJ3dmBytJMpy-WZ6wS_nw.png)
+![](https://img.wenhaofree.com/blog/1*uUJ3dmBytJMpy-WZ6wS_nw.png)
 
 
 2. LottieFiles
 使用 LottieFiles 插件，您可以将动画插入到您的设计中。您可以导入完全免费的 SVG 或 GIF 动画，LottiFiles 为您的项目提供了 1000 个动画。
 下载插件的链接：[🔗](https://www.figma.com/community/plugin/809860933081065308/LottieFiles)
 
-<img src="https://img.fuwenhao.club/blog/1*o2LyHr50G_z7lU1rt-AOmg.png"/>
+<img src="https://img.wenhaofree.com/blog/1*o2LyHr50G_z7lU1rt-AOmg.png"/>
 
 3. 删除背景
 如果您正在使用任何图像并且想要删除图像的背景，那么“删除 BG”是只需单击即可删除背景的最佳插件。
 下载插件的链接：[🔗](https://www.figma.com/community/plugin/738992712906748191/Remove-BG)
 
-<img src="https://img.fuwenhao.club/blog/1*-hF7H1uo_oKavGNnP8disA.png"/>
+<img src="https://img.wenhaofree.com/blog/1*-hF7H1uo_oKavGNnP8disA.png"/>
 
 4. 自动化流程
 Autoflow 是创建快速用户流程的最佳且简单的工具。您只需创建形状并连接它们即可在很短的时间内创建用户流程。
 下载插件的链接：[🔗](https://www.figma.com/community/plugin/733902567457592893/Autoflow)
 
-<img src="https://img.fuwenhao.club/blog/1*BRwjB2oDWCB7ELVyd2OAaA.gif"/>
+<img src="https://img.wenhaofree.com/blog/1*BRwjB2oDWCB7ELVyd2OAaA.gif"/>
 
 5. Content Reel
 Content Reel 是一个你可以获得一切的地方，几乎是一切；从图像到文本字符串，到图标，还有头像。我经常使用这个插件，这个插件是由微软创建的。这是我最重要、最省时间的插件。
 下载插件的链接：[🔗](https://www.figma.com/community/plugin/731627216655469013/Content-Reel)
 
-<img src="https://img.fuwenhao.club/blog/1*rZEZYM3_trFv9Mq8DZpTJg.png"/>
+<img src="https://img.wenhaofree.com/blog/1*rZEZYM3_trFv9Mq8DZpTJg.png"/>
 
 
 ## 参考网址
