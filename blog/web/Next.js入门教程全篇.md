@@ -13,7 +13,7 @@ description: next js中入门教程全篇
 
 ## 阅读之前
 
-在了解*Next.js*之前，需要掌握[React](https://fuwenhao.club/docs/category/react-1/)的基本使用方法。
+在了解*Next.js*之前，需要掌握[React](https://wenhaofree.com/docs/category/react-1/)的基本使用方法。
 
 ## 搭建
 

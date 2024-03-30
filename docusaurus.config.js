@@ -7,7 +7,7 @@ const announcementBarContent = `<a href="/typescript-full-stack-technology-trpc"
 const config = {
   title: '文浩Marvin',
   titleDelimiter: '-',
-  url: 'https://fuwenhao.club',
+  url: 'https://wenhaofree.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'wenhao',
