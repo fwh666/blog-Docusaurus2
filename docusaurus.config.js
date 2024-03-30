@@ -23,15 +23,11 @@ const config = {
     metadata: [
       {
         name: 'keywords',
-        content: '文浩,文浩开发工程师,文浩Marvin, Marvin',
+        content: '文浩Marvin,文浩,Marvin,文浩博客,文浩开发工程师',
       },
       {
         name: 'keywords',
-        content: 'blog, javascript, typescript, node, react, vue, web',
-      },
-      {
-        name: 'keywords',
-        content: '编程爱好者, Web开发者, 写过爬虫, 学过逆向,现在主攻ts全栈, 一个分享有趣好用APP和网站技术的博主',
+        content: 'java, javascript, typescript, node, react, vue, web, python',
       },
       {
         name: 'google-adsense-account',
