@@ -13,7 +13,7 @@ authors: wenhao
 
 ```javascript title='docusaurus.config.js'
 const config = {
-  title: '文浩的小站',
+  title: '文浩Marvin',
   titleDelimiter: '-',
   url: 'https://wenhao.cn',
   baseUrl: '/',

@@ -1,6 +1,6 @@
 {
-  "name": "文浩的小站",
-  "short_name": "文浩的小站",
+  "name": "文浩Marvin",
+  "short_name": "文浩Marvin",
   "theme_color": "#12affa",
   "background_color": "#424242",
   "display": "standalone",
@@ -9,7 +9,7 @@
   "related_applications": [
     {
       "platform": "webapp",
-      "url": "https://fuwenhao.club/manifest.json"
+      "url": "https://wenhaofree.com/manifest.json"
     }
   ],
   "icons": [
