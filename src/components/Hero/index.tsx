@@ -36,7 +36,7 @@ function Hero() {
         </animated.div>
         <animated.p style={trails[1]}>
           <Translate id="homepage.hero.text">
-            {`在这里我会分享各类技术栈所遇到问题与解决方案，带你了解最新的技术栈以及实际开发中如何应用，并希望我的开发经历对你有所启发。`}
+            {`探索有趣好用APP和网站的博主,分享各类技术栈和AIGC项目解决方案,带你了解最新的技术以及实际需求中如何应用，并希望我的开发经历对你有所帮助。`}
           </Translate>
           <br />
           <br />
