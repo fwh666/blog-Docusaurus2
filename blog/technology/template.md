@@ -1,6 +1,6 @@
 ---
 slug: ai-template
-title: AI检索引擎
+title: 模版文件
 date: 2008-03-27
 authors: wenhao
 tags: [develop, cloud]
