@@ -8,7 +8,8 @@ keywords: [wenhao, free-gpt3.5,free-gpt3.5-api]
 # image: /img/blog/vue-chrome-extension.png
 # sticky: 6
 ---
-![image-20210905085929546](/img/blog/vue-chrome-extension.png)
+![trump-LobeHub](https://cdn.wenhaofree.com/gh/wenhaofree/Image/blog/trump-LobeHub.jpeg)
+
 <!-- truncate -->
 
 **一款免费开源的项目即可搞定：ChatGPT、Claude、Google Gemini、Mistral、LLaMA2等主流AI大模型的无缝切换使用！**
@@ -82,3 +83,6 @@ $ pnpm install
 $ pnpm dev
 ```
 
+
+## 手残党必选:
+- [免魔法使用地址](https://lobe-chat.wenhaofree.com/welcome)
