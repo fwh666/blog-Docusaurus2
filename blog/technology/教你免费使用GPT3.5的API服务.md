@@ -86,3 +86,6 @@ $ pnpm dev
 
 ## 手残党必选:
 - [免魔法使用地址](https://lobe-chat.wenhaofree.com/welcome)
+
+
+- 原文地址: https://wenhaofree.com/free-LobeHub
