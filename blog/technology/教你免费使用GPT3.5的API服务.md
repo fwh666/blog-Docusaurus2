@@ -87,5 +87,13 @@ $ pnpm dev
 ## 手残党必选:
 - [免魔法使用地址](https://lobe-chat.wenhaofree.com/welcome)
 
+  - 进入后，记得输入自己的OpenAI Key哈~
+  - ![image-20240406212928819](https://cdn.wenhaofree.com/gh/wenhaofree/Image/blog/image-20240406212928819.png)
+
+
+  - **记得验证自己的key是否有效！**
+  - ![image-20240406213239998](https://cdn.wenhaofree.com/gh/wenhaofree/Image/blog/image-20240406213239998.png)
+
 
 - 原文地址: https://wenhaofree.com/free-LobeHub
+
