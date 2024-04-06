@@ -106,11 +106,17 @@ $ pnpm dev
 
    ![image-20240406214913452](https://cdn.wenhaofree.com/gh/wenhaofree/Image/blog/image-20240406214913452.png)
 
+![image-20240406220533274](https://cdn.wenhaofree.com/gh/wenhaofree/Image/blog/image-20240406220533274.png)
 
-
-
+![image-20240406221650618](https://cdn.wenhaofree.com/gh/wenhaofree/Image/blog/image-20240406221650618.png)
 
 ### 3.关于模型选择：
 
 - **使用在线地址的模型，默认只有OpenAI的ChatGPT。 如果需要其他模型需要自行配置**
 - ![image-20240406215336615](https://cdn.wenhaofree.com/gh/wenhaofree/Image/blog/image-20240406215336615.png)
+
+
+
+### 4. 关于修改密码：
+
+![image-20240406220008590](https://cdn.wenhaofree.com/gh/wenhaofree/Image/blog/image-20240406220008590.png)
