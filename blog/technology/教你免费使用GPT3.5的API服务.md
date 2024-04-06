@@ -85,8 +85,9 @@ $ pnpm dev
 
 
 ## 手残党必选:
-- [免魔法使用地址](https://lobe-chat.wenhaofree.com/welcome)
+### 1.在线使用地址：
 
+- [免魔法使用地址](https://lobe-chat.wenhaofree.com/welcome)
   - 进入后，记得输入自己的OpenAI Key哈~
   - ![image-20240406212928819](https://cdn.wenhaofree.com/gh/wenhaofree/Image/blog/image-20240406212928819.png)
 
@@ -97,3 +98,19 @@ $ pnpm dev
 
 - 原文地址: https://wenhaofree.com/free-LobeHub
 
+
+
+### 2.关于移动端同步：
+
+1. **设置同步按钮操作：**
+
+   ![image-20240406214913452](https://cdn.wenhaofree.com/gh/wenhaofree/Image/blog/image-20240406214913452.png)
+
+
+
+
+
+### 3.关于模型选择：
+
+- **使用在线地址的模型，默认只有OpenAI的ChatGPT。 如果需要其他模型需要自行配置**
+- ![image-20240406215336615](https://cdn.wenhaofree.com/gh/wenhaofree/Image/blog/image-20240406215336615.png)
