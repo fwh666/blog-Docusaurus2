@@ -1,7 +1,7 @@
 ---
 slug: FlowMind
 title: 摩根大通推出创新工具 FlowMind，引领金融自动化新变革
-date: 2008-03-27
+date: 2024-04-29
 authors: wenhao
 tags: [AI, 软件工具]
 keywords: [AI, 软件工具, FlowMind]
