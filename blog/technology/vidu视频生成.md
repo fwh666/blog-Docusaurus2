@@ -31,6 +31,11 @@ Vidu 不仅能够模拟真实物理世界，还充满了丰富的想象力，支
 
 
 
+## 软件工具资料已经打包好!!
+👆🔼**领取添加VX: wenhaofree **🔼👆
+
+![SCR-20240426-jtrc](https://leanoss.fuwenhao.club/3JY2Mt0bpJYfuojus25wbqXupdABr5AU/%E6%96%87%E6%B5%A9%E5%BE%AE%E4%BF%A103.png)
+
 
 
 [官网](https://www.shengshu-ai.com/home)：https://www.shengshu-ai.com/home

@@ -129,3 +129,10 @@ python inference.py --image=../__assets__/demo/fish.jpg --base_model=SVD
 | 1200帧 | 1750 秒（约 29 分钟）        | 10265 秒（~171 分钟）        |
 
 所有测量均使用 NVIDIA A100 (80 GB) GPU 进行。当帧数超过 80 时，采用随机混合。对于随机混合，`chunk_size`和 的值`overlap_size`分别设置为 112 和 32。
+
+
+## 软件工具资料已经打包好!!
+👆🔼**领取添加VX: wenhaofree **🔼👆
+
+![SCR-20240426-jtrc](https://leanoss.fuwenhao.club/3JY2Mt0bpJYfuojus25wbqXupdABr5AU/%E6%96%87%E6%B5%A9%E5%BE%AE%E4%BF%A103.png)
+
