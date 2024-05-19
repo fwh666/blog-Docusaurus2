@@ -311,7 +311,7 @@ const config = {
           priority: 0.5,
         },
         gtag: {
-          trackingID: 'G-B7HFBZ61B1',
+          trackingID: 'G-TBMXJKG84N',
           anonymizeIP: true,
         },
         // debug: true,
