@@ -32,10 +32,6 @@ jobs:
 
       - name: SSH Deploy
         uses: easingthemes/ssh-deploy@v2.2.11
-        with:
-          REMOTE_PORT: 22
-          TARGET: /home/runner/
-          ARGS: -rltgoDzvO
         env:
           SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
           ARGS: "-rlgoDzvc --delete"
