@@ -16,9 +16,10 @@ jobs:
       - name: Test SSH Connection
         run: |
           mkdir -p ~/.ssh
-          echo "${{ secrets.PRIVATE_KEY }}" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@${{ secrets.REMOTE_HOST }} "echo 'SSH connection successful'"
+          echo "${{ secrets.PRIVATE_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh -o StrictHostKeyChecking=no -i ~/.ssh/deploy_key root@${{ secrets.REMOTE_HOST }} "echo 'SSH connection successful'"
+
 
       - name: Use Node.js 16
         uses: actions/setup-node@v3
@@ -34,11 +35,11 @@ jobs:
         uses: easingthemes/ssh-deploy@v2.2.11
         with:
           REMOTE_PORT: 22
-          TARGET: /home/lighthouse/
+          TARGET: /home/runner/
           ARGS: -rltgoDzvO
         env:
           SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
-          ARGS: "-rlgoDzvc --delete"
+          ARGS: "-avzr --delete"
           SOURCE: 'build'
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           REMOTE_USER: 'root'
