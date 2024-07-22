@@ -70,14 +70,14 @@ export function BlogUser({ isNavbar = false }: { isNavbar?: boolean }) {
           <Icon icon="carbon:notebook" width="20" height="20" />
           {count.doc}
         </Link>
-        <Link
+        {/* <Link
           className="bloginfo__num-item"
           href="/project"
           data-tips="project count"
         >
           <Icon icon="ph:projector-screen" width="20" height="20" />
           {count.project}
-        </Link>
+        </Link> */}
       </div>
       <SocialLinks
         style={{

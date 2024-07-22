@@ -238,41 +238,41 @@ Markdown 支持行内式链接和引用式链接。
 **Markdown：**
 
 ```
-行内式 [博客](https://fuwenhao.club "我的个人博客") 链接，带 title。
+行内式 [博客](https://wenhaofree.com "我的个人博客") 链接，带 title。
 
-行内式 [GitHub](https://github.com/fwh666) 链接。
+行内式 [GitHub](https://github.com/wenhaofree) 链接。
 
 引用式 [博客][1] 链接。
 
 引用式 [GitHub][2] 链接，带 title。
 
-[1]: https://fuwenhao.club
-[2]: https://github.com/fwh666 "我的 GitHub 主页"
+[1]: https://wenhaofree.com
+[2]: https://github.com/wenhaofree "我的 GitHub 主页"
 ```
 
 **预览效果：**
 
-行内式 [博客](https://fuwenhao.club "我的个人博客") 链接，带 title。
+行内式 [博客](https://wenhaofree.com "我的个人博客") 链接，带 title。
 
-行内式 [GitHub](https://github.com/fwh666) 链接。
+行内式 [GitHub](https://github.com/wenhaofree) 链接。
 
 引用式 [博客][1] 链接。
 
 引用式 [GitHub][2] 链接，带 title。
 
-[1]: https://fuwenhao.club
-[2]: https://github.com/fwh666 "我的 GitHub 主页"
+[1]: https://wenhaofree.com
+[2]: https://github.com/wenhaofree "我的 GitHub 主页"
 
 **对应 HTML：**
 
 ```html
-<p>行内式 <a href="https://fuwenhao.club" title="我的个人博客">博客</a> 链接，带 title。</p>
+<p>行内式 <a href="https://wenhaofree.com" title="我的个人博客">博客</a> 链接，带 title。</p>
 
-<p>行内式 <a href="https://github.com/fwh666">GitHub</a> 链接。</p>
+<p>行内式 <a href="https://github.com/wenhaofree">GitHub</a> 链接。</p>
 
-<p>引用式 <a href="https://fuwenhao.club">博客</a> 链接。</p>
+<p>引用式 <a href="https://wenhaofree.com">博客</a> 链接。</p>
 
-<p>引用式 <a href="https://github.com/fwh666" title="我的 GitHub 主页">GitHub</a> 链接，带 title。</p>
+<p>引用式 <a href="https://github.com/wenhaofree" title="我的 GitHub 主页">GitHub</a> 链接，带 title。</p>
 ```
 
 ### 图片
@@ -282,17 +282,17 @@ Markdown 支持行内式链接和引用式链接。
 **Markdown：**
 
 ```
-![Alt text](https://fuwenhao.club/favicon.ico "favicon")
+![Alt text](https://wenhaofree.com/favicon.ico "favicon")
 ```
 
 **预览效果：**
 
-![Alt text](https://fuwenhao.club/favicon.ico "favicon")
+![Alt text](https://wenhaofree.com/favicon.ico "favicon")
 
 **对应 HTML：**
 
 ```html
-<img src="https://fuwenhao.club/favicon.ico" alt="Alt text" title="favicon">
+<img src="https://wenhaofree.com/favicon.ico" alt="Alt text" title="favicon">
 ```
 
 ### 列表
@@ -614,11 +614,11 @@ https://github.com
 
 以上功能基本都可以用 VSCode + 插件 Markdown Preview Enhanced 实现。
 
-另外可以参考我以前的一篇博客 [关于 Markdown 的一些奇技淫巧](https://fuwenhao.club/2017/09/01/markdown-odd-skills/)。
+另外可以参考我以前的一篇博客 [关于 Markdown 的一些奇技淫巧](https://wenhaofree.com/2017/09/01/markdown-odd-skills/)。
 
 ## 参考
 
 * [Markdown: Syntax - DARING FIREBALL](https://daringfireball.net/projects/markdown/syntax)
 * [Markdown - 维基百科](https://zh.wikipedia.org/wiki/Markdown)
 * [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
-* [关于 Markdown 的一些奇技淫巧](https://fuwenhao.club/2017/09/01/markdown-odd-skills/)
+* [关于 Markdown 的一些奇技淫巧](https://wenhaofree.com/2017/09/01/markdown-odd-skills/)

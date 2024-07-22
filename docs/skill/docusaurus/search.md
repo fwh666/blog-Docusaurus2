@@ -23,7 +23,7 @@ authors: wenhao
 - 收到官网邮件：
   - <img src="https://camo.githubusercontent.com/7ad1ee48e3e3833287e9fd615185e2252d7b5b7e6d13c5d68fd78ee0892017dd/68747470733a2f2f70332d6a75656a696e2e62797465696d672e636f6d2f746f732d636e2d692d6b3375316662706663702f62356234626339386633326534373534626162616539653061616632373864337e74706c762d6b3375316662706663702d7a6f6f6d2d312e696d616765"/>
 - 回复对方邮件：
-  - <img src="https://img.fuwenhao.club/blog/email-replay.png"/>
+  - <img src="https://img.wenhaofree.com/blog/email-replay.png"/>
 - 获取配置信息：
   - <img src="https://camo.githubusercontent.com/c79bda81d64f8904a980fed150f5bcf2333b871bfa199899c5dc8975661ba0b2/68747470733a2f2f70332d6a75656a696e2e62797465696d672e636f6d2f746f732d636e2d692d6b3375316662706663702f38666139386637353236363134643939613337666334373031616161613235367e74706c762d6b3375316662706663702d7a6f6f6d2d312e696d616765"/>
 
@@ -192,7 +192,7 @@ docker run -it --env-file=.env -e "CONFIG=$(cat docsearch.json | jq -r tostring)
 
 [参考手动搜索配置](https://crawler.algolia.com/admin/crawlers/b90086a2-5ec8-4d0f-a386-9d2a8a12ecc1/overview)
 
-![手动爬虫](https://img.fuwenhao.club/blog/%E6%89%8B%E5%8A%A8%E8%A7%A6%E5%8F%91%E7%88%AC%E8%99%AB.png)
+![手动爬虫](https://img.wenhaofree.com/blog/%E6%89%8B%E5%8A%A8%E8%A7%A6%E5%8F%91%E7%88%AC%E8%99%AB.png)
 
 
 

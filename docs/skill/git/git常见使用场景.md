@@ -87,7 +87,7 @@ keywords: [git]
 
 ## 01-变更remote地址
 
-    1.   [https://github.com/fwh666/fwh-parent.git](https://github.com/fwh666/fwh-parent.git)
+    1.   [https://github.com/wenhaofree/fwh-parent.git](https://github.com/wenhaofree/fwh-parent.git)
 
 ```plain
 # 列出已经存在的远程仓库
@@ -109,7 +109,7 @@ $ git remote remove <远程仓库的别名>
 # 修改远程仓库的 URL 地址
 $ git remote set-url <远程仓库的别名> <新的远程仓库URL地址>
 举例：
-git remote set-url origin https://github.com/fwh666/fwh-parent.git
+git remote set-url origin https://github.com/wenhaofree/fwh-parent.git
 git remote set-url origin git@github.com:fwh666/fwh-parent.git
 
 ```

@@ -19,7 +19,7 @@ authors: wenhao
 
 以下是我的网站测速结果，也可通过访问 [fuwenhao.club在全国各地区网络速度测试情况-Ping.cn](https://www.ping.cn/http/fuwenhao.club) 在线查看
 
-![image-20221204161146327](https://img.fuwenhao.club/blog/yumingjiance.png)
+![image-20221204161146327](https://img.wenhaofree.com/blog/yumingjiance.png)
 
 果然，花钱了就是不一样。
 

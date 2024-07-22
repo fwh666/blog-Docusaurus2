@@ -36,6 +36,10 @@ const ai: Resource[] = AIs.map(f => {
 
 export const resourceData: ResourceCategory[] = [
   {
+    name: '友链👨‍💻',
+    resources: friends,
+  },
+  {
     name: 'AI工具🔥 ',
     resources: ai,
   },
@@ -1156,9 +1160,5 @@ export const resourceData: ResourceCategory[] = [
         tags: [],
       },
     ],
-  },
-  {
-    name: '友链👨‍💻',
-    resources: friends,
   },
 ]

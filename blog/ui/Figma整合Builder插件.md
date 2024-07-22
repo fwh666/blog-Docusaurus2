@@ -11,7 +11,7 @@ description: 关于Figma整合Builder插件使用
 ## 最终效果：
 > 使用Figma和Builder把设计的页面直接转换成React代码
 
-<img src="https://img.fuwenhao.club/blog/image-20230724175709446.png"/>
+<img src="https://img.wenhaofree.com/blog/image-20230724175709446.png"/>
 
 <!-- truncate -->
 
@@ -28,16 +28,16 @@ description: 关于Figma整合Builder插件使用
 4. 方式一：直接生成code
 5. 方式二：使用下载json文件生成代码
 
-<img src="https://img.fuwenhao.club/blog/Figma_builder.png"/>
+<img src="https://img.wenhaofree.com/blog/Figma_builder.png"/>
 
 二、Builder获取React代码
 1. 选择方式二下载的json上传到Builder中
-<img src="https://img.fuwenhao.club/blog/image-20230724175912683.png"/>
+<img src="https://img.wenhaofree.com/blog/image-20230724175912683.png"/>
 
 2. 点击“Get Code” 获取编程语言代码
 3. 代码效果如下图：
 
-<img src="https://img.fuwenhao.club/blog/BuilderCode.png"/>
+<img src="https://img.wenhaofree.com/blog/BuilderCode.png"/>
 
 
 ## 参考文档：

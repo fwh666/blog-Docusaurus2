@@ -5,14 +5,14 @@ const announcementBarContent = `<a href="/typescript-full-stack-technology-trpc"
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '文浩开发工程师',
+  title: '文浩Marvin',
   titleDelimiter: '-',
-  url: 'https://fuwenhao.club',
+  url: 'https://wenhaofree.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'wenhao',
   projectName: 'blog',
-  tagline: '感受编程的乐趣，为AI发电',
+  tagline: '文浩Marvin,一个分享有趣好用APP和网站技术的博主',
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   themeConfig: {
     image: 'img/logo.png',
@@ -23,16 +23,16 @@ const config = {
     metadata: [
       {
         name: 'keywords',
-        content: '文浩,文浩开发工程师,文浩Marvin, Marvin',
+        content: '文浩Marvin,文浩,Marvin,文浩博客,文浩开发工程师',
       },
       {
         name: 'keywords',
-        content: 'blog, javascript, typescript, node, react, vue, web',
+        content: 'java, javascript, typescript, node, react, vue, web, python',
       },
       {
-        name: 'keywords',
-        content: '编程爱好者, Web开发者, 写过爬虫, 学过逆向，现在主攻ts全栈',
-      },
+        name: 'google-adsense-account',
+        content: 'ca-pub-5455845858903578',
+      }
     ],
     docs: {
       sidebar: {
@@ -40,9 +40,9 @@ const config = {
       },
     },
     navbar: {
-      title: '文浩',
+      title: '文浩Marvin',
       logo: {
-        alt: '文浩',
+        alt: '文浩Marvin',
         src: 'https://leanoss.fuwenhao.club/EY85A3N1eez2zuEcxJh71m2MdNqQOxYk/logo.jpg',
         srcDark: 'https://leanoss.fuwenhao.club/EY85A3N1eez2zuEcxJh71m2MdNqQOxYk/logo.jpg',
       },
@@ -60,50 +60,52 @@ const config = {
               label: '归档',
               to: 'archive',
             },
-            // {
-            //   label: '笔记',
-            //   to: 'docs/skill/',
-            // },
-            // {
-            //   label: '工具推荐',
-            //   to: 'docs/tools/',
-            // },
-            // {
-            //   label: '前端示例',
-            //   to: 'https://example.wenhao.cn',
-            // },
           ],
         },
         {
-          label: 'Wiki',
-          position: 'right',
-          // to:'docs/skill/',
-          items: [
-            {
-              label: 'Java系列',
-              to: 'https://wiki.fuwenhao.club/',
-            },
-            {
-              label: '精简系列',
-              to: 'docs/skill/',
-            }
-          ]
-        },
-        {
-          label: 'Skill',
+          label: '更多',
           position: 'right',
           items: [
-            //对应sidebars.js的type目录,实现效果需要单独定义目录
             {
-              label: 'React',
-              to: 'docs/category/react-1'
+              label:'笔记',
+              to:'docs/skill/',
             },
             {
-              label: 'JavaScript',
-              to: 'docs/category/JavaScript-1',
+              label: '资源',
+              to: 'resource',
             },
           ]
         },
+//        {
+//          label: 'Wiki',
+//          position: 'right',
+//          // to:'docs/skill/',
+//          items: [
+//            {
+//              label: 'Java系列',
+//              to: 'https://wiki.fuwenhao.club/',
+//            },
+//            {
+//              label: '精简系列',
+//              to: 'docs/skill/',
+//            }
+//          ]
+//        },
+//        {
+//          label: 'Skill',
+//          position: 'right',
+//          items: [
+//            //对应sidebars.js的type目录,实现效果需要单独定义目录
+//            {
+//              label: 'React',
+//              to: 'docs/category/react-1'
+//            },
+//            {
+//              label: 'JavaScript',
+//              to: 'docs/category/JavaScript-1',
+//            },
+//          ]
+//        },
         // {
         //   label: '工具',
         //   position: 'right',
@@ -130,11 +132,11 @@ const config = {
         //     },
         //   ],
         // },
-        {
-          label: '导航',
-          position: 'right',
-          to: 'resource',
-        },
+//        {
+//          label: '导航',
+//          position: 'right',
+//          to: 'resource',
+//        },
         // {
         //   label: '项目',
         //   position: 'right',
@@ -183,11 +185,11 @@ const config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/fwh666',
+              href: 'https://github.com/wenhaofree',
             },
             // {
             //   label: '掘金',
-            //   href: 'https://juejin.cn/user/1565318510545901',
+            //   href: 'https://juejin.cn/user/2348212569772654',
             // },
             // {
             //   label: 'Discord',
@@ -273,13 +275,13 @@ const config = {
       playgroundPosition: 'top',
     },
     socials: {
-      github: 'https://github.com/fwh666',
-      // twitter: 'https://twitter.com/wenhao',
-      juejin: 'https://juejin.cn/user/1565318510545901',
+      github: 'https://github.com/wenhaofree',
+      twitter: 'https://twitter.com/wenhaofree',
+      juejin: 'https://juejin.cn/user/2348212569772654',
       csdn: 'https://blog.csdn.net/wenhao12',
-      // qq: 'https://wpa.qq.com/msgrd?v=3&amp;uin=911993023&amp;site=qq',
-      zhihu: 'https://www.zhihu.com/people/wenhao',
-      cloudmusic: 'https://music.163.com/#/user/home?id=1333010742',
+      qq: 'https://wpa.qq.com/msgrd?v=3&amp;uin=347246463&amp;site=qq',
+      zhihu: 'https://www.zhihu.com/people/wenhaomarvin',
+      cloudmusic: 'https://music.163.com/#/user/home?id=',
     },
   },
   headTags: [
@@ -309,7 +311,7 @@ const config = {
           priority: 0.5,
         },
         gtag: {
-          trackingID: 'G-B7HFBZ61B1',
+          trackingID: 'G-TBMXJKG84N',
           anonymizeIP: true,
         },
         // debug: true,
@@ -345,9 +347,9 @@ const config = {
         path: 'blog',
         routeBasePath: '/',
         editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
-          `https://github.com/fwh666/blog-Docusaurus2/edit/main/${blogDirPath}/${blogPath}`,
+          `https://github.com/wenhaofree/blog-Docusaurus2/edit/main/${blogDirPath}/${blogPath}`,
         editLocalizedFiles: false,
-        blogDescription: '文浩的个人博客',
+        blogDescription: '文浩Marvin:个人博客',
         blogSidebarCount: 10,
         blogSidebarTitle: '最近更新',
         postsPerPage: 10,

@@ -33,7 +33,7 @@ yarn create next-app --typescript
   - 通过 `http://localhost:3000` 地址访问你的应用程序。
   - 编辑 `pages/index.js` 文件并在浏览器中查看更新。
 
-![image-20231008152808978](https://img.fuwenhao.club/blog/image-20231008152808978.png)
+![image-20231008152808978](https://img.wenhaofree.com/blog/image-20231008152808978.png)
 
 
 
@@ -100,4 +100,4 @@ yarn dev
 
 - 访问http://127.0.0.1:3000/ 得到首页内容
 
-![image-20231008154536265](https://img.fuwenhao.club/blog/image-20231008154536265.png)
+![image-20231008154536265](https://img.wenhaofree.com/blog/image-20231008154536265.png)

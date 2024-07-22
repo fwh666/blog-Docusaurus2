@@ -13,7 +13,7 @@ authors: wenhao
 
 ```javascript title='docusaurus.config.js'
 const config = {
-  title: '文浩的小站',
+  title: '文浩Marvin',
   titleDelimiter: '-',
   url: 'https://wenhao.cn',
   baseUrl: '/',
@@ -69,7 +69,7 @@ module.exports = config
 socials: {
     github: 'https://github.com/wenhao',
     twitter: 'https://twitter.com/wenhao',
-    juejin: 'https://juejin.cn/user/1565318510545901',
+    juejin: 'https://juejin.cn/user/2348212569772654',
     csdn: 'https://blog.csdn.net/wenhao12',
     qq: 'https://wpa.qq.com/msgrd?v=3&amp;uin=911993023&amp;site=qq',
     cloudmusic: 'https://music.163.com/#/user/home?id=1333010742',

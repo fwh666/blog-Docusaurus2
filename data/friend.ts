@@ -1,9 +1,15 @@
 export const Friends: Friend[] = [
+  // {
+  //   title: '峰华前端工程师',
+  //   description: '致力于帮助你以最直观、最快速的方式学会前端开发',
+  //   website: 'https://zxuqian.cn',
+  //   avatar: '/img/friend/zxuqian.png',
+  // },
   {
-    title: '峰华前端工程师',
-    description: '致力于帮助你以最直观、最快速的方式学会前端开发',
-    website: 'https://zxuqian.cn',
-    avatar: '/img/friend/zxuqian.png',
+    title: '文浩Marvin',
+    description: '探索有趣好用APP网站博主,分享各类技术和AIGC项目',
+    website: 'https://fuwenhao.club',
+    avatar: 'https://leanoss.fuwenhao.club/ieDm1G4JnpKyLa54r8BKIrADDAX7iEjI/touxiang02.png',
   },
   {
     title: 'Y2bmp3',

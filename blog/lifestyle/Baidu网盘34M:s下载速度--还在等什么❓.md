@@ -31,7 +31,7 @@ keywords: [Baidu]
 
 1. 下载Tampermonkey 油猴脚本 [点击下载](https://foxmac.lanzoul.com/iwtPO02xcg9i)
 2. 打开Google 浏览器的扩展程序。点击如下图：
-   [![突破百度网盘限速，百度网盘非会员高速下载最靠谱的解决方案！](https://img.fuwenhao.club/blog/google-plugin.png)](https://img.fuwenhao.club/blog/google-plugin.png)
+   [![突破百度网盘限速，百度网盘非会员高速下载最靠谱的解决方案！](https://img.wenhaofree.com/blog/google-plugin.png)](https://img.wenhaofree.com/blog/google-plugin.png)
 3. 安装Tampermonkey油猴脚本，点击「开发者模式」，然后将插件拖拽到Google浏览器空白处操作如下图：
    [![突破百度网盘限速，百度网盘非会员高速下载最靠谱的解决方案！](https://img.foxmac.com/o/baidu-pan-speed-4.png?imageView2/1/w/2364/h/1364#)](https://img.foxmac.com/o/baidu-pan-speed-4.png)
 4. 谷歌浏览器中打开脚本链接并安装Tampermonkey油猴脚本：百度网盘千千下载助手 [点击查看](https://greasyfork.org/zh-CN/scripts/463171-百度网盘千千下载助手)
@@ -53,19 +53,19 @@ keywords: [Baidu]
 2. 运行 NDM 程序，点击「Setting」按钮，弹出窗口选择「General」选项卡
    Max Connections 处改为：「32」
    Default User-Agent 处改为：「 `netdisk`」
-   然后点击「OK」按钮即可完成设置， 「TIP：图片设置仅为位置参考，自己太懒了，没有更新图片。」![mac_config](https://img.fuwenhao.club/blog/mac_config.png)
+   然后点击「OK」按钮即可完成设置， 「TIP：图片设置仅为位置参考，自己太懒了，没有更新图片。」![mac_config](https://img.wenhaofree.com/blog/mac_config.png)
 
 ### Windows 系统
 
 1. 下载并安装 IDM 下载工具 [点击下载](https://foxmac.lanzoul.com/iJnpu02xd4sb) (此处提供的是2022 V6.40.11永久破解版，也可以自行寻找)
-2. 打开 IDM 下载软件，点击「选项->连接」选项卡，将最大连接数改为「4线程」![window-config01](https://img.fuwenhao.club/blog/window-config01.png)
-3. 点击「下载」选项卡，将用户代理改为：「`netdisk`」![window-config02](https://img.fuwenhao.club/blog/window-config02.png)
+2. 打开 IDM 下载软件，点击「选项->连接」选项卡，将最大连接数改为「4线程」![window-config01](https://img.wenhaofree.com/blog/window-config01.png)
+3. 点击「下载」选项卡，将用户代理改为：「`netdisk`」![window-config02](https://img.wenhaofree.com/blog/window-config02.png)
 4. 然后点击「确定」按钮即可完成设置， 「TIP：图片设置仅为位置参考，自己太懒了，没有更新图片。」
 
 ## 使用方法
 
-1. 打开百度网盘下载页面，选中要下载的文件，点击上方的「千千下载助手」按钮。`TIP：图片设置仅为位置参考，自己太懒了，没有更新图片。`![pan-hand](https://img.fuwenhao.club/blog/pan-hand.png)
+1. 打开百度网盘下载页面，选中要下载的文件，点击上方的「千千下载助手」按钮。`TIP：图片设置仅为位置参考，自己太懒了，没有更新图片。`![pan-hand](https://img.wenhaofree.com/blog/pan-hand.png)
 2. 有可能会提示保存到自己的网盘然后再下载，按提示操作即可。
 2. 弹出窗口选择「点击获取直链地址」选项，然后需要你微信扫描并关注左侧的「二维码」并反馈回来一个验证码，输入后才能获取到下载地址，将获取到的下载地址复制后
    **macOS 系统：**运行「NDM」程序，点击右上角「New URL」选项并粘贴下载地址，然后点击「Download」按钮即可下载！
-   **Windows 系统：** 打开「 IDM 下载软件」，点击「新建下载任务」即可！![down_spead](https://img.fuwenhao.club/blog/down_spead.png)
+   **Windows 系统：** 打开「 IDM 下载软件」，点击「新建下载任务」即可！![down_spead](https://img.wenhaofree.com/blog/down_spead.png)

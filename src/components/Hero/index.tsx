@@ -31,12 +31,12 @@ function Hero() {
         <animated.div style={trails[0]} className={styles.hero_text}>
           <Translate id="homepage.hero.greet">你好! 我是</Translate>
           <span className={styles.intro__name}>
-            <Translate id="homepage.hero.name">文浩</Translate>
+            <Translate id="homepage.hero.name">文浩Marvin👋</Translate>
           </span>
         </animated.div>
         <animated.p style={trails[1]}>
           <Translate id="homepage.hero.text">
-            {`在这里我会分享各类技术栈所遇到问题与解决方案，带你了解最新的技术栈以及实际开发中如何应用，并希望我的开发经历对你有所启发。`}
+            {`探索有趣好用APP和网站的博主,分享各类技术栈和AIGC项目解决方案,带你了解最新的技术以及实际需求中如何应用，并希望我的开发经历对你有所帮助。`}
           </Translate>
           <br />
           <br />
@@ -45,28 +45,19 @@ function Hero() {
             values={{
               note: (
                 <Link to="/docs/skill">
-                  <Translate id="hompage.hero.note">WiKi笔记</Translate>
-                </Link>
-              ),
-              // project: (
-              //   <Link to="/project">
-              //     <Translate id="hompage.hero.project">实战项目</Translate>
-              //   </Link>
-              // ),
-              link: (
-                <Link to="/resource">
-                  <Translate id="hompage.hero.link">资源导航</Translate>
+                  <Translate id="hompage.hero.note">技术笔记</Translate>
                 </Link>
               ),
               idea: (
-                <Link to="/tags/Life">
-                  <Translate id="hompage.hero.idea">想法感悟</Translate>
+//                 <Link to="/tags/Life">
+                <Link to="/archive">
+                  <Translate id="hompage.hero.idea">历史博客</Translate>
                 </Link>
               ),
             }}
           >
             {/*{`你可以随处逛逛，查看{note}、{project}、{link}、以及我的{idea}。`}*/}
-            {`你可以随处逛逛，查看{note}、{link}、以及我的{idea}。`}
+            {`你可以随处逛逛，查看{note}、以及我的{idea}。`}
           </Translate>
         </animated.p>
         <SocialLinks style={trails[2]} />
@@ -99,9 +90,6 @@ export function SocialLinks({ ...prop }) {
 
   return (
     <animated.div className={styles.social__links} {...prop}>
-      <a href="/rss.xml" target="_blank">
-        <Icon icon="ri:rss-line" />
-      </a>
       <a href={socials.github} target="_blank">
         <Icon icon="ri:github-line" />
       </a>
@@ -117,6 +105,10 @@ export function SocialLinks({ ...prop }) {
       <a href={socials.zhihu} target="_blank">
         <Icon icon="ri:zhihu-line" />
       </a>
+      <a href="/rss.xml" target="_blank">
+        <Icon icon="ri:rss-line" />
+      </a>
+
     </animated.div>
   )
 }
