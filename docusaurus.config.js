@@ -103,6 +103,7 @@ module.exports = async function createConfigAsync() {
             title: 'News',
             items: [
               { label: 'Blog', to: 'blog' },
+              {label: 'AI STAK', to: 'https://aistak.com'}
               // { label: '归档', to: 'blog/archive' },
               // { label: '技术笔记', to: 'docs/skill' },
               // { label: '实战项目', to: 'project' },

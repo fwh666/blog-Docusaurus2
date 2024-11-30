@@ -13,6 +13,7 @@ function Home() {
         <HomepageBlog />
         {/* <HomepageProject /> */}
         {/* <HomepageFeatures /> */}
+        <a href="https://aistak.com" title="AI STAK: Discover thousands of AI Tools">AI STAK</a>
       </main>
     </Layout>
   )

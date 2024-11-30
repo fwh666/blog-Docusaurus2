@@ -12,6 +12,7 @@ cloudbaserc.json
 .docusaurus
 .cache-loader
 
+.vscode
 # Misc
 .DS_Store
 .env
